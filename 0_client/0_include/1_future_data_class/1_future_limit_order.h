@@ -34,7 +34,7 @@ class future_limit_order
     // 挂单时间
     uint64_t insert_time;
     // 订单编号
-    std::string order_id;
+    char order_id[32];
     // 剩余数量
     uint32_t volume_left;
     // 订单状态

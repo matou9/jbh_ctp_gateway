@@ -6,7 +6,6 @@
 #ifndef _FUTURE_LIMIT_ENTRUST_H_
 #define _FUTURE_LIMIT_ENTRUST_H_
 
-#include <string>
 
 /*
  * 普通限价委托数据类型
@@ -28,14 +27,15 @@ typedef enum
 
 /*
  * 普通限价委托数据结构
+ * 参考CTP字段长度
  */
 class future_limit_entrust
 {
 public:
     // 交易所代码
-    std::string exchange_code;
+    char exchange_code[9];
     // 期货合约代码
-    std::string instrument_code;
+    char instrument_code[31];
     // 期货交易方向
     future_direction_type direction;
     // 期货交易开平
@@ -45,9 +45,9 @@ public:
     // 期货交易数量
     uint32_t volume;
     // 期货交易委托编号
-    std::string entrust_id;
+    char entrust_id[32];
     // 委托发起者标识(用户自定义)
-    std::string executor;
+    char executor[32];
     
 };
 

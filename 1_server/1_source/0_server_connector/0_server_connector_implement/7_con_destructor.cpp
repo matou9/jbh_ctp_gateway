@@ -1,12 +1,12 @@
-#include "0_server_connector.h"
+#include "../0_server_connector.h"
 
 #include <unistd.h>
 
-server_connector::server_connector(std::string port, int max_client_num) : max_client_num(max_client_num)
+server_connector::server_connector(std::string port, int max_client_number) : max_client_number(max_client_number), current_client_number(0)
 {
     init(port);
     accept_thread = nullptr;
-    for (int i = 0; i < max_client_num; i++)
+    for (int i = 0; i < max_client_number; i++)
     {
         interact_threads[i] = nullptr;
         stop_interact_threads[i].store(false);
@@ -24,5 +24,5 @@ server_connector::~server_connector()
 
     }
     delete accept_thread;
-    close(serv_sock);
+    close(server_socket);
 }

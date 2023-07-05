@@ -1,7 +1,7 @@
-#include "0_server_connector.h"
+#include "../0_server_connector.h"
 
-void server_connector::stop_interact_with_client(int clnt_sock)
+void server_connector::stop_interact_with_client(int client_socket)
 {
-    stop_interact_threads[clnt_sock].exchange(true);
+    stop_interact_threads[client_socket].exchange(true);
     
 }

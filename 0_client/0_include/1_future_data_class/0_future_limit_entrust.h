@@ -6,6 +6,7 @@
 #ifndef _FUTURE_LIMIT_ENTRUST_H_
 #define _FUTURE_LIMIT_ENTRUST_H_
 
+#include <stdint.h>
 
 /*
  * 普通限价委托数据类型

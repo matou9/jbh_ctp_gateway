@@ -1,23 +1,27 @@
-#include "0_server_connector.h"
+#include "../0_server_connector.h"
 
 void server_connector::accept_clients()
 {
-    int accept_num = 0;
-    while (accept_num++ < max_client_num)
+    while (current_client_number.load() < max_client_number)
     {
-        int clnt_sock;
-        struct sockaddr_in clnt_adr;
-        socklen_t clnt_adr_sz;
-        clnt_sock = accept(serv_sock, (struct sockaddr*)&clnt_adr, &clnt_adr_sz);
-        if(clnt_sock==-1)
+        int client_socket;
+        struct sockaddr_in client_address;
+        socklen_t client_address_size;
+        client_socket = accept(server_socket, (struct sockaddr*)&client_address, &client_address_size);
+        if(client_socket==-1)
+        {
             error_handling("accept() error");
+        }
         else
-            printf("Connected 1 new client, current client num: %d\n", accept_num);
-        interact_threads[clnt_sock] = new std::thread(&server_connector::interact_with_one_client, this, clnt_sock);
-        if (accept_num == max_client_num)
+        {
+            current_client_number.fetch_add(1);
+            printf("Connected 1 new client, current client num: %d\n", current_client_number.load());
+        }
+        
+        if (current_client_number.load() == max_client_number)
         {
             printf("Max client num reached, stop accepting new clients\n");
-
         }
+        interact_threads[client_socket] = new std::thread(&server_connector::receive_client_message, this, client_socket);
     }
 }

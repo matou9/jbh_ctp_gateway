@@ -1,8 +1,8 @@
-#include "0_server_connector.h"
+#include "../0_server_connector.h"
 
 #include <unistd.h>
 
-void server_connector::send_to_client(int clnt_sock, char* message, int str_len)
+void server_connector::send_to_client(int client_socket, char* message, int message_length)
 {
-    write(clnt_sock, message, str_len);
+    write(client_socket, message, message_length);
 }

@@ -1,14 +1,22 @@
-#include "1_source/1_client_connector/0_client_connector.h"
 #include "0_include/1_future_api.h"
 #include <unistd.h>
 #include <string.h>
+#include <string>
 
-
-int main()
+int main(int argc, char** argv)
 {
-    client_connector *p_client = new client_connector("192.168.187.136", "1234");
-    p_client->start_receive();
-
+    // if (argc != 3)
+    // {
+    //     printf("input ip, port\n");
+    //     exit(1);
+    // }
+    // std::string ip = argv[1];
+    // std::string port = argv[2];
+    std::string ip = "192.168.187.136";
+    std::string port = "1234";
+    future_api *api = new future_api();
+    api->init(ip, port);
+ 
     //用户输入
     future_limit_entrust entrust;
     strcpy(entrust.exchange_code, "SHFE");
@@ -21,15 +29,10 @@ int main()
     strcpy(entrust.executor, "test");
 
     //test客户端底层发送
-    char buf[BUF_SIZE];
-    memcpy(buf, &entrust, sizeof(future_limit_entrust));
-    p_client->send_to_server(buf, sizeof(future_limit_entrust));
+    api->limit_entrust_insert(&entrust);
+
 
     sleep(1);// 等待接收线程接收到消息
-
-    
-    p_client->stop_receive();
-    delete p_client;
     return 0;
 
 }

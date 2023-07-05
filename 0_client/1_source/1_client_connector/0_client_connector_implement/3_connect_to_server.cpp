@@ -2,7 +2,7 @@
 
 void client_connector::connect_to_server()
 {
-    int result = connect(sock, (struct sockaddr*)&serv_adr, sizeof(serv_adr));
+    int result = connect(sock, (struct sockaddr*)&server_address, sizeof(server_address));
     if (result == -1)
     {
         error_handling("connect() error!");
@@ -10,6 +10,7 @@ void client_connector::connect_to_server()
     }
     else
     {
+        is_connected = true;
         printf("server connected!\n");
     }
 

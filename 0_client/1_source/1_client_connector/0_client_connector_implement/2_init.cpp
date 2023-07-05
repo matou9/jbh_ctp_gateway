@@ -6,8 +6,8 @@ void client_connector::init(std::string ip, std::string port)
     if(sock==-1)
         error_handling("socket() error");
     
-    memset(&serv_adr, 0, sizeof(serv_adr));
-    serv_adr.sin_family=AF_INET;
-    serv_adr.sin_addr.s_addr=inet_addr(ip.c_str());
-    serv_adr.sin_port=htons(atoi(port.c_str()));
+    memset(&server_address, 0, sizeof(server_address));
+    server_address.sin_family=AF_INET;
+    server_address.sin_addr.s_addr=inet_addr(ip.c_str());
+    server_address.sin_port=htons(atoi(port.c_str()));
 }

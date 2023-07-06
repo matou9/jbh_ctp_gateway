@@ -123,6 +123,19 @@ server/fast:
 	$(MAKE) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/build
 .PHONY : server/fast
 
+#=============================================================================
+# Target rules for targets named CTP_gateway
+
+# Build rule for target.
+CTP_gateway: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 CTP_gateway
+.PHONY : CTP_gateway
+
+# fast build rule for target.
+CTP_gateway/fast:
+	$(MAKE) -f 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/build.make 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/build
+.PHONY : CTP_gateway/fast
+
 1_source/0_server_connector/0_server_connector_implement/0_error_handling.o: 1_source/0_server_connector/0_server_connector_implement/0_error_handling.cpp.o
 
 .PHONY : 1_source/0_server_connector/0_server_connector_implement/0_error_handling.o
@@ -483,6 +496,7 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... server"
 	@echo "... edit_cache"
+	@echo "... CTP_gateway"
 	@echo "... 1_source/0_server_connector/0_server_connector_implement/0_error_handling.o"
 	@echo "... 1_source/0_server_connector/0_server_connector_implement/0_error_handling.i"
 	@echo "... 1_source/0_server_connector/0_server_connector_implement/0_error_handling.s"

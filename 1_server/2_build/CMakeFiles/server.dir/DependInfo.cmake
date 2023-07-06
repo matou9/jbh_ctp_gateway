@@ -23,10 +23,12 @@ set(CMAKE_CXX_COMPILER_ID "GNU")
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../"
+  "../0_include"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
+  "/home/tushetou/jbh_code/0_trade_gateway/1_server/2_build/1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

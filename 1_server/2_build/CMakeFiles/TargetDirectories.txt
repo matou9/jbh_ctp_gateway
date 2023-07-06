@@ -1,3 +1,6 @@
 /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build/CMakeFiles/rebuild_cache.dir
 /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build/CMakeFiles/server.dir
 /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build/CMakeFiles/edit_cache.dir
+/home/tushetou/jbh_code/0_trade_gateway/1_server/2_build/1_source/1_future_server/1_CTP_gateway/CMakeFiles/rebuild_cache.dir
+/home/tushetou/jbh_code/0_trade_gateway/1_server/2_build/1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir
+/home/tushetou/jbh_code/0_trade_gateway/1_server/2_build/1_source/1_future_server/1_CTP_gateway/CMakeFiles/edit_cache.dir

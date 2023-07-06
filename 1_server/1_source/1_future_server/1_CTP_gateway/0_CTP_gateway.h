@@ -7,9 +7,9 @@
 #ifndef CTP_GATEWAY_H_
 #define CTP_GATEWAY_H_
 
-#include "0_include/0_future_gateway.h"
-#include "0_include/1_future_data_class/0_future_limit_entrust.h"
-#include "0_include/1_future_data_class/2_future_limit_order_action.h"
+#include "0_future_gateway.h"
+#include "1_future_data_class/0_future_limit_entrust.h"
+#include "1_future_data_class/2_future_limit_order_action.h"
 #include "../0_trading_platform_api/CTP6.3.15/ThostFtdcTraderApi.h"
 
 class CTP_gateway : public CThostFtdcTraderSpi, public future_gateway
@@ -17,10 +17,17 @@ class CTP_gateway : public CThostFtdcTraderSpi, public future_gateway
 private:
     CThostFtdcTraderApi* api;   //CTP交易柜台接口
 
+    
+
 public:
     CTP_gateway();
     virtual ~CTP_gateway() override;
+public:
 
+    virtual void prepare() override;
+    virtual void limit_entrust_insert(future_limit_entrust* entrust) override;
+    virtual void limit_order_action(future_limit_order_action* order_action) override;
+private:
     virtual void init() override;
     virtual void release() override;
     virtual void connect() override;
@@ -28,9 +35,6 @@ public:
     virtual void login() override;
     virtual void logout() override;
     virtual void confirm() override;
-
-    virtual void limit_entrust_insert(future_limit_entrust* entrust) override;
-    virtual void limit_order_action(future_limit_order_action* order_action) override;
 
 private:
     /*

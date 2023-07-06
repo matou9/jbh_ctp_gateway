@@ -29,8 +29,8 @@ public:
     virtual void logout() override;
     virtual void confirm() override;
 
-    virtual void entrust_insert(future_limit_entrust* entrust) override;
-    virtual void entrust_action(future_limit_order_action* order_action) override;
+    virtual void limit_entrust_insert(future_limit_entrust* entrust) override;
+    virtual void limit_order_action(future_limit_order_action* order_action) override;
 
 private:
     /*

@@ -37,8 +37,8 @@ public:
     virtual void logout() = 0;
     virtual void confirm() = 0;
 
-    virtual void entrust_insert(future_limit_entrust* entrust) = 0;
-    virtual void entrust_action(future_limit_order_action* order_action) = 0;
+    virtual void limit_entrust_insert(future_limit_entrust* entrust) = 0;
+    virtual void limit_order_action(future_limit_order_action* order_action) = 0;
     
 };
 

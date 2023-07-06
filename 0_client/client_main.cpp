@@ -40,12 +40,13 @@ int main(int argc, char** argv)
     // connector->send_to_server(message, 6);
     while (true)
     {
-        fgets(message, 6, stdin);
-        if (message[0] == 'q')
+        fgets(message, 10, stdin);
+        if (message[0] == 'q\n')
         {
             break;
         }
         connector->send_to_server(message, 6);
+        memset(message, 0, 10);
     }
     // connector->join();
     // connector->close_connection();

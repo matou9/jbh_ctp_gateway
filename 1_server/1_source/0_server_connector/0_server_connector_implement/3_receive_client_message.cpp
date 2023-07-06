@@ -7,18 +7,24 @@ void server_connector::receive_client_message(int client_socket)
     while (stop_interact_threads[client_socket].load() == false)
     {
         //TODO将其写入队列
-        char message[BUF_SIZE];
+        char* p_message = new char[BUF_SIZE];
         int message_length;
-        message_length = read(client_socket, message, BUF_SIZE);
+        message_length = read(client_socket, p_message, BUF_SIZE);
+        if (message_length == -1)
+        {
+            printf("client %d disconnected by error\n", client_socket);
+            delete [] p_message;
+            break;
+        }
         if(message_length == 0)
         {
+            delete [] p_message;
             stop_interact_threads[client_socket].exchange(true);
             printf("client %d disconnected\n", client_socket);
             current_client_number.fetch_sub(1);
             printf("current client num: %d\n", current_client_number.load());
             break;
         }
-        char *p_message = message; 
         p_message[message_length] = '\0';
         
         if (p_message[0] == -1)
@@ -30,7 +36,7 @@ void server_connector::receive_client_message(int client_socket)
         else
         {
             printf("receive client request\n");
-            //TODO 写入队列
+            write_message_to_queue(p_message, message_length);
         }
     }
 

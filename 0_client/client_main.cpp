@@ -32,11 +32,23 @@ int main(int argc, char** argv)
     // api->limit_entrust_insert(&entrust);
     client_connector* connector = new client_connector(ip, port);
     connector->start_receive();
-    connector->send_to_server("hello", 5);
-
-    sleep(2);
-
-    connector->close_connection();
+    char message[6] = {0};
+    // strcpy(message, "hello");
+    // connector->send_to_server(message, 6);
+    // sleep(2);
+    // strcpy(message, "world");
+    // connector->send_to_server(message, 6);
+    while (true)
+    {
+        fgets(message, 6, stdin);
+        if (message[0] == 'q')
+        {
+            break;
+        }
+        connector->send_to_server(message, 6);
+    }
+    // connector->join();
+    // connector->close_connection();
 
     delete connector;
     return 0;

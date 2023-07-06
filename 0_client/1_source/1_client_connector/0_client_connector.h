@@ -34,6 +34,7 @@ public:
     void start_receive();
     void send_to_server(char* message, int len);
     void close_connection();
+    void join() {receive_thread->join();}
 
 
 public:

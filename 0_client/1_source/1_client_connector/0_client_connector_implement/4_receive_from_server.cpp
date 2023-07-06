@@ -11,7 +11,7 @@ void client_connector::receive_from_server()
         message_length = read(sock, message, BUF_SIZE-1);              //接收来自服务器端的消息
         if (message_length == -1)
         {
-            printf("server disconnected\n");
+            printf("server disconnected by error\n");
             break;
         }
         if (message_length == 1 && message[0] == -1)

@@ -3,11 +3,6 @@
 
 void future_api::limit_entrust_insert(future_limit_entrust *entrust)
 {
-    if (!is_connected)
-    {
-        exit(1);
-    }
-
     if (entrust == nullptr)
     {
         return;

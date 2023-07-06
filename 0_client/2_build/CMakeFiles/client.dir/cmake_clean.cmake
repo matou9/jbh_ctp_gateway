@@ -10,7 +10,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/client.dir/1_source/1_client_connector/0_client_connector_implement/4_receive_from_server.cpp.o"
   "CMakeFiles/client.dir/1_source/1_client_connector/0_client_connector_implement/5_start_receive.cpp.o"
   "CMakeFiles/client.dir/1_source/1_client_connector/0_client_connector_implement/6_send_to_server.cpp.o"
-  "CMakeFiles/client.dir/1_source/1_client_connector/0_client_connector_implement/7_stop_reveive.cpp.o"
+  "CMakeFiles/client.dir/1_source/1_client_connector/0_client_connector_implement/7_close_connection.cpp.o"
   "CMakeFiles/client.dir/client_main.cpp.o"
   "client.pdb"
   "client"

@@ -22,8 +22,6 @@ class client_connector
 private:
     int sock;
     struct sockaddr_in server_address;
-
-    std::atomic<bool> stop_receive_thread;
     std::thread* receive_thread;
 public:
     bool is_connected;
@@ -35,8 +33,8 @@ private:
 public:
     void start_receive();
     void send_to_server(char* message, int len);
+    void close_connection();
 
-    void stop_receive();
 
 public:
     client_connector(std::string ip, std::string port);

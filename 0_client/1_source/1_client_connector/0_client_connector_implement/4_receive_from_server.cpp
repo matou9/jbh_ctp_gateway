@@ -4,11 +4,21 @@
 // void write_to_file(char* message, int message_length);
 void client_connector::receive_from_server()
 {
-    while(stop_receive_thread.load() == false) 
+    while(true) 
     {
         char message[BUF_SIZE];
         int message_length;
         message_length = read(sock, message, BUF_SIZE-1);              //接收来自服务器端的消息
+        if (message_length == -1)
+        {
+            printf("server disconnected\n");
+            break;
+        }
+        if (message_length == 1 && message[0] == -1)
+        {
+            printf("server accepted disconnect request\n");
+            break;
+        }
         message[message_length]= '\0';                               //在字符数组尾部添加字符串结束符'\0'
         printf("Message from server: %s\n", message);           //输出接收到的消息字符串
 

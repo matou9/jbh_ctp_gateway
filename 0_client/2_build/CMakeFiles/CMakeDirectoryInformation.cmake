@@ -3,7 +3,7 @@
 
 # Relative path conversion top directories.
 set(CMAKE_RELATIVE_PATH_TOP_SOURCE "/home/tushetou/jbh_code/0_trade_gateway/0_client")
-set(CMAKE_RELATIVE_PATH_TOP_BINARY "/home/tushetou/jbh_code/0_trade_gateway/0_client/3_build")
+set(CMAKE_RELATIVE_PATH_TOP_BINARY "/home/tushetou/jbh_code/0_trade_gateway/0_client/2_build")
 
 # Force unix paths in dependencies.
 set(CMAKE_FORCE_UNIX_PATHS 1)

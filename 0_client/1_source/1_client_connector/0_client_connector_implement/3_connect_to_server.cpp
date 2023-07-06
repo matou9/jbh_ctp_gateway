@@ -10,8 +10,8 @@ void client_connector::connect_to_server()
     }
     else
     {
-        is_connected = true;
         printf("server connected!\n");
+        is_connected = true;
     }
 
 }

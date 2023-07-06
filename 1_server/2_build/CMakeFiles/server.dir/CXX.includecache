@@ -6,11 +6,51 @@
 
 #IncludeRegexTransform: 
 
+..//0_include/0_future_gateway.h
+1_future_data_class/0_future_limit_entrust.h
+../0_include/1_future_data_class/0_future_limit_entrust.h
+1_future_data_class/2_future_limit_order_action.h
+../0_include/1_future_data_class/2_future_limit_order_action.h
+
 ..//0_include/1_future_data_class/0_future_limit_entrust.h
 string
 -
 
+..//0_include/1_future_data_class/2_future_limit_order_action.h
+string
+-
+
+..//1_source/1_future_server/1_CTP_gateway/0_CTP_gateway.h
+0_include/0_future_gateway.h
+../1_source/1_future_server/1_CTP_gateway/0_include/0_future_gateway.h
+0_include/1_future_data_class/0_future_limit_entrust.h
+../1_source/1_future_server/1_CTP_gateway/0_include/1_future_data_class/0_future_limit_entrust.h
+0_include/1_future_data_class/2_future_limit_order_action.h
+../1_source/1_future_server/1_CTP_gateway/0_include/1_future_data_class/2_future_limit_order_action.h
+../0_trading_platform_api/CTP6.3.15/ThostFtdcTraderApi.h
+../1_source/1_future_server/0_trading_platform_api/CTP6.3.15/ThostFtdcTraderApi.h
+
+../0_include/1_future_data_class/0_future_limit_entrust.h
+string
+-
+
+../0_include/1_future_data_class/2_future_limit_order_action.h
+string
+-
+
+../1_source/1_future_server/0_trading_platform_api/CTP6.3.15/ThostFtdcTraderApi.h
+ThostFtdcUserApiStruct.h
+../1_source/1_future_server/0_trading_platform_api/CTP6.3.15/ThostFtdcUserApiStruct.h
+
+../1_source/1_future_server/0_trading_platform_api/CTP6.3.15/ThostFtdcUserApiDataType.h
+
+../1_source/1_future_server/0_trading_platform_api/CTP6.3.15/ThostFtdcUserApiStruct.h
+ThostFtdcUserApiDataType.h
+../1_source/1_future_server/0_trading_platform_api/CTP6.3.15/ThostFtdcUserApiDataType.h
+
 /home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/0_server_connector/0_server_connector.h
+1_source/1_future_server/1_CTP_gateway/0_CTP_gateway.h
+/home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/0_server_connector/1_source/1_future_server/1_CTP_gateway/0_CTP_gateway.h
 arpa/inet.h
 -
 string
@@ -22,6 +62,10 @@ unordered_map
 atomic
 -
 queue
+-
+mutex
+-
+utility
 -
 
 /home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/0_server_connector/0_server_connector_implement/0_error_handling.cpp
@@ -48,11 +92,11 @@ string.h
 unistd.h
 -
 
-/home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/0_server_connector/0_server_connector_implement/4_process_client_message.cpp
+/home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/0_server_connector/0_server_connector_implement/4_write_message_to_queue.cpp
 ../0_server_connector.h
 /home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/0_server_connector/0_server_connector.h
-0_include/1_future_data_class/0_future_limit_entrust.h
-/home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/0_server_connector/0_server_connector_implement/0_include/1_future_data_class/0_future_limit_entrust.h
+string.h
+/home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/0_server_connector/0_server_connector_implement/string.h
 
 /home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/0_server_connector/0_server_connector_implement/5_send_to_client.cpp
 ../0_server_connector.h
@@ -63,6 +107,8 @@ unistd.h
 /home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/0_server_connector/0_server_connector_implement/6_stop_interact_with_client.cpp
 ../0_server_connector.h
 /home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/0_server_connector/0_server_connector.h
+unistd.h
+-
 
 /home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/0_server_connector/0_server_connector_implement/7_con_destructor.cpp
 ../0_server_connector.h

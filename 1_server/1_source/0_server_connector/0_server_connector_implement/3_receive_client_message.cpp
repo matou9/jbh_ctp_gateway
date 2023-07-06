@@ -21,14 +21,17 @@ void server_connector::receive_client_message(int client_socket)
         char *p_message = message; 
         p_message[message_length] = '\0';
         
-        if (strcmp(p_message, "stop") == 0)
+        if (p_message[0] == -1)
         {
-            char bye_message[4] = {0};
-            strcpy(bye_message, "bye");
-            send_to_client(client_socket, bye_message, strlen(bye_message));//客户端申请断开连接时, 需要服务端发送一个消息, 以使得客户端read()函数不再阻塞
-            return;
+            printf("receive client disconnect request\n");
+            char close_message = -1;
+            write(client_socket, &close_message, 1);//客户端申请断开连接时, 需要服务端发送一个消息, 以使得客户端read()函数不再阻塞
         }
-
+        else
+        {
+            printf("receive client request\n");
+            //TODO 写入队列
+        }
     }
 
 

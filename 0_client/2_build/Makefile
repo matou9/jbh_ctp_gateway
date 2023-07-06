@@ -51,7 +51,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /home/tushetou/jbh_code/0_trade_gateway/0_client
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/tushetou/jbh_code/0_trade_gateway/0_client/3_build
+CMAKE_BINARY_DIR = /home/tushetou/jbh_code/0_trade_gateway/0_client/2_build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tushetou/jbh_code/0_trade_gateway/0_client/3_build/CMakeFiles /home/tushetou/jbh_code/0_trade_gateway/0_client/3_build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tushetou/jbh_code/0_trade_gateway/0_client/2_build/CMakeFiles /home/tushetou/jbh_code/0_trade_gateway/0_client/2_build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tushetou/jbh_code/0_trade_gateway/0_client/3_build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tushetou/jbh_code/0_trade_gateway/0_client/2_build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -420,32 +420,32 @@ client/fast:
 	$(MAKE) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/1_source/1_client_connector/0_client_connector_implement/6_send_to_server.cpp.s
 .PHONY : 1_source/1_client_connector/0_client_connector_implement/6_send_to_server.cpp.s
 
-1_source/1_client_connector/0_client_connector_implement/7_stop_reveive.o: 1_source/1_client_connector/0_client_connector_implement/7_stop_reveive.cpp.o
+1_source/1_client_connector/0_client_connector_implement/7_close_connection.o: 1_source/1_client_connector/0_client_connector_implement/7_close_connection.cpp.o
 
-.PHONY : 1_source/1_client_connector/0_client_connector_implement/7_stop_reveive.o
+.PHONY : 1_source/1_client_connector/0_client_connector_implement/7_close_connection.o
 
 # target to build an object file
-1_source/1_client_connector/0_client_connector_implement/7_stop_reveive.cpp.o:
-	$(MAKE) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/1_source/1_client_connector/0_client_connector_implement/7_stop_reveive.cpp.o
-.PHONY : 1_source/1_client_connector/0_client_connector_implement/7_stop_reveive.cpp.o
+1_source/1_client_connector/0_client_connector_implement/7_close_connection.cpp.o:
+	$(MAKE) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/1_source/1_client_connector/0_client_connector_implement/7_close_connection.cpp.o
+.PHONY : 1_source/1_client_connector/0_client_connector_implement/7_close_connection.cpp.o
 
-1_source/1_client_connector/0_client_connector_implement/7_stop_reveive.i: 1_source/1_client_connector/0_client_connector_implement/7_stop_reveive.cpp.i
+1_source/1_client_connector/0_client_connector_implement/7_close_connection.i: 1_source/1_client_connector/0_client_connector_implement/7_close_connection.cpp.i
 
-.PHONY : 1_source/1_client_connector/0_client_connector_implement/7_stop_reveive.i
+.PHONY : 1_source/1_client_connector/0_client_connector_implement/7_close_connection.i
 
 # target to preprocess a source file
-1_source/1_client_connector/0_client_connector_implement/7_stop_reveive.cpp.i:
-	$(MAKE) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/1_source/1_client_connector/0_client_connector_implement/7_stop_reveive.cpp.i
-.PHONY : 1_source/1_client_connector/0_client_connector_implement/7_stop_reveive.cpp.i
+1_source/1_client_connector/0_client_connector_implement/7_close_connection.cpp.i:
+	$(MAKE) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/1_source/1_client_connector/0_client_connector_implement/7_close_connection.cpp.i
+.PHONY : 1_source/1_client_connector/0_client_connector_implement/7_close_connection.cpp.i
 
-1_source/1_client_connector/0_client_connector_implement/7_stop_reveive.s: 1_source/1_client_connector/0_client_connector_implement/7_stop_reveive.cpp.s
+1_source/1_client_connector/0_client_connector_implement/7_close_connection.s: 1_source/1_client_connector/0_client_connector_implement/7_close_connection.cpp.s
 
-.PHONY : 1_source/1_client_connector/0_client_connector_implement/7_stop_reveive.s
+.PHONY : 1_source/1_client_connector/0_client_connector_implement/7_close_connection.s
 
 # target to generate assembly for a file
-1_source/1_client_connector/0_client_connector_implement/7_stop_reveive.cpp.s:
-	$(MAKE) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/1_source/1_client_connector/0_client_connector_implement/7_stop_reveive.cpp.s
-.PHONY : 1_source/1_client_connector/0_client_connector_implement/7_stop_reveive.cpp.s
+1_source/1_client_connector/0_client_connector_implement/7_close_connection.cpp.s:
+	$(MAKE) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/1_source/1_client_connector/0_client_connector_implement/7_close_connection.cpp.s
+.PHONY : 1_source/1_client_connector/0_client_connector_implement/7_close_connection.cpp.s
 
 client_main.o: client_main.cpp.o
 
@@ -516,9 +516,9 @@ help:
 	@echo "... 1_source/1_client_connector/0_client_connector_implement/6_send_to_server.o"
 	@echo "... 1_source/1_client_connector/0_client_connector_implement/6_send_to_server.i"
 	@echo "... 1_source/1_client_connector/0_client_connector_implement/6_send_to_server.s"
-	@echo "... 1_source/1_client_connector/0_client_connector_implement/7_stop_reveive.o"
-	@echo "... 1_source/1_client_connector/0_client_connector_implement/7_stop_reveive.i"
-	@echo "... 1_source/1_client_connector/0_client_connector_implement/7_stop_reveive.s"
+	@echo "... 1_source/1_client_connector/0_client_connector_implement/7_close_connection.o"
+	@echo "... 1_source/1_client_connector/0_client_connector_implement/7_close_connection.i"
+	@echo "... 1_source/1_client_connector/0_client_connector_implement/7_close_connection.s"
 	@echo "... client_main.o"
 	@echo "... client_main.i"
 	@echo "... client_main.s"

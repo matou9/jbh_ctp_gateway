@@ -50,8 +50,8 @@ CMakeFiles/client.dir/1_source/1_client_connector/0_client_connector_implement/5
 CMakeFiles/client.dir/1_source/1_client_connector/0_client_connector_implement/6_send_to_server.cpp.o: ../1_source/1_client_connector/0_client_connector.h
 CMakeFiles/client.dir/1_source/1_client_connector/0_client_connector_implement/6_send_to_server.cpp.o: ../1_source/1_client_connector/0_client_connector_implement/6_send_to_server.cpp
 
-CMakeFiles/client.dir/1_source/1_client_connector/0_client_connector_implement/7_stop_reveive.cpp.o: ../1_source/1_client_connector/0_client_connector.h
-CMakeFiles/client.dir/1_source/1_client_connector/0_client_connector_implement/7_stop_reveive.cpp.o: ../1_source/1_client_connector/0_client_connector_implement/7_stop_reveive.cpp
+CMakeFiles/client.dir/1_source/1_client_connector/0_client_connector_implement/7_close_connection.cpp.o: ../1_source/1_client_connector/0_client_connector.h
+CMakeFiles/client.dir/1_source/1_client_connector/0_client_connector_implement/7_close_connection.cpp.o: ../1_source/1_client_connector/0_client_connector_implement/7_close_connection.cpp
 
 CMakeFiles/client.dir/client_main.cpp.o: ../1_source/1_client_connector/0_client_connector.h
 CMakeFiles/client.dir/client_main.cpp.o: ../0_include/1_future_api.h

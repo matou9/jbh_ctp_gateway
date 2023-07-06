@@ -124,10 +124,10 @@ string.h
 string.h
 -
 
-/home/tushetou/jbh_code/0_trade_gateway/0_client/1_source/1_client_connector/0_client_connector_implement/7_stop_reveive.cpp
+/home/tushetou/jbh_code/0_trade_gateway/0_client/1_source/1_client_connector/0_client_connector_implement/7_close_connection.cpp
 ../0_client_connector.h
 /home/tushetou/jbh_code/0_trade_gateway/0_client/1_source/1_client_connector/0_client_connector.h
-string.h
+unistd.h
 -
 
 /home/tushetou/jbh_code/0_trade_gateway/0_client/client_main.cpp

@@ -50,9 +50,9 @@ CMakeFiles/client.dir/1_source/1_client_connector/0_client_connector_implement/5
 CMakeFiles/client.dir/1_source/1_client_connector/0_client_connector_implement/6_send_to_server.cpp.o
  /home/tushetou/jbh_code/0_trade_gateway/0_client/1_source/1_client_connector/0_client_connector.h
  /home/tushetou/jbh_code/0_trade_gateway/0_client/1_source/1_client_connector/0_client_connector_implement/6_send_to_server.cpp
-CMakeFiles/client.dir/1_source/1_client_connector/0_client_connector_implement/7_stop_reveive.cpp.o
+CMakeFiles/client.dir/1_source/1_client_connector/0_client_connector_implement/7_close_connection.cpp.o
  /home/tushetou/jbh_code/0_trade_gateway/0_client/1_source/1_client_connector/0_client_connector.h
- /home/tushetou/jbh_code/0_trade_gateway/0_client/1_source/1_client_connector/0_client_connector_implement/7_stop_reveive.cpp
+ /home/tushetou/jbh_code/0_trade_gateway/0_client/1_source/1_client_connector/0_client_connector_implement/7_close_connection.cpp
 CMakeFiles/client.dir/client_main.cpp.o
  ..//1_source/1_client_connector/0_client_connector.h
  /home/tushetou/jbh_code/0_trade_gateway/0_client/0_include/1_future_api.h

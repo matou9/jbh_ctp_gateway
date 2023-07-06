@@ -28,17 +28,18 @@ public:
     virtual ~future_gateway() = 0;
 
 public:
-    virtual void init() = 0;
-    virtual void release() = 0;
-
-    virtual void connect() = 0;
-    virtual void disconnect() = 0;
-    virtual void login() = 0;
-    virtual void logout() = 0;
-    virtual void confirm() = 0;
-
+    virtual void prepare() = 0;
     virtual void limit_entrust_insert(future_limit_entrust* entrust) = 0;
     virtual void limit_order_action(future_limit_order_action* order_action) = 0;
+protected:
+    virtual void init(){};
+    virtual void release(){};
+    virtual void connect(){};
+    virtual void disconnect(){};
+    virtual void login(){};
+    virtual void logout(){};
+    virtual void confirm(){};
+
     
 };
 

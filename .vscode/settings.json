@@ -49,6 +49,15 @@
         "streambuf": "cpp",
         "thread": "cpp",
         "cinttypes": "cpp",
-        "typeinfo": "cpp"
+        "typeinfo": "cpp",
+        "any": "cpp",
+        "codecvt": "cpp",
+        "forward_list": "cpp",
+        "list": "cpp",
+        "filesystem": "cpp",
+        "functional": "cpp",
+        "numeric": "cpp",
+        "iomanip": "cpp",
+        "valarray": "cpp"
     }
 }

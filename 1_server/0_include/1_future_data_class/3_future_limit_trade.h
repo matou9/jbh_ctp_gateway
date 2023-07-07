@@ -28,7 +28,7 @@ class future_limit_trade
     future_direction_type direction;
     // 成交开平
     future_offset_type offset;
-    // 成交编号
+    // 成交编号(Exchange#TradeID#Direction确定唯一的成交)
     char trade_id[32];
 
 };

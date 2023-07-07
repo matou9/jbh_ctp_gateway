@@ -3,7 +3,7 @@ project(server)
 #定义变量以供子目录使用
 set(lib_path ${CMAKE_CURRENT_SOURCE_DIR}/3_lib) # 库生成目录
 set(bin_path ${CMAKE_CURRENT_SOURCE_DIR}/2_build) # 可执行文件生成目录
-set(head_path ${CMAKE_CURRENT_SOURCE_DIR}/0_include) # 头文件目录
+set(head_path ${CMAKE_CURRENT_SOURCE_DIR}/0_include ${CMAKE_CURRENT_SOURCE_DIR}/1_source) # 头文件目录
 
 #添加子目录
 add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/1_source/1_future_server/1_CTP_gateway)

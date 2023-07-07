@@ -2,5 +2,5 @@
 
 void CTP_gateway::login()
 {
-    
+    req_authenticate();
 }

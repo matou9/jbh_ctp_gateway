@@ -32,7 +32,7 @@ public:
     virtual void limit_entrust_insert(future_limit_entrust* entrust) = 0;
     virtual void limit_order_action(future_limit_order_action* order_action) = 0;
 protected:
-    virtual void init(){};
+    virtual void init(const char* config_file_name){};
     virtual void release(){};
     virtual void connect(){};
     virtual void disconnect(){};

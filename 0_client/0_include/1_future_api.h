@@ -61,6 +61,9 @@ public:
     future_api();
     ~future_api();
     
+    // static future_api* create_trade_api();
+    // void release_trade_api();
+
     /*
      * 初始化交易接口api, 连接到交易服务器
      */

@@ -17,18 +17,32 @@
 #include <string>
 #include <stdint.h>
 #include <unordered_map>
+#include <atomic>
 class CTP_gateway : public CThostFtdcTraderSpi, public future_gateway
 {
 private:
-    CThostFtdcTraderApi* api;   //CTP交易柜台接口
+    CThostFtdcTraderApi* CTP_trader_api;   //CTP交易柜台接口
 
-    std::string front_id;       //前置编号
-    std::string session_id;     //会话编号
-    uint32_t    order_ref;      //报单引用
+    //CTP客户端所需信息
+    std::string front_addr;                 //前置地址
+    std::string broker;                     //经纪公司代码
+    std::string user;                       //用户代码
+    std::string password;                   //密码
+    std::string app;                        //应用标识
+    std::string auth_code;                  //认证码
+    std::string flow_dir;                   //流文件目录
+    std::atomic<uint32_t>    request_id;    //请求编号, 由客户端维护, 递增
+    //
+    uint32_t    trading_day;    //当前交易日
 
-    std::unordered_map<std::string, future_limit_entrust*> entrust_map; //委托映射表
-    std::unordered_map<std::string, future_limit_order*>   order_map;   //订单映射表
-    std::unordered_map<std::string, future_limit_trade*>   trade_map;   //成交映射表
+
+    //以下维护唯一的委托id
+    uint32_t front_id;       //前置编号
+    uint32_t session_id;     //会话编号
+    std::atomic<uint32_t>    order_ref;      //报单引用(考虑到多个客户端线程会改变该值, 故使用原子变量)
+
+    //如何在本地维护委托、订单、成交信息? 如何分发这些信息?
+
 public:
     CTP_gateway();
     virtual ~CTP_gateway() override;
@@ -38,13 +52,12 @@ public:
     virtual void limit_entrust_insert(future_limit_entrust* entrust) override;
     virtual void limit_order_action(future_limit_order_action* order_action) override;
 private:
-    virtual void init() override;
+    virtual void init(const char* config_file_name) override;
     virtual void release() override;
     virtual void connect() override;
     virtual void disconnect() override;
     virtual void login() override;
     virtual void logout() override;
-    virtual void confirm() override;
 
 private:
     /*
@@ -82,6 +95,13 @@ private:
     /*
      * 数据结构转换
      */
+
+private:
+    /*
+     * 其他辅助函数
+     */
+    uint32_t generate_new_request_id();
+    bool is_error_response(CThostFtdcRspInfoField* pRspInfo);
 
 };
 

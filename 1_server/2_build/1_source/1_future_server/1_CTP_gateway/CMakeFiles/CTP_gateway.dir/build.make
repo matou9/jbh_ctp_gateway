@@ -81,244 +81,244 @@ include 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/flags.
 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/0_con_destructor.cpp.o.provides.build: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/0_con_destructor.cpp.o
 
 
-1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/10_confirm.cpp.o: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/flags.make
-1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/10_confirm.cpp.o: ../1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/10_confirm.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tushetou/jbh_code/0_trade_gateway/1_server/2_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/10_confirm.cpp.o"
-	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build/1_source/1_future_server/1_CTP_gateway && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/10_confirm.cpp.o -c /home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/10_confirm.cpp
+1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/10_req_connect.cpp.o: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/flags.make
+1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/10_req_connect.cpp.o: ../1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/10_req_connect.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tushetou/jbh_code/0_trade_gateway/1_server/2_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/10_req_connect.cpp.o"
+	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build/1_source/1_future_server/1_CTP_gateway && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/10_req_connect.cpp.o -c /home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/10_req_connect.cpp
 
-1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/10_confirm.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/10_confirm.cpp.i"
-	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build/1_source/1_future_server/1_CTP_gateway && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/10_confirm.cpp > CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/10_confirm.cpp.i
+1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/10_req_connect.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/10_req_connect.cpp.i"
+	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build/1_source/1_future_server/1_CTP_gateway && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/10_req_connect.cpp > CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/10_req_connect.cpp.i
 
-1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/10_confirm.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/10_confirm.cpp.s"
-	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build/1_source/1_future_server/1_CTP_gateway && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/10_confirm.cpp -o CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/10_confirm.cpp.s
+1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/10_req_connect.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/10_req_connect.cpp.s"
+	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build/1_source/1_future_server/1_CTP_gateway && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/10_req_connect.cpp -o CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/10_req_connect.cpp.s
 
-1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/10_confirm.cpp.o.requires:
+1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/10_req_connect.cpp.o.requires:
 
-.PHONY : 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/10_confirm.cpp.o.requires
+.PHONY : 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/10_req_connect.cpp.o.requires
 
-1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/10_confirm.cpp.o.provides: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/10_confirm.cpp.o.requires
-	$(MAKE) -f 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/build.make 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/10_confirm.cpp.o.provides.build
-.PHONY : 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/10_confirm.cpp.o.provides
+1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/10_req_connect.cpp.o.provides: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/10_req_connect.cpp.o.requires
+	$(MAKE) -f 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/build.make 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/10_req_connect.cpp.o.provides.build
+.PHONY : 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/10_req_connect.cpp.o.provides
 
-1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/10_confirm.cpp.o.provides.build: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/10_confirm.cpp.o
+1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/10_req_connect.cpp.o.provides.build: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/10_req_connect.cpp.o
 
 
-1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/11_req_connect.cpp.o: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/flags.make
-1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/11_req_connect.cpp.o: ../1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/11_req_connect.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tushetou/jbh_code/0_trade_gateway/1_server/2_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/11_req_connect.cpp.o"
-	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build/1_source/1_future_server/1_CTP_gateway && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/11_req_connect.cpp.o -c /home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/11_req_connect.cpp
+1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/11_req_authenticate.cpp.o: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/flags.make
+1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/11_req_authenticate.cpp.o: ../1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/11_req_authenticate.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tushetou/jbh_code/0_trade_gateway/1_server/2_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/11_req_authenticate.cpp.o"
+	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build/1_source/1_future_server/1_CTP_gateway && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/11_req_authenticate.cpp.o -c /home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/11_req_authenticate.cpp
 
-1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/11_req_connect.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/11_req_connect.cpp.i"
-	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build/1_source/1_future_server/1_CTP_gateway && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/11_req_connect.cpp > CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/11_req_connect.cpp.i
+1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/11_req_authenticate.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/11_req_authenticate.cpp.i"
+	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build/1_source/1_future_server/1_CTP_gateway && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/11_req_authenticate.cpp > CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/11_req_authenticate.cpp.i
 
-1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/11_req_connect.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/11_req_connect.cpp.s"
-	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build/1_source/1_future_server/1_CTP_gateway && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/11_req_connect.cpp -o CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/11_req_connect.cpp.s
+1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/11_req_authenticate.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/11_req_authenticate.cpp.s"
+	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build/1_source/1_future_server/1_CTP_gateway && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/11_req_authenticate.cpp -o CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/11_req_authenticate.cpp.s
 
-1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/11_req_connect.cpp.o.requires:
+1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/11_req_authenticate.cpp.o.requires:
 
-.PHONY : 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/11_req_connect.cpp.o.requires
+.PHONY : 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/11_req_authenticate.cpp.o.requires
 
-1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/11_req_connect.cpp.o.provides: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/11_req_connect.cpp.o.requires
-	$(MAKE) -f 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/build.make 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/11_req_connect.cpp.o.provides.build
-.PHONY : 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/11_req_connect.cpp.o.provides
+1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/11_req_authenticate.cpp.o.provides: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/11_req_authenticate.cpp.o.requires
+	$(MAKE) -f 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/build.make 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/11_req_authenticate.cpp.o.provides.build
+.PHONY : 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/11_req_authenticate.cpp.o.provides
 
-1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/11_req_connect.cpp.o.provides.build: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/11_req_connect.cpp.o
+1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/11_req_authenticate.cpp.o.provides.build: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/11_req_authenticate.cpp.o
 
 
-1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/12_req_authenticate.cpp.o: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/flags.make
-1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/12_req_authenticate.cpp.o: ../1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/12_req_authenticate.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tushetou/jbh_code/0_trade_gateway/1_server/2_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/12_req_authenticate.cpp.o"
-	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build/1_source/1_future_server/1_CTP_gateway && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/12_req_authenticate.cpp.o -c /home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/12_req_authenticate.cpp
+1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/12_req_login.cpp.o: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/flags.make
+1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/12_req_login.cpp.o: ../1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/12_req_login.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tushetou/jbh_code/0_trade_gateway/1_server/2_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/12_req_login.cpp.o"
+	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build/1_source/1_future_server/1_CTP_gateway && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/12_req_login.cpp.o -c /home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/12_req_login.cpp
 
-1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/12_req_authenticate.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/12_req_authenticate.cpp.i"
-	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build/1_source/1_future_server/1_CTP_gateway && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/12_req_authenticate.cpp > CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/12_req_authenticate.cpp.i
+1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/12_req_login.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/12_req_login.cpp.i"
+	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build/1_source/1_future_server/1_CTP_gateway && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/12_req_login.cpp > CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/12_req_login.cpp.i
 
-1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/12_req_authenticate.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/12_req_authenticate.cpp.s"
-	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build/1_source/1_future_server/1_CTP_gateway && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/12_req_authenticate.cpp -o CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/12_req_authenticate.cpp.s
+1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/12_req_login.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/12_req_login.cpp.s"
+	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build/1_source/1_future_server/1_CTP_gateway && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/12_req_login.cpp -o CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/12_req_login.cpp.s
 
-1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/12_req_authenticate.cpp.o.requires:
+1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/12_req_login.cpp.o.requires:
 
-.PHONY : 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/12_req_authenticate.cpp.o.requires
+.PHONY : 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/12_req_login.cpp.o.requires
 
-1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/12_req_authenticate.cpp.o.provides: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/12_req_authenticate.cpp.o.requires
-	$(MAKE) -f 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/build.make 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/12_req_authenticate.cpp.o.provides.build
-.PHONY : 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/12_req_authenticate.cpp.o.provides
+1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/12_req_login.cpp.o.provides: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/12_req_login.cpp.o.requires
+	$(MAKE) -f 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/build.make 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/12_req_login.cpp.o.provides.build
+.PHONY : 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/12_req_login.cpp.o.provides
 
-1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/12_req_authenticate.cpp.o.provides.build: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/12_req_authenticate.cpp.o
+1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/12_req_login.cpp.o.provides.build: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/12_req_login.cpp.o
 
 
-1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/13_req_login.cpp.o: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/flags.make
-1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/13_req_login.cpp.o: ../1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/13_req_login.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tushetou/jbh_code/0_trade_gateway/1_server/2_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/13_req_login.cpp.o"
-	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build/1_source/1_future_server/1_CTP_gateway && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/13_req_login.cpp.o -c /home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/13_req_login.cpp
+1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/13_req_query_settlement_confirm.cpp.o: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/flags.make
+1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/13_req_query_settlement_confirm.cpp.o: ../1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/13_req_query_settlement_confirm.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tushetou/jbh_code/0_trade_gateway/1_server/2_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/13_req_query_settlement_confirm.cpp.o"
+	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build/1_source/1_future_server/1_CTP_gateway && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/13_req_query_settlement_confirm.cpp.o -c /home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/13_req_query_settlement_confirm.cpp
 
-1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/13_req_login.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/13_req_login.cpp.i"
-	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build/1_source/1_future_server/1_CTP_gateway && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/13_req_login.cpp > CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/13_req_login.cpp.i
+1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/13_req_query_settlement_confirm.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/13_req_query_settlement_confirm.cpp.i"
+	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build/1_source/1_future_server/1_CTP_gateway && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/13_req_query_settlement_confirm.cpp > CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/13_req_query_settlement_confirm.cpp.i
 
-1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/13_req_login.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/13_req_login.cpp.s"
-	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build/1_source/1_future_server/1_CTP_gateway && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/13_req_login.cpp -o CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/13_req_login.cpp.s
+1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/13_req_query_settlement_confirm.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/13_req_query_settlement_confirm.cpp.s"
+	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build/1_source/1_future_server/1_CTP_gateway && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/13_req_query_settlement_confirm.cpp -o CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/13_req_query_settlement_confirm.cpp.s
 
-1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/13_req_login.cpp.o.requires:
+1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/13_req_query_settlement_confirm.cpp.o.requires:
 
-.PHONY : 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/13_req_login.cpp.o.requires
+.PHONY : 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/13_req_query_settlement_confirm.cpp.o.requires
 
-1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/13_req_login.cpp.o.provides: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/13_req_login.cpp.o.requires
-	$(MAKE) -f 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/build.make 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/13_req_login.cpp.o.provides.build
-.PHONY : 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/13_req_login.cpp.o.provides
+1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/13_req_query_settlement_confirm.cpp.o.provides: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/13_req_query_settlement_confirm.cpp.o.requires
+	$(MAKE) -f 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/build.make 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/13_req_query_settlement_confirm.cpp.o.provides.build
+.PHONY : 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/13_req_query_settlement_confirm.cpp.o.provides
 
-1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/13_req_login.cpp.o.provides.build: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/13_req_login.cpp.o
+1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/13_req_query_settlement_confirm.cpp.o.provides.build: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/13_req_query_settlement_confirm.cpp.o
 
 
-1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/14_req_query_settlement_confirm.cpp.o: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/flags.make
-1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/14_req_query_settlement_confirm.cpp.o: ../1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/14_req_query_settlement_confirm.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tushetou/jbh_code/0_trade_gateway/1_server/2_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/14_req_query_settlement_confirm.cpp.o"
-	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build/1_source/1_future_server/1_CTP_gateway && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/14_req_query_settlement_confirm.cpp.o -c /home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/14_req_query_settlement_confirm.cpp
+1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/14_req_settlement_confirm.cpp.o: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/flags.make
+1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/14_req_settlement_confirm.cpp.o: ../1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/14_req_settlement_confirm.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tushetou/jbh_code/0_trade_gateway/1_server/2_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/14_req_settlement_confirm.cpp.o"
+	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build/1_source/1_future_server/1_CTP_gateway && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/14_req_settlement_confirm.cpp.o -c /home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/14_req_settlement_confirm.cpp
 
-1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/14_req_query_settlement_confirm.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/14_req_query_settlement_confirm.cpp.i"
-	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build/1_source/1_future_server/1_CTP_gateway && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/14_req_query_settlement_confirm.cpp > CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/14_req_query_settlement_confirm.cpp.i
+1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/14_req_settlement_confirm.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/14_req_settlement_confirm.cpp.i"
+	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build/1_source/1_future_server/1_CTP_gateway && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/14_req_settlement_confirm.cpp > CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/14_req_settlement_confirm.cpp.i
 
-1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/14_req_query_settlement_confirm.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/14_req_query_settlement_confirm.cpp.s"
-	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build/1_source/1_future_server/1_CTP_gateway && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/14_req_query_settlement_confirm.cpp -o CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/14_req_query_settlement_confirm.cpp.s
+1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/14_req_settlement_confirm.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/14_req_settlement_confirm.cpp.s"
+	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build/1_source/1_future_server/1_CTP_gateway && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/14_req_settlement_confirm.cpp -o CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/14_req_settlement_confirm.cpp.s
 
-1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/14_req_query_settlement_confirm.cpp.o.requires:
+1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/14_req_settlement_confirm.cpp.o.requires:
 
-.PHONY : 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/14_req_query_settlement_confirm.cpp.o.requires
+.PHONY : 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/14_req_settlement_confirm.cpp.o.requires
 
-1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/14_req_query_settlement_confirm.cpp.o.provides: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/14_req_query_settlement_confirm.cpp.o.requires
-	$(MAKE) -f 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/build.make 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/14_req_query_settlement_confirm.cpp.o.provides.build
-.PHONY : 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/14_req_query_settlement_confirm.cpp.o.provides
+1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/14_req_settlement_confirm.cpp.o.provides: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/14_req_settlement_confirm.cpp.o.requires
+	$(MAKE) -f 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/build.make 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/14_req_settlement_confirm.cpp.o.provides.build
+.PHONY : 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/14_req_settlement_confirm.cpp.o.provides
 
-1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/14_req_query_settlement_confirm.cpp.o.provides.build: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/14_req_query_settlement_confirm.cpp.o
+1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/14_req_settlement_confirm.cpp.o.provides.build: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/14_req_settlement_confirm.cpp.o
 
 
-1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/15_req_settlement_confirm.cpp.o: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/flags.make
-1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/15_req_settlement_confirm.cpp.o: ../1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/15_req_settlement_confirm.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tushetou/jbh_code/0_trade_gateway/1_server/2_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/15_req_settlement_confirm.cpp.o"
-	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build/1_source/1_future_server/1_CTP_gateway && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/15_req_settlement_confirm.cpp.o -c /home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/15_req_settlement_confirm.cpp
+1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/15_req_entrust_insert.cpp.o: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/flags.make
+1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/15_req_entrust_insert.cpp.o: ../1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/15_req_entrust_insert.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tushetou/jbh_code/0_trade_gateway/1_server/2_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/15_req_entrust_insert.cpp.o"
+	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build/1_source/1_future_server/1_CTP_gateway && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/15_req_entrust_insert.cpp.o -c /home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/15_req_entrust_insert.cpp
 
-1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/15_req_settlement_confirm.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/15_req_settlement_confirm.cpp.i"
-	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build/1_source/1_future_server/1_CTP_gateway && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/15_req_settlement_confirm.cpp > CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/15_req_settlement_confirm.cpp.i
+1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/15_req_entrust_insert.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/15_req_entrust_insert.cpp.i"
+	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build/1_source/1_future_server/1_CTP_gateway && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/15_req_entrust_insert.cpp > CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/15_req_entrust_insert.cpp.i
 
-1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/15_req_settlement_confirm.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/15_req_settlement_confirm.cpp.s"
-	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build/1_source/1_future_server/1_CTP_gateway && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/15_req_settlement_confirm.cpp -o CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/15_req_settlement_confirm.cpp.s
+1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/15_req_entrust_insert.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/15_req_entrust_insert.cpp.s"
+	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build/1_source/1_future_server/1_CTP_gateway && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/15_req_entrust_insert.cpp -o CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/15_req_entrust_insert.cpp.s
 
-1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/15_req_settlement_confirm.cpp.o.requires:
+1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/15_req_entrust_insert.cpp.o.requires:
 
-.PHONY : 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/15_req_settlement_confirm.cpp.o.requires
+.PHONY : 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/15_req_entrust_insert.cpp.o.requires
 
-1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/15_req_settlement_confirm.cpp.o.provides: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/15_req_settlement_confirm.cpp.o.requires
-	$(MAKE) -f 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/build.make 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/15_req_settlement_confirm.cpp.o.provides.build
-.PHONY : 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/15_req_settlement_confirm.cpp.o.provides
+1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/15_req_entrust_insert.cpp.o.provides: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/15_req_entrust_insert.cpp.o.requires
+	$(MAKE) -f 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/build.make 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/15_req_entrust_insert.cpp.o.provides.build
+.PHONY : 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/15_req_entrust_insert.cpp.o.provides
 
-1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/15_req_settlement_confirm.cpp.o.provides.build: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/15_req_settlement_confirm.cpp.o
+1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/15_req_entrust_insert.cpp.o.provides.build: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/15_req_entrust_insert.cpp.o
 
 
-1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/16_req_entrust_insert.cpp.o: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/flags.make
-1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/16_req_entrust_insert.cpp.o: ../1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/16_req_entrust_insert.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tushetou/jbh_code/0_trade_gateway/1_server/2_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/16_req_entrust_insert.cpp.o"
-	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build/1_source/1_future_server/1_CTP_gateway && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/16_req_entrust_insert.cpp.o -c /home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/16_req_entrust_insert.cpp
+1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/16_req_entrust_action.cpp.o: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/flags.make
+1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/16_req_entrust_action.cpp.o: ../1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/16_req_entrust_action.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tushetou/jbh_code/0_trade_gateway/1_server/2_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/16_req_entrust_action.cpp.o"
+	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build/1_source/1_future_server/1_CTP_gateway && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/16_req_entrust_action.cpp.o -c /home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/16_req_entrust_action.cpp
 
-1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/16_req_entrust_insert.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/16_req_entrust_insert.cpp.i"
-	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build/1_source/1_future_server/1_CTP_gateway && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/16_req_entrust_insert.cpp > CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/16_req_entrust_insert.cpp.i
+1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/16_req_entrust_action.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/16_req_entrust_action.cpp.i"
+	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build/1_source/1_future_server/1_CTP_gateway && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/16_req_entrust_action.cpp > CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/16_req_entrust_action.cpp.i
 
-1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/16_req_entrust_insert.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/16_req_entrust_insert.cpp.s"
-	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build/1_source/1_future_server/1_CTP_gateway && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/16_req_entrust_insert.cpp -o CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/16_req_entrust_insert.cpp.s
+1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/16_req_entrust_action.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/16_req_entrust_action.cpp.s"
+	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build/1_source/1_future_server/1_CTP_gateway && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/16_req_entrust_action.cpp -o CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/16_req_entrust_action.cpp.s
 
-1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/16_req_entrust_insert.cpp.o.requires:
+1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/16_req_entrust_action.cpp.o.requires:
 
-.PHONY : 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/16_req_entrust_insert.cpp.o.requires
+.PHONY : 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/16_req_entrust_action.cpp.o.requires
 
-1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/16_req_entrust_insert.cpp.o.provides: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/16_req_entrust_insert.cpp.o.requires
-	$(MAKE) -f 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/build.make 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/16_req_entrust_insert.cpp.o.provides.build
-.PHONY : 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/16_req_entrust_insert.cpp.o.provides
+1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/16_req_entrust_action.cpp.o.provides: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/16_req_entrust_action.cpp.o.requires
+	$(MAKE) -f 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/build.make 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/16_req_entrust_action.cpp.o.provides.build
+.PHONY : 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/16_req_entrust_action.cpp.o.provides
 
-1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/16_req_entrust_insert.cpp.o.provides.build: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/16_req_entrust_insert.cpp.o
+1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/16_req_entrust_action.cpp.o.provides.build: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/16_req_entrust_action.cpp.o
 
 
-1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/17_req_entrust_action.cpp.o: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/flags.make
-1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/17_req_entrust_action.cpp.o: ../1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/17_req_entrust_action.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tushetou/jbh_code/0_trade_gateway/1_server/2_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/17_req_entrust_action.cpp.o"
-	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build/1_source/1_future_server/1_CTP_gateway && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/17_req_entrust_action.cpp.o -c /home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/17_req_entrust_action.cpp
+1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/17_OnFrontConnected.cpp.o: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/flags.make
+1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/17_OnFrontConnected.cpp.o: ../1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/17_OnFrontConnected.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tushetou/jbh_code/0_trade_gateway/1_server/2_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/17_OnFrontConnected.cpp.o"
+	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build/1_source/1_future_server/1_CTP_gateway && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/17_OnFrontConnected.cpp.o -c /home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/17_OnFrontConnected.cpp
 
-1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/17_req_entrust_action.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/17_req_entrust_action.cpp.i"
-	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build/1_source/1_future_server/1_CTP_gateway && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/17_req_entrust_action.cpp > CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/17_req_entrust_action.cpp.i
+1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/17_OnFrontConnected.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/17_OnFrontConnected.cpp.i"
+	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build/1_source/1_future_server/1_CTP_gateway && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/17_OnFrontConnected.cpp > CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/17_OnFrontConnected.cpp.i
 
-1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/17_req_entrust_action.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/17_req_entrust_action.cpp.s"
-	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build/1_source/1_future_server/1_CTP_gateway && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/17_req_entrust_action.cpp -o CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/17_req_entrust_action.cpp.s
+1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/17_OnFrontConnected.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/17_OnFrontConnected.cpp.s"
+	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build/1_source/1_future_server/1_CTP_gateway && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/17_OnFrontConnected.cpp -o CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/17_OnFrontConnected.cpp.s
 
-1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/17_req_entrust_action.cpp.o.requires:
+1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/17_OnFrontConnected.cpp.o.requires:
 
-.PHONY : 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/17_req_entrust_action.cpp.o.requires
+.PHONY : 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/17_OnFrontConnected.cpp.o.requires
 
-1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/17_req_entrust_action.cpp.o.provides: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/17_req_entrust_action.cpp.o.requires
-	$(MAKE) -f 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/build.make 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/17_req_entrust_action.cpp.o.provides.build
-.PHONY : 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/17_req_entrust_action.cpp.o.provides
+1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/17_OnFrontConnected.cpp.o.provides: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/17_OnFrontConnected.cpp.o.requires
+	$(MAKE) -f 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/build.make 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/17_OnFrontConnected.cpp.o.provides.build
+.PHONY : 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/17_OnFrontConnected.cpp.o.provides
 
-1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/17_req_entrust_action.cpp.o.provides.build: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/17_req_entrust_action.cpp.o
+1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/17_OnFrontConnected.cpp.o.provides.build: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/17_OnFrontConnected.cpp.o
 
 
-1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/18_OnFrontConnected.cpp.o: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/flags.make
-1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/18_OnFrontConnected.cpp.o: ../1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/18_OnFrontConnected.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tushetou/jbh_code/0_trade_gateway/1_server/2_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/18_OnFrontConnected.cpp.o"
-	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build/1_source/1_future_server/1_CTP_gateway && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/18_OnFrontConnected.cpp.o -c /home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/18_OnFrontConnected.cpp
+1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/18_OnFrontDisconnected.cpp.o: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/flags.make
+1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/18_OnFrontDisconnected.cpp.o: ../1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/18_OnFrontDisconnected.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tushetou/jbh_code/0_trade_gateway/1_server/2_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/18_OnFrontDisconnected.cpp.o"
+	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build/1_source/1_future_server/1_CTP_gateway && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/18_OnFrontDisconnected.cpp.o -c /home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/18_OnFrontDisconnected.cpp
 
-1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/18_OnFrontConnected.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/18_OnFrontConnected.cpp.i"
-	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build/1_source/1_future_server/1_CTP_gateway && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/18_OnFrontConnected.cpp > CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/18_OnFrontConnected.cpp.i
+1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/18_OnFrontDisconnected.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/18_OnFrontDisconnected.cpp.i"
+	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build/1_source/1_future_server/1_CTP_gateway && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/18_OnFrontDisconnected.cpp > CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/18_OnFrontDisconnected.cpp.i
 
-1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/18_OnFrontConnected.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/18_OnFrontConnected.cpp.s"
-	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build/1_source/1_future_server/1_CTP_gateway && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/18_OnFrontConnected.cpp -o CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/18_OnFrontConnected.cpp.s
+1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/18_OnFrontDisconnected.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/18_OnFrontDisconnected.cpp.s"
+	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build/1_source/1_future_server/1_CTP_gateway && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/18_OnFrontDisconnected.cpp -o CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/18_OnFrontDisconnected.cpp.s
 
-1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/18_OnFrontConnected.cpp.o.requires:
+1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/18_OnFrontDisconnected.cpp.o.requires:
 
-.PHONY : 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/18_OnFrontConnected.cpp.o.requires
+.PHONY : 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/18_OnFrontDisconnected.cpp.o.requires
 
-1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/18_OnFrontConnected.cpp.o.provides: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/18_OnFrontConnected.cpp.o.requires
-	$(MAKE) -f 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/build.make 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/18_OnFrontConnected.cpp.o.provides.build
-.PHONY : 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/18_OnFrontConnected.cpp.o.provides
+1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/18_OnFrontDisconnected.cpp.o.provides: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/18_OnFrontDisconnected.cpp.o.requires
+	$(MAKE) -f 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/build.make 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/18_OnFrontDisconnected.cpp.o.provides.build
+.PHONY : 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/18_OnFrontDisconnected.cpp.o.provides
 
-1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/18_OnFrontConnected.cpp.o.provides.build: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/18_OnFrontConnected.cpp.o
+1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/18_OnFrontDisconnected.cpp.o.provides.build: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/18_OnFrontDisconnected.cpp.o
 
 
-1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/19_OnFrontDisconnected.cpp.o: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/flags.make
-1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/19_OnFrontDisconnected.cpp.o: ../1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/19_OnFrontDisconnected.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tushetou/jbh_code/0_trade_gateway/1_server/2_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/19_OnFrontDisconnected.cpp.o"
-	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build/1_source/1_future_server/1_CTP_gateway && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/19_OnFrontDisconnected.cpp.o -c /home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/19_OnFrontDisconnected.cpp
+1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/19_OnRspAuthenticate.cpp.o: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/flags.make
+1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/19_OnRspAuthenticate.cpp.o: ../1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/19_OnRspAuthenticate.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tushetou/jbh_code/0_trade_gateway/1_server/2_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/19_OnRspAuthenticate.cpp.o"
+	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build/1_source/1_future_server/1_CTP_gateway && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/19_OnRspAuthenticate.cpp.o -c /home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/19_OnRspAuthenticate.cpp
 
-1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/19_OnFrontDisconnected.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/19_OnFrontDisconnected.cpp.i"
-	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build/1_source/1_future_server/1_CTP_gateway && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/19_OnFrontDisconnected.cpp > CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/19_OnFrontDisconnected.cpp.i
+1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/19_OnRspAuthenticate.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/19_OnRspAuthenticate.cpp.i"
+	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build/1_source/1_future_server/1_CTP_gateway && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/19_OnRspAuthenticate.cpp > CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/19_OnRspAuthenticate.cpp.i
 
-1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/19_OnFrontDisconnected.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/19_OnFrontDisconnected.cpp.s"
-	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build/1_source/1_future_server/1_CTP_gateway && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/19_OnFrontDisconnected.cpp -o CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/19_OnFrontDisconnected.cpp.s
+1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/19_OnRspAuthenticate.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/19_OnRspAuthenticate.cpp.s"
+	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build/1_source/1_future_server/1_CTP_gateway && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/19_OnRspAuthenticate.cpp -o CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/19_OnRspAuthenticate.cpp.s
 
-1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/19_OnFrontDisconnected.cpp.o.requires:
+1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/19_OnRspAuthenticate.cpp.o.requires:
 
-.PHONY : 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/19_OnFrontDisconnected.cpp.o.requires
+.PHONY : 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/19_OnRspAuthenticate.cpp.o.requires
 
-1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/19_OnFrontDisconnected.cpp.o.provides: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/19_OnFrontDisconnected.cpp.o.requires
-	$(MAKE) -f 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/build.make 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/19_OnFrontDisconnected.cpp.o.provides.build
-.PHONY : 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/19_OnFrontDisconnected.cpp.o.provides
+1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/19_OnRspAuthenticate.cpp.o.provides: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/19_OnRspAuthenticate.cpp.o.requires
+	$(MAKE) -f 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/build.make 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/19_OnRspAuthenticate.cpp.o.provides.build
+.PHONY : 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/19_OnRspAuthenticate.cpp.o.provides
 
-1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/19_OnFrontDisconnected.cpp.o.provides.build: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/19_OnFrontDisconnected.cpp.o
+1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/19_OnRspAuthenticate.cpp.o.provides.build: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/19_OnRspAuthenticate.cpp.o
 
 
 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/1_prepare.cpp.o: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/flags.make
@@ -345,244 +345,244 @@ include 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/flags.
 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/1_prepare.cpp.o.provides.build: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/1_prepare.cpp.o
 
 
-1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/20_OnRspAuthenticate.cpp.o: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/flags.make
-1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/20_OnRspAuthenticate.cpp.o: ../1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/20_OnRspAuthenticate.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tushetou/jbh_code/0_trade_gateway/1_server/2_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/20_OnRspAuthenticate.cpp.o"
-	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build/1_source/1_future_server/1_CTP_gateway && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/20_OnRspAuthenticate.cpp.o -c /home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/20_OnRspAuthenticate.cpp
+1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/20_OnRspUserLogin.cpp.o: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/flags.make
+1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/20_OnRspUserLogin.cpp.o: ../1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/20_OnRspUserLogin.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tushetou/jbh_code/0_trade_gateway/1_server/2_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/20_OnRspUserLogin.cpp.o"
+	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build/1_source/1_future_server/1_CTP_gateway && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/20_OnRspUserLogin.cpp.o -c /home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/20_OnRspUserLogin.cpp
 
-1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/20_OnRspAuthenticate.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/20_OnRspAuthenticate.cpp.i"
-	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build/1_source/1_future_server/1_CTP_gateway && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/20_OnRspAuthenticate.cpp > CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/20_OnRspAuthenticate.cpp.i
+1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/20_OnRspUserLogin.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/20_OnRspUserLogin.cpp.i"
+	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build/1_source/1_future_server/1_CTP_gateway && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/20_OnRspUserLogin.cpp > CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/20_OnRspUserLogin.cpp.i
 
-1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/20_OnRspAuthenticate.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/20_OnRspAuthenticate.cpp.s"
-	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build/1_source/1_future_server/1_CTP_gateway && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/20_OnRspAuthenticate.cpp -o CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/20_OnRspAuthenticate.cpp.s
+1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/20_OnRspUserLogin.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/20_OnRspUserLogin.cpp.s"
+	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build/1_source/1_future_server/1_CTP_gateway && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/20_OnRspUserLogin.cpp -o CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/20_OnRspUserLogin.cpp.s
 
-1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/20_OnRspAuthenticate.cpp.o.requires:
+1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/20_OnRspUserLogin.cpp.o.requires:
 
-.PHONY : 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/20_OnRspAuthenticate.cpp.o.requires
+.PHONY : 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/20_OnRspUserLogin.cpp.o.requires
 
-1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/20_OnRspAuthenticate.cpp.o.provides: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/20_OnRspAuthenticate.cpp.o.requires
-	$(MAKE) -f 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/build.make 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/20_OnRspAuthenticate.cpp.o.provides.build
-.PHONY : 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/20_OnRspAuthenticate.cpp.o.provides
+1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/20_OnRspUserLogin.cpp.o.provides: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/20_OnRspUserLogin.cpp.o.requires
+	$(MAKE) -f 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/build.make 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/20_OnRspUserLogin.cpp.o.provides.build
+.PHONY : 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/20_OnRspUserLogin.cpp.o.provides
 
-1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/20_OnRspAuthenticate.cpp.o.provides.build: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/20_OnRspAuthenticate.cpp.o
+1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/20_OnRspUserLogin.cpp.o.provides.build: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/20_OnRspUserLogin.cpp.o
 
 
-1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/21_OnRspUserLogin.cpp.o: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/flags.make
-1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/21_OnRspUserLogin.cpp.o: ../1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/21_OnRspUserLogin.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tushetou/jbh_code/0_trade_gateway/1_server/2_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/21_OnRspUserLogin.cpp.o"
-	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build/1_source/1_future_server/1_CTP_gateway && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/21_OnRspUserLogin.cpp.o -c /home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/21_OnRspUserLogin.cpp
+1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/21_OnRspQrySettlementInfoConfirm.cpp.o: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/flags.make
+1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/21_OnRspQrySettlementInfoConfirm.cpp.o: ../1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/21_OnRspQrySettlementInfoConfirm.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tushetou/jbh_code/0_trade_gateway/1_server/2_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/21_OnRspQrySettlementInfoConfirm.cpp.o"
+	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build/1_source/1_future_server/1_CTP_gateway && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/21_OnRspQrySettlementInfoConfirm.cpp.o -c /home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/21_OnRspQrySettlementInfoConfirm.cpp
 
-1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/21_OnRspUserLogin.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/21_OnRspUserLogin.cpp.i"
-	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build/1_source/1_future_server/1_CTP_gateway && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/21_OnRspUserLogin.cpp > CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/21_OnRspUserLogin.cpp.i
+1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/21_OnRspQrySettlementInfoConfirm.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/21_OnRspQrySettlementInfoConfirm.cpp.i"
+	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build/1_source/1_future_server/1_CTP_gateway && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/21_OnRspQrySettlementInfoConfirm.cpp > CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/21_OnRspQrySettlementInfoConfirm.cpp.i
 
-1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/21_OnRspUserLogin.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/21_OnRspUserLogin.cpp.s"
-	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build/1_source/1_future_server/1_CTP_gateway && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/21_OnRspUserLogin.cpp -o CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/21_OnRspUserLogin.cpp.s
+1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/21_OnRspQrySettlementInfoConfirm.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/21_OnRspQrySettlementInfoConfirm.cpp.s"
+	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build/1_source/1_future_server/1_CTP_gateway && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/21_OnRspQrySettlementInfoConfirm.cpp -o CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/21_OnRspQrySettlementInfoConfirm.cpp.s
 
-1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/21_OnRspUserLogin.cpp.o.requires:
+1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/21_OnRspQrySettlementInfoConfirm.cpp.o.requires:
 
-.PHONY : 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/21_OnRspUserLogin.cpp.o.requires
+.PHONY : 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/21_OnRspQrySettlementInfoConfirm.cpp.o.requires
 
-1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/21_OnRspUserLogin.cpp.o.provides: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/21_OnRspUserLogin.cpp.o.requires
-	$(MAKE) -f 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/build.make 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/21_OnRspUserLogin.cpp.o.provides.build
-.PHONY : 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/21_OnRspUserLogin.cpp.o.provides
+1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/21_OnRspQrySettlementInfoConfirm.cpp.o.provides: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/21_OnRspQrySettlementInfoConfirm.cpp.o.requires
+	$(MAKE) -f 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/build.make 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/21_OnRspQrySettlementInfoConfirm.cpp.o.provides.build
+.PHONY : 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/21_OnRspQrySettlementInfoConfirm.cpp.o.provides
 
-1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/21_OnRspUserLogin.cpp.o.provides.build: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/21_OnRspUserLogin.cpp.o
+1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/21_OnRspQrySettlementInfoConfirm.cpp.o.provides.build: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/21_OnRspQrySettlementInfoConfirm.cpp.o
 
 
-1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/22_OnRspQrySettlementInfoConfirm.cpp.o: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/flags.make
-1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/22_OnRspQrySettlementInfoConfirm.cpp.o: ../1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/22_OnRspQrySettlementInfoConfirm.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tushetou/jbh_code/0_trade_gateway/1_server/2_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/22_OnRspQrySettlementInfoConfirm.cpp.o"
-	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build/1_source/1_future_server/1_CTP_gateway && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/22_OnRspQrySettlementInfoConfirm.cpp.o -c /home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/22_OnRspQrySettlementInfoConfirm.cpp
+1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/22_OnRspSettlementInfoConfirm.cpp.o: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/flags.make
+1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/22_OnRspSettlementInfoConfirm.cpp.o: ../1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/22_OnRspSettlementInfoConfirm.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tushetou/jbh_code/0_trade_gateway/1_server/2_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/22_OnRspSettlementInfoConfirm.cpp.o"
+	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build/1_source/1_future_server/1_CTP_gateway && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/22_OnRspSettlementInfoConfirm.cpp.o -c /home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/22_OnRspSettlementInfoConfirm.cpp
 
-1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/22_OnRspQrySettlementInfoConfirm.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/22_OnRspQrySettlementInfoConfirm.cpp.i"
-	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build/1_source/1_future_server/1_CTP_gateway && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/22_OnRspQrySettlementInfoConfirm.cpp > CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/22_OnRspQrySettlementInfoConfirm.cpp.i
+1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/22_OnRspSettlementInfoConfirm.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/22_OnRspSettlementInfoConfirm.cpp.i"
+	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build/1_source/1_future_server/1_CTP_gateway && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/22_OnRspSettlementInfoConfirm.cpp > CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/22_OnRspSettlementInfoConfirm.cpp.i
 
-1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/22_OnRspQrySettlementInfoConfirm.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/22_OnRspQrySettlementInfoConfirm.cpp.s"
-	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build/1_source/1_future_server/1_CTP_gateway && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/22_OnRspQrySettlementInfoConfirm.cpp -o CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/22_OnRspQrySettlementInfoConfirm.cpp.s
+1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/22_OnRspSettlementInfoConfirm.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/22_OnRspSettlementInfoConfirm.cpp.s"
+	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build/1_source/1_future_server/1_CTP_gateway && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/22_OnRspSettlementInfoConfirm.cpp -o CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/22_OnRspSettlementInfoConfirm.cpp.s
 
-1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/22_OnRspQrySettlementInfoConfirm.cpp.o.requires:
+1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/22_OnRspSettlementInfoConfirm.cpp.o.requires:
 
-.PHONY : 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/22_OnRspQrySettlementInfoConfirm.cpp.o.requires
+.PHONY : 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/22_OnRspSettlementInfoConfirm.cpp.o.requires
 
-1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/22_OnRspQrySettlementInfoConfirm.cpp.o.provides: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/22_OnRspQrySettlementInfoConfirm.cpp.o.requires
-	$(MAKE) -f 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/build.make 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/22_OnRspQrySettlementInfoConfirm.cpp.o.provides.build
-.PHONY : 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/22_OnRspQrySettlementInfoConfirm.cpp.o.provides
+1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/22_OnRspSettlementInfoConfirm.cpp.o.provides: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/22_OnRspSettlementInfoConfirm.cpp.o.requires
+	$(MAKE) -f 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/build.make 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/22_OnRspSettlementInfoConfirm.cpp.o.provides.build
+.PHONY : 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/22_OnRspSettlementInfoConfirm.cpp.o.provides
 
-1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/22_OnRspQrySettlementInfoConfirm.cpp.o.provides.build: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/22_OnRspQrySettlementInfoConfirm.cpp.o
+1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/22_OnRspSettlementInfoConfirm.cpp.o.provides.build: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/22_OnRspSettlementInfoConfirm.cpp.o
 
 
-1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/23_OnRspSettlementInfoConfirm.cpp.o: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/flags.make
-1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/23_OnRspSettlementInfoConfirm.cpp.o: ../1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/23_OnRspSettlementInfoConfirm.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tushetou/jbh_code/0_trade_gateway/1_server/2_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/23_OnRspSettlementInfoConfirm.cpp.o"
-	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build/1_source/1_future_server/1_CTP_gateway && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/23_OnRspSettlementInfoConfirm.cpp.o -c /home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/23_OnRspSettlementInfoConfirm.cpp
+1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/23_OnRspUserLogout.cpp.o: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/flags.make
+1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/23_OnRspUserLogout.cpp.o: ../1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/23_OnRspUserLogout.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tushetou/jbh_code/0_trade_gateway/1_server/2_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/23_OnRspUserLogout.cpp.o"
+	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build/1_source/1_future_server/1_CTP_gateway && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/23_OnRspUserLogout.cpp.o -c /home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/23_OnRspUserLogout.cpp
 
-1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/23_OnRspSettlementInfoConfirm.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/23_OnRspSettlementInfoConfirm.cpp.i"
-	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build/1_source/1_future_server/1_CTP_gateway && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/23_OnRspSettlementInfoConfirm.cpp > CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/23_OnRspSettlementInfoConfirm.cpp.i
+1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/23_OnRspUserLogout.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/23_OnRspUserLogout.cpp.i"
+	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build/1_source/1_future_server/1_CTP_gateway && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/23_OnRspUserLogout.cpp > CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/23_OnRspUserLogout.cpp.i
 
-1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/23_OnRspSettlementInfoConfirm.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/23_OnRspSettlementInfoConfirm.cpp.s"
-	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build/1_source/1_future_server/1_CTP_gateway && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/23_OnRspSettlementInfoConfirm.cpp -o CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/23_OnRspSettlementInfoConfirm.cpp.s
+1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/23_OnRspUserLogout.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/23_OnRspUserLogout.cpp.s"
+	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build/1_source/1_future_server/1_CTP_gateway && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/23_OnRspUserLogout.cpp -o CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/23_OnRspUserLogout.cpp.s
 
-1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/23_OnRspSettlementInfoConfirm.cpp.o.requires:
+1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/23_OnRspUserLogout.cpp.o.requires:
 
-.PHONY : 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/23_OnRspSettlementInfoConfirm.cpp.o.requires
+.PHONY : 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/23_OnRspUserLogout.cpp.o.requires
 
-1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/23_OnRspSettlementInfoConfirm.cpp.o.provides: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/23_OnRspSettlementInfoConfirm.cpp.o.requires
-	$(MAKE) -f 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/build.make 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/23_OnRspSettlementInfoConfirm.cpp.o.provides.build
-.PHONY : 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/23_OnRspSettlementInfoConfirm.cpp.o.provides
+1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/23_OnRspUserLogout.cpp.o.provides: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/23_OnRspUserLogout.cpp.o.requires
+	$(MAKE) -f 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/build.make 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/23_OnRspUserLogout.cpp.o.provides.build
+.PHONY : 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/23_OnRspUserLogout.cpp.o.provides
 
-1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/23_OnRspSettlementInfoConfirm.cpp.o.provides.build: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/23_OnRspSettlementInfoConfirm.cpp.o
+1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/23_OnRspUserLogout.cpp.o.provides.build: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/23_OnRspUserLogout.cpp.o
 
 
-1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/24_OnRspUserLogout.cpp.o: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/flags.make
-1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/24_OnRspUserLogout.cpp.o: ../1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/24_OnRspUserLogout.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tushetou/jbh_code/0_trade_gateway/1_server/2_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/24_OnRspUserLogout.cpp.o"
-	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build/1_source/1_future_server/1_CTP_gateway && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/24_OnRspUserLogout.cpp.o -c /home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/24_OnRspUserLogout.cpp
+1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/24_OnRspOrderInsert.cpp.o: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/flags.make
+1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/24_OnRspOrderInsert.cpp.o: ../1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/24_OnRspOrderInsert.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tushetou/jbh_code/0_trade_gateway/1_server/2_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/24_OnRspOrderInsert.cpp.o"
+	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build/1_source/1_future_server/1_CTP_gateway && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/24_OnRspOrderInsert.cpp.o -c /home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/24_OnRspOrderInsert.cpp
 
-1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/24_OnRspUserLogout.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/24_OnRspUserLogout.cpp.i"
-	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build/1_source/1_future_server/1_CTP_gateway && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/24_OnRspUserLogout.cpp > CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/24_OnRspUserLogout.cpp.i
+1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/24_OnRspOrderInsert.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/24_OnRspOrderInsert.cpp.i"
+	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build/1_source/1_future_server/1_CTP_gateway && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/24_OnRspOrderInsert.cpp > CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/24_OnRspOrderInsert.cpp.i
 
-1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/24_OnRspUserLogout.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/24_OnRspUserLogout.cpp.s"
-	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build/1_source/1_future_server/1_CTP_gateway && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/24_OnRspUserLogout.cpp -o CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/24_OnRspUserLogout.cpp.s
+1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/24_OnRspOrderInsert.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/24_OnRspOrderInsert.cpp.s"
+	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build/1_source/1_future_server/1_CTP_gateway && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/24_OnRspOrderInsert.cpp -o CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/24_OnRspOrderInsert.cpp.s
 
-1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/24_OnRspUserLogout.cpp.o.requires:
+1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/24_OnRspOrderInsert.cpp.o.requires:
 
-.PHONY : 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/24_OnRspUserLogout.cpp.o.requires
+.PHONY : 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/24_OnRspOrderInsert.cpp.o.requires
 
-1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/24_OnRspUserLogout.cpp.o.provides: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/24_OnRspUserLogout.cpp.o.requires
-	$(MAKE) -f 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/build.make 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/24_OnRspUserLogout.cpp.o.provides.build
-.PHONY : 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/24_OnRspUserLogout.cpp.o.provides
+1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/24_OnRspOrderInsert.cpp.o.provides: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/24_OnRspOrderInsert.cpp.o.requires
+	$(MAKE) -f 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/build.make 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/24_OnRspOrderInsert.cpp.o.provides.build
+.PHONY : 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/24_OnRspOrderInsert.cpp.o.provides
 
-1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/24_OnRspUserLogout.cpp.o.provides.build: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/24_OnRspUserLogout.cpp.o
+1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/24_OnRspOrderInsert.cpp.o.provides.build: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/24_OnRspOrderInsert.cpp.o
 
 
-1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/25_OnRspOrderInsert.cpp.o: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/flags.make
-1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/25_OnRspOrderInsert.cpp.o: ../1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/25_OnRspOrderInsert.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tushetou/jbh_code/0_trade_gateway/1_server/2_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/25_OnRspOrderInsert.cpp.o"
-	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build/1_source/1_future_server/1_CTP_gateway && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/25_OnRspOrderInsert.cpp.o -c /home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/25_OnRspOrderInsert.cpp
+1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/25_OnErrRtnOrderInsert.cpp.o: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/flags.make
+1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/25_OnErrRtnOrderInsert.cpp.o: ../1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/25_OnErrRtnOrderInsert.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tushetou/jbh_code/0_trade_gateway/1_server/2_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/25_OnErrRtnOrderInsert.cpp.o"
+	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build/1_source/1_future_server/1_CTP_gateway && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/25_OnErrRtnOrderInsert.cpp.o -c /home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/25_OnErrRtnOrderInsert.cpp
 
-1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/25_OnRspOrderInsert.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/25_OnRspOrderInsert.cpp.i"
-	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build/1_source/1_future_server/1_CTP_gateway && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/25_OnRspOrderInsert.cpp > CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/25_OnRspOrderInsert.cpp.i
+1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/25_OnErrRtnOrderInsert.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/25_OnErrRtnOrderInsert.cpp.i"
+	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build/1_source/1_future_server/1_CTP_gateway && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/25_OnErrRtnOrderInsert.cpp > CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/25_OnErrRtnOrderInsert.cpp.i
 
-1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/25_OnRspOrderInsert.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/25_OnRspOrderInsert.cpp.s"
-	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build/1_source/1_future_server/1_CTP_gateway && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/25_OnRspOrderInsert.cpp -o CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/25_OnRspOrderInsert.cpp.s
+1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/25_OnErrRtnOrderInsert.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/25_OnErrRtnOrderInsert.cpp.s"
+	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build/1_source/1_future_server/1_CTP_gateway && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/25_OnErrRtnOrderInsert.cpp -o CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/25_OnErrRtnOrderInsert.cpp.s
 
-1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/25_OnRspOrderInsert.cpp.o.requires:
+1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/25_OnErrRtnOrderInsert.cpp.o.requires:
 
-.PHONY : 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/25_OnRspOrderInsert.cpp.o.requires
+.PHONY : 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/25_OnErrRtnOrderInsert.cpp.o.requires
 
-1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/25_OnRspOrderInsert.cpp.o.provides: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/25_OnRspOrderInsert.cpp.o.requires
-	$(MAKE) -f 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/build.make 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/25_OnRspOrderInsert.cpp.o.provides.build
-.PHONY : 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/25_OnRspOrderInsert.cpp.o.provides
+1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/25_OnErrRtnOrderInsert.cpp.o.provides: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/25_OnErrRtnOrderInsert.cpp.o.requires
+	$(MAKE) -f 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/build.make 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/25_OnErrRtnOrderInsert.cpp.o.provides.build
+.PHONY : 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/25_OnErrRtnOrderInsert.cpp.o.provides
 
-1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/25_OnRspOrderInsert.cpp.o.provides.build: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/25_OnRspOrderInsert.cpp.o
+1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/25_OnErrRtnOrderInsert.cpp.o.provides.build: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/25_OnErrRtnOrderInsert.cpp.o
 
 
-1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/26_OnErrRtnOrderInsert.cpp.o: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/flags.make
-1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/26_OnErrRtnOrderInsert.cpp.o: ../1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/26_OnErrRtnOrderInsert.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tushetou/jbh_code/0_trade_gateway/1_server/2_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/26_OnErrRtnOrderInsert.cpp.o"
-	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build/1_source/1_future_server/1_CTP_gateway && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/26_OnErrRtnOrderInsert.cpp.o -c /home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/26_OnErrRtnOrderInsert.cpp
+1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/26_OnRspOrderAction.cpp.o: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/flags.make
+1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/26_OnRspOrderAction.cpp.o: ../1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/26_OnRspOrderAction.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tushetou/jbh_code/0_trade_gateway/1_server/2_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/26_OnRspOrderAction.cpp.o"
+	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build/1_source/1_future_server/1_CTP_gateway && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/26_OnRspOrderAction.cpp.o -c /home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/26_OnRspOrderAction.cpp
 
-1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/26_OnErrRtnOrderInsert.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/26_OnErrRtnOrderInsert.cpp.i"
-	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build/1_source/1_future_server/1_CTP_gateway && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/26_OnErrRtnOrderInsert.cpp > CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/26_OnErrRtnOrderInsert.cpp.i
+1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/26_OnRspOrderAction.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/26_OnRspOrderAction.cpp.i"
+	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build/1_source/1_future_server/1_CTP_gateway && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/26_OnRspOrderAction.cpp > CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/26_OnRspOrderAction.cpp.i
 
-1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/26_OnErrRtnOrderInsert.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/26_OnErrRtnOrderInsert.cpp.s"
-	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build/1_source/1_future_server/1_CTP_gateway && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/26_OnErrRtnOrderInsert.cpp -o CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/26_OnErrRtnOrderInsert.cpp.s
+1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/26_OnRspOrderAction.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/26_OnRspOrderAction.cpp.s"
+	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build/1_source/1_future_server/1_CTP_gateway && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/26_OnRspOrderAction.cpp -o CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/26_OnRspOrderAction.cpp.s
 
-1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/26_OnErrRtnOrderInsert.cpp.o.requires:
+1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/26_OnRspOrderAction.cpp.o.requires:
 
-.PHONY : 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/26_OnErrRtnOrderInsert.cpp.o.requires
+.PHONY : 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/26_OnRspOrderAction.cpp.o.requires
 
-1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/26_OnErrRtnOrderInsert.cpp.o.provides: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/26_OnErrRtnOrderInsert.cpp.o.requires
-	$(MAKE) -f 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/build.make 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/26_OnErrRtnOrderInsert.cpp.o.provides.build
-.PHONY : 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/26_OnErrRtnOrderInsert.cpp.o.provides
+1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/26_OnRspOrderAction.cpp.o.provides: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/26_OnRspOrderAction.cpp.o.requires
+	$(MAKE) -f 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/build.make 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/26_OnRspOrderAction.cpp.o.provides.build
+.PHONY : 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/26_OnRspOrderAction.cpp.o.provides
 
-1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/26_OnErrRtnOrderInsert.cpp.o.provides.build: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/26_OnErrRtnOrderInsert.cpp.o
+1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/26_OnRspOrderAction.cpp.o.provides.build: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/26_OnRspOrderAction.cpp.o
 
 
-1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/27_OnRspOrderAction.cpp.o: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/flags.make
-1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/27_OnRspOrderAction.cpp.o: ../1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/27_OnRspOrderAction.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tushetou/jbh_code/0_trade_gateway/1_server/2_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/27_OnRspOrderAction.cpp.o"
-	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build/1_source/1_future_server/1_CTP_gateway && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/27_OnRspOrderAction.cpp.o -c /home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/27_OnRspOrderAction.cpp
+1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/27_OnRtnOrder.cpp.o: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/flags.make
+1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/27_OnRtnOrder.cpp.o: ../1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/27_OnRtnOrder.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tushetou/jbh_code/0_trade_gateway/1_server/2_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/27_OnRtnOrder.cpp.o"
+	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build/1_source/1_future_server/1_CTP_gateway && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/27_OnRtnOrder.cpp.o -c /home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/27_OnRtnOrder.cpp
 
-1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/27_OnRspOrderAction.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/27_OnRspOrderAction.cpp.i"
-	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build/1_source/1_future_server/1_CTP_gateway && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/27_OnRspOrderAction.cpp > CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/27_OnRspOrderAction.cpp.i
+1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/27_OnRtnOrder.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/27_OnRtnOrder.cpp.i"
+	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build/1_source/1_future_server/1_CTP_gateway && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/27_OnRtnOrder.cpp > CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/27_OnRtnOrder.cpp.i
 
-1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/27_OnRspOrderAction.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/27_OnRspOrderAction.cpp.s"
-	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build/1_source/1_future_server/1_CTP_gateway && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/27_OnRspOrderAction.cpp -o CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/27_OnRspOrderAction.cpp.s
+1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/27_OnRtnOrder.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/27_OnRtnOrder.cpp.s"
+	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build/1_source/1_future_server/1_CTP_gateway && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/27_OnRtnOrder.cpp -o CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/27_OnRtnOrder.cpp.s
 
-1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/27_OnRspOrderAction.cpp.o.requires:
+1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/27_OnRtnOrder.cpp.o.requires:
 
-.PHONY : 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/27_OnRspOrderAction.cpp.o.requires
+.PHONY : 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/27_OnRtnOrder.cpp.o.requires
 
-1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/27_OnRspOrderAction.cpp.o.provides: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/27_OnRspOrderAction.cpp.o.requires
-	$(MAKE) -f 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/build.make 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/27_OnRspOrderAction.cpp.o.provides.build
-.PHONY : 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/27_OnRspOrderAction.cpp.o.provides
+1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/27_OnRtnOrder.cpp.o.provides: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/27_OnRtnOrder.cpp.o.requires
+	$(MAKE) -f 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/build.make 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/27_OnRtnOrder.cpp.o.provides.build
+.PHONY : 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/27_OnRtnOrder.cpp.o.provides
 
-1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/27_OnRspOrderAction.cpp.o.provides.build: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/27_OnRspOrderAction.cpp.o
+1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/27_OnRtnOrder.cpp.o.provides.build: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/27_OnRtnOrder.cpp.o
 
 
-1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/28_OnRtnOrder.cpp.o: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/flags.make
-1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/28_OnRtnOrder.cpp.o: ../1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/28_OnRtnOrder.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tushetou/jbh_code/0_trade_gateway/1_server/2_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/28_OnRtnOrder.cpp.o"
-	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build/1_source/1_future_server/1_CTP_gateway && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/28_OnRtnOrder.cpp.o -c /home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/28_OnRtnOrder.cpp
+1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/28_OnRtnTrade.cpp.o: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/flags.make
+1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/28_OnRtnTrade.cpp.o: ../1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/28_OnRtnTrade.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tushetou/jbh_code/0_trade_gateway/1_server/2_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/28_OnRtnTrade.cpp.o"
+	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build/1_source/1_future_server/1_CTP_gateway && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/28_OnRtnTrade.cpp.o -c /home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/28_OnRtnTrade.cpp
 
-1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/28_OnRtnOrder.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/28_OnRtnOrder.cpp.i"
-	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build/1_source/1_future_server/1_CTP_gateway && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/28_OnRtnOrder.cpp > CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/28_OnRtnOrder.cpp.i
+1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/28_OnRtnTrade.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/28_OnRtnTrade.cpp.i"
+	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build/1_source/1_future_server/1_CTP_gateway && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/28_OnRtnTrade.cpp > CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/28_OnRtnTrade.cpp.i
 
-1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/28_OnRtnOrder.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/28_OnRtnOrder.cpp.s"
-	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build/1_source/1_future_server/1_CTP_gateway && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/28_OnRtnOrder.cpp -o CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/28_OnRtnOrder.cpp.s
+1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/28_OnRtnTrade.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/28_OnRtnTrade.cpp.s"
+	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build/1_source/1_future_server/1_CTP_gateway && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/28_OnRtnTrade.cpp -o CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/28_OnRtnTrade.cpp.s
 
-1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/28_OnRtnOrder.cpp.o.requires:
+1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/28_OnRtnTrade.cpp.o.requires:
 
-.PHONY : 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/28_OnRtnOrder.cpp.o.requires
+.PHONY : 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/28_OnRtnTrade.cpp.o.requires
 
-1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/28_OnRtnOrder.cpp.o.provides: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/28_OnRtnOrder.cpp.o.requires
-	$(MAKE) -f 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/build.make 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/28_OnRtnOrder.cpp.o.provides.build
-.PHONY : 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/28_OnRtnOrder.cpp.o.provides
+1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/28_OnRtnTrade.cpp.o.provides: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/28_OnRtnTrade.cpp.o.requires
+	$(MAKE) -f 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/build.make 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/28_OnRtnTrade.cpp.o.provides.build
+.PHONY : 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/28_OnRtnTrade.cpp.o.provides
 
-1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/28_OnRtnOrder.cpp.o.provides.build: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/28_OnRtnOrder.cpp.o
+1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/28_OnRtnTrade.cpp.o.provides.build: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/28_OnRtnTrade.cpp.o
 
 
-1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/29_OnRtnTrade.cpp.o: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/flags.make
-1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/29_OnRtnTrade.cpp.o: ../1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/29_OnRtnTrade.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tushetou/jbh_code/0_trade_gateway/1_server/2_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/29_OnRtnTrade.cpp.o"
-	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build/1_source/1_future_server/1_CTP_gateway && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/29_OnRtnTrade.cpp.o -c /home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/29_OnRtnTrade.cpp
+1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/29_generate_new_request_id.cpp.o: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/flags.make
+1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/29_generate_new_request_id.cpp.o: ../1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/29_generate_new_request_id.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tushetou/jbh_code/0_trade_gateway/1_server/2_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/29_generate_new_request_id.cpp.o"
+	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build/1_source/1_future_server/1_CTP_gateway && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/29_generate_new_request_id.cpp.o -c /home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/29_generate_new_request_id.cpp
 
-1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/29_OnRtnTrade.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/29_OnRtnTrade.cpp.i"
-	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build/1_source/1_future_server/1_CTP_gateway && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/29_OnRtnTrade.cpp > CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/29_OnRtnTrade.cpp.i
+1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/29_generate_new_request_id.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/29_generate_new_request_id.cpp.i"
+	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build/1_source/1_future_server/1_CTP_gateway && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/29_generate_new_request_id.cpp > CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/29_generate_new_request_id.cpp.i
 
-1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/29_OnRtnTrade.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/29_OnRtnTrade.cpp.s"
-	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build/1_source/1_future_server/1_CTP_gateway && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/29_OnRtnTrade.cpp -o CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/29_OnRtnTrade.cpp.s
+1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/29_generate_new_request_id.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/29_generate_new_request_id.cpp.s"
+	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build/1_source/1_future_server/1_CTP_gateway && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/29_generate_new_request_id.cpp -o CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/29_generate_new_request_id.cpp.s
 
-1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/29_OnRtnTrade.cpp.o.requires:
+1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/29_generate_new_request_id.cpp.o.requires:
 
-.PHONY : 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/29_OnRtnTrade.cpp.o.requires
+.PHONY : 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/29_generate_new_request_id.cpp.o.requires
 
-1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/29_OnRtnTrade.cpp.o.provides: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/29_OnRtnTrade.cpp.o.requires
-	$(MAKE) -f 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/build.make 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/29_OnRtnTrade.cpp.o.provides.build
-.PHONY : 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/29_OnRtnTrade.cpp.o.provides
+1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/29_generate_new_request_id.cpp.o.provides: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/29_generate_new_request_id.cpp.o.requires
+	$(MAKE) -f 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/build.make 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/29_generate_new_request_id.cpp.o.provides.build
+.PHONY : 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/29_generate_new_request_id.cpp.o.provides
 
-1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/29_OnRtnTrade.cpp.o.provides.build: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/29_OnRtnTrade.cpp.o
+1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/29_generate_new_request_id.cpp.o.provides.build: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/29_generate_new_request_id.cpp.o
 
 
 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/2_limit_entrust_insert.cpp.o: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/flags.make
@@ -609,9 +609,33 @@ include 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/flags.
 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/2_limit_entrust_insert.cpp.o.provides.build: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/2_limit_entrust_insert.cpp.o
 
 
+1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/30_is_error_response.cpp.o: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/flags.make
+1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/30_is_error_response.cpp.o: ../1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/30_is_error_response.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tushetou/jbh_code/0_trade_gateway/1_server/2_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/30_is_error_response.cpp.o"
+	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build/1_source/1_future_server/1_CTP_gateway && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/30_is_error_response.cpp.o -c /home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/30_is_error_response.cpp
+
+1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/30_is_error_response.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/30_is_error_response.cpp.i"
+	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build/1_source/1_future_server/1_CTP_gateway && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/30_is_error_response.cpp > CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/30_is_error_response.cpp.i
+
+1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/30_is_error_response.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/30_is_error_response.cpp.s"
+	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build/1_source/1_future_server/1_CTP_gateway && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/30_is_error_response.cpp -o CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/30_is_error_response.cpp.s
+
+1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/30_is_error_response.cpp.o.requires:
+
+.PHONY : 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/30_is_error_response.cpp.o.requires
+
+1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/30_is_error_response.cpp.o.provides: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/30_is_error_response.cpp.o.requires
+	$(MAKE) -f 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/build.make 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/30_is_error_response.cpp.o.provides.build
+.PHONY : 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/30_is_error_response.cpp.o.provides
+
+1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/30_is_error_response.cpp.o.provides.build: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/30_is_error_response.cpp.o
+
+
 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/3_limit_order_action.cpp.o: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/flags.make
 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/3_limit_order_action.cpp.o: ../1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/3_limit_order_action.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tushetou/jbh_code/0_trade_gateway/1_server/2_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/3_limit_order_action.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tushetou/jbh_code/0_trade_gateway/1_server/2_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/3_limit_order_action.cpp.o"
 	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build/1_source/1_future_server/1_CTP_gateway && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/3_limit_order_action.cpp.o -c /home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/3_limit_order_action.cpp
 
 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/3_limit_order_action.cpp.i: cmake_force
@@ -635,7 +659,7 @@ include 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/flags.
 
 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/4_init.cpp.o: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/flags.make
 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/4_init.cpp.o: ../1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/4_init.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tushetou/jbh_code/0_trade_gateway/1_server/2_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/4_init.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tushetou/jbh_code/0_trade_gateway/1_server/2_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/4_init.cpp.o"
 	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build/1_source/1_future_server/1_CTP_gateway && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/4_init.cpp.o -c /home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/4_init.cpp
 
 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/4_init.cpp.i: cmake_force
@@ -659,7 +683,7 @@ include 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/flags.
 
 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/5_release.cpp.o: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/flags.make
 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/5_release.cpp.o: ../1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/5_release.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tushetou/jbh_code/0_trade_gateway/1_server/2_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/5_release.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tushetou/jbh_code/0_trade_gateway/1_server/2_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/5_release.cpp.o"
 	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build/1_source/1_future_server/1_CTP_gateway && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/5_release.cpp.o -c /home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/5_release.cpp
 
 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/5_release.cpp.i: cmake_force
@@ -683,7 +707,7 @@ include 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/flags.
 
 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/6_connect.cpp.o: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/flags.make
 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/6_connect.cpp.o: ../1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/6_connect.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tushetou/jbh_code/0_trade_gateway/1_server/2_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/6_connect.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tushetou/jbh_code/0_trade_gateway/1_server/2_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/6_connect.cpp.o"
 	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build/1_source/1_future_server/1_CTP_gateway && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/6_connect.cpp.o -c /home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/6_connect.cpp
 
 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/6_connect.cpp.i: cmake_force
@@ -707,7 +731,7 @@ include 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/flags.
 
 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/7_disconnect.cpp.o: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/flags.make
 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/7_disconnect.cpp.o: ../1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/7_disconnect.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tushetou/jbh_code/0_trade_gateway/1_server/2_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/7_disconnect.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tushetou/jbh_code/0_trade_gateway/1_server/2_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/7_disconnect.cpp.o"
 	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build/1_source/1_future_server/1_CTP_gateway && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/7_disconnect.cpp.o -c /home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/7_disconnect.cpp
 
 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/7_disconnect.cpp.i: cmake_force
@@ -731,7 +755,7 @@ include 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/flags.
 
 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/8_login.cpp.o: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/flags.make
 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/8_login.cpp.o: ../1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/8_login.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tushetou/jbh_code/0_trade_gateway/1_server/2_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/8_login.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tushetou/jbh_code/0_trade_gateway/1_server/2_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/8_login.cpp.o"
 	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build/1_source/1_future_server/1_CTP_gateway && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/8_login.cpp.o -c /home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/8_login.cpp
 
 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/8_login.cpp.i: cmake_force
@@ -755,7 +779,7 @@ include 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/flags.
 
 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/9_logout.cpp.o: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/flags.make
 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/9_logout.cpp.o: ../1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/9_logout.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tushetou/jbh_code/0_trade_gateway/1_server/2_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/9_logout.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tushetou/jbh_code/0_trade_gateway/1_server/2_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/9_logout.cpp.o"
 	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build/1_source/1_future_server/1_CTP_gateway && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/9_logout.cpp.o -c /home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/9_logout.cpp
 
 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/9_logout.cpp.i: cmake_force
@@ -780,28 +804,29 @@ include 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/flags.
 # Object files for target CTP_gateway
 CTP_gateway_OBJECTS = \
 "CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/0_con_destructor.cpp.o" \
-"CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/10_confirm.cpp.o" \
-"CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/11_req_connect.cpp.o" \
-"CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/12_req_authenticate.cpp.o" \
-"CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/13_req_login.cpp.o" \
-"CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/14_req_query_settlement_confirm.cpp.o" \
-"CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/15_req_settlement_confirm.cpp.o" \
-"CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/16_req_entrust_insert.cpp.o" \
-"CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/17_req_entrust_action.cpp.o" \
-"CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/18_OnFrontConnected.cpp.o" \
-"CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/19_OnFrontDisconnected.cpp.o" \
+"CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/10_req_connect.cpp.o" \
+"CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/11_req_authenticate.cpp.o" \
+"CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/12_req_login.cpp.o" \
+"CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/13_req_query_settlement_confirm.cpp.o" \
+"CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/14_req_settlement_confirm.cpp.o" \
+"CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/15_req_entrust_insert.cpp.o" \
+"CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/16_req_entrust_action.cpp.o" \
+"CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/17_OnFrontConnected.cpp.o" \
+"CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/18_OnFrontDisconnected.cpp.o" \
+"CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/19_OnRspAuthenticate.cpp.o" \
 "CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/1_prepare.cpp.o" \
-"CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/20_OnRspAuthenticate.cpp.o" \
-"CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/21_OnRspUserLogin.cpp.o" \
-"CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/22_OnRspQrySettlementInfoConfirm.cpp.o" \
-"CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/23_OnRspSettlementInfoConfirm.cpp.o" \
-"CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/24_OnRspUserLogout.cpp.o" \
-"CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/25_OnRspOrderInsert.cpp.o" \
-"CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/26_OnErrRtnOrderInsert.cpp.o" \
-"CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/27_OnRspOrderAction.cpp.o" \
-"CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/28_OnRtnOrder.cpp.o" \
-"CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/29_OnRtnTrade.cpp.o" \
+"CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/20_OnRspUserLogin.cpp.o" \
+"CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/21_OnRspQrySettlementInfoConfirm.cpp.o" \
+"CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/22_OnRspSettlementInfoConfirm.cpp.o" \
+"CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/23_OnRspUserLogout.cpp.o" \
+"CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/24_OnRspOrderInsert.cpp.o" \
+"CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/25_OnErrRtnOrderInsert.cpp.o" \
+"CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/26_OnRspOrderAction.cpp.o" \
+"CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/27_OnRtnOrder.cpp.o" \
+"CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/28_OnRtnTrade.cpp.o" \
+"CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/29_generate_new_request_id.cpp.o" \
 "CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/2_limit_entrust_insert.cpp.o" \
+"CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/30_is_error_response.cpp.o" \
 "CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/3_limit_order_action.cpp.o" \
 "CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/4_init.cpp.o" \
 "CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/5_release.cpp.o" \
@@ -814,28 +839,29 @@ CTP_gateway_OBJECTS = \
 CTP_gateway_EXTERNAL_OBJECTS =
 
 ../3_lib/libCTP_gateway.so: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/0_con_destructor.cpp.o
-../3_lib/libCTP_gateway.so: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/10_confirm.cpp.o
-../3_lib/libCTP_gateway.so: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/11_req_connect.cpp.o
-../3_lib/libCTP_gateway.so: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/12_req_authenticate.cpp.o
-../3_lib/libCTP_gateway.so: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/13_req_login.cpp.o
-../3_lib/libCTP_gateway.so: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/14_req_query_settlement_confirm.cpp.o
-../3_lib/libCTP_gateway.so: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/15_req_settlement_confirm.cpp.o
-../3_lib/libCTP_gateway.so: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/16_req_entrust_insert.cpp.o
-../3_lib/libCTP_gateway.so: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/17_req_entrust_action.cpp.o
-../3_lib/libCTP_gateway.so: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/18_OnFrontConnected.cpp.o
-../3_lib/libCTP_gateway.so: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/19_OnFrontDisconnected.cpp.o
+../3_lib/libCTP_gateway.so: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/10_req_connect.cpp.o
+../3_lib/libCTP_gateway.so: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/11_req_authenticate.cpp.o
+../3_lib/libCTP_gateway.so: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/12_req_login.cpp.o
+../3_lib/libCTP_gateway.so: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/13_req_query_settlement_confirm.cpp.o
+../3_lib/libCTP_gateway.so: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/14_req_settlement_confirm.cpp.o
+../3_lib/libCTP_gateway.so: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/15_req_entrust_insert.cpp.o
+../3_lib/libCTP_gateway.so: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/16_req_entrust_action.cpp.o
+../3_lib/libCTP_gateway.so: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/17_OnFrontConnected.cpp.o
+../3_lib/libCTP_gateway.so: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/18_OnFrontDisconnected.cpp.o
+../3_lib/libCTP_gateway.so: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/19_OnRspAuthenticate.cpp.o
 ../3_lib/libCTP_gateway.so: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/1_prepare.cpp.o
-../3_lib/libCTP_gateway.so: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/20_OnRspAuthenticate.cpp.o
-../3_lib/libCTP_gateway.so: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/21_OnRspUserLogin.cpp.o
-../3_lib/libCTP_gateway.so: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/22_OnRspQrySettlementInfoConfirm.cpp.o
-../3_lib/libCTP_gateway.so: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/23_OnRspSettlementInfoConfirm.cpp.o
-../3_lib/libCTP_gateway.so: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/24_OnRspUserLogout.cpp.o
-../3_lib/libCTP_gateway.so: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/25_OnRspOrderInsert.cpp.o
-../3_lib/libCTP_gateway.so: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/26_OnErrRtnOrderInsert.cpp.o
-../3_lib/libCTP_gateway.so: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/27_OnRspOrderAction.cpp.o
-../3_lib/libCTP_gateway.so: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/28_OnRtnOrder.cpp.o
-../3_lib/libCTP_gateway.so: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/29_OnRtnTrade.cpp.o
+../3_lib/libCTP_gateway.so: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/20_OnRspUserLogin.cpp.o
+../3_lib/libCTP_gateway.so: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/21_OnRspQrySettlementInfoConfirm.cpp.o
+../3_lib/libCTP_gateway.so: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/22_OnRspSettlementInfoConfirm.cpp.o
+../3_lib/libCTP_gateway.so: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/23_OnRspUserLogout.cpp.o
+../3_lib/libCTP_gateway.so: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/24_OnRspOrderInsert.cpp.o
+../3_lib/libCTP_gateway.so: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/25_OnErrRtnOrderInsert.cpp.o
+../3_lib/libCTP_gateway.so: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/26_OnRspOrderAction.cpp.o
+../3_lib/libCTP_gateway.so: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/27_OnRtnOrder.cpp.o
+../3_lib/libCTP_gateway.so: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/28_OnRtnTrade.cpp.o
+../3_lib/libCTP_gateway.so: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/29_generate_new_request_id.cpp.o
 ../3_lib/libCTP_gateway.so: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/2_limit_entrust_insert.cpp.o
+../3_lib/libCTP_gateway.so: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/30_is_error_response.cpp.o
 ../3_lib/libCTP_gateway.so: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/3_limit_order_action.cpp.o
 ../3_lib/libCTP_gateway.so: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/4_init.cpp.o
 ../3_lib/libCTP_gateway.so: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/5_release.cpp.o
@@ -845,7 +871,7 @@ CTP_gateway_EXTERNAL_OBJECTS =
 ../3_lib/libCTP_gateway.so: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/9_logout.cpp.o
 ../3_lib/libCTP_gateway.so: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/build.make
 ../3_lib/libCTP_gateway.so: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/tushetou/jbh_code/0_trade_gateway/1_server/2_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Linking CXX shared library ../../../../3_lib/libCTP_gateway.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/tushetou/jbh_code/0_trade_gateway/1_server/2_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Linking CXX shared library ../../../../3_lib/libCTP_gateway.so"
 	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build/1_source/1_future_server/1_CTP_gateway && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/CTP_gateway.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -854,28 +880,29 @@ CTP_gateway_EXTERNAL_OBJECTS =
 .PHONY : 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/build
 
 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/requires: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/0_con_destructor.cpp.o.requires
-1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/requires: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/10_confirm.cpp.o.requires
-1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/requires: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/11_req_connect.cpp.o.requires
-1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/requires: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/12_req_authenticate.cpp.o.requires
-1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/requires: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/13_req_login.cpp.o.requires
-1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/requires: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/14_req_query_settlement_confirm.cpp.o.requires
-1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/requires: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/15_req_settlement_confirm.cpp.o.requires
-1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/requires: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/16_req_entrust_insert.cpp.o.requires
-1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/requires: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/17_req_entrust_action.cpp.o.requires
-1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/requires: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/18_OnFrontConnected.cpp.o.requires
-1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/requires: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/19_OnFrontDisconnected.cpp.o.requires
+1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/requires: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/10_req_connect.cpp.o.requires
+1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/requires: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/11_req_authenticate.cpp.o.requires
+1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/requires: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/12_req_login.cpp.o.requires
+1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/requires: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/13_req_query_settlement_confirm.cpp.o.requires
+1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/requires: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/14_req_settlement_confirm.cpp.o.requires
+1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/requires: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/15_req_entrust_insert.cpp.o.requires
+1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/requires: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/16_req_entrust_action.cpp.o.requires
+1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/requires: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/17_OnFrontConnected.cpp.o.requires
+1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/requires: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/18_OnFrontDisconnected.cpp.o.requires
+1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/requires: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/19_OnRspAuthenticate.cpp.o.requires
 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/requires: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/1_prepare.cpp.o.requires
-1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/requires: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/20_OnRspAuthenticate.cpp.o.requires
-1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/requires: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/21_OnRspUserLogin.cpp.o.requires
-1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/requires: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/22_OnRspQrySettlementInfoConfirm.cpp.o.requires
-1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/requires: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/23_OnRspSettlementInfoConfirm.cpp.o.requires
-1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/requires: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/24_OnRspUserLogout.cpp.o.requires
-1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/requires: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/25_OnRspOrderInsert.cpp.o.requires
-1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/requires: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/26_OnErrRtnOrderInsert.cpp.o.requires
-1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/requires: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/27_OnRspOrderAction.cpp.o.requires
-1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/requires: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/28_OnRtnOrder.cpp.o.requires
-1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/requires: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/29_OnRtnTrade.cpp.o.requires
+1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/requires: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/20_OnRspUserLogin.cpp.o.requires
+1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/requires: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/21_OnRspQrySettlementInfoConfirm.cpp.o.requires
+1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/requires: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/22_OnRspSettlementInfoConfirm.cpp.o.requires
+1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/requires: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/23_OnRspUserLogout.cpp.o.requires
+1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/requires: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/24_OnRspOrderInsert.cpp.o.requires
+1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/requires: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/25_OnErrRtnOrderInsert.cpp.o.requires
+1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/requires: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/26_OnRspOrderAction.cpp.o.requires
+1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/requires: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/27_OnRtnOrder.cpp.o.requires
+1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/requires: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/28_OnRtnTrade.cpp.o.requires
+1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/requires: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/29_generate_new_request_id.cpp.o.requires
 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/requires: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/2_limit_entrust_insert.cpp.o.requires
+1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/requires: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/30_is_error_response.cpp.o.requires
 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/requires: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/3_limit_order_action.cpp.o.requires
 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/requires: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/4_init.cpp.o.requires
 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/requires: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/5_release.cpp.o.requires

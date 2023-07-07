@@ -152,275 +152,275 @@ CTP_gateway/fast:
 	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build && $(MAKE) -f 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/build.make 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/0_con_destructor.cpp.s
 .PHONY : 0_CTP_gateway_implement/0_con_destructor.cpp.s
 
-0_CTP_gateway_implement/10_confirm.o: 0_CTP_gateway_implement/10_confirm.cpp.o
+0_CTP_gateway_implement/10_req_connect.o: 0_CTP_gateway_implement/10_req_connect.cpp.o
 
-.PHONY : 0_CTP_gateway_implement/10_confirm.o
-
-# target to build an object file
-0_CTP_gateway_implement/10_confirm.cpp.o:
-	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build && $(MAKE) -f 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/build.make 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/10_confirm.cpp.o
-.PHONY : 0_CTP_gateway_implement/10_confirm.cpp.o
-
-0_CTP_gateway_implement/10_confirm.i: 0_CTP_gateway_implement/10_confirm.cpp.i
-
-.PHONY : 0_CTP_gateway_implement/10_confirm.i
-
-# target to preprocess a source file
-0_CTP_gateway_implement/10_confirm.cpp.i:
-	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build && $(MAKE) -f 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/build.make 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/10_confirm.cpp.i
-.PHONY : 0_CTP_gateway_implement/10_confirm.cpp.i
-
-0_CTP_gateway_implement/10_confirm.s: 0_CTP_gateway_implement/10_confirm.cpp.s
-
-.PHONY : 0_CTP_gateway_implement/10_confirm.s
-
-# target to generate assembly for a file
-0_CTP_gateway_implement/10_confirm.cpp.s:
-	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build && $(MAKE) -f 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/build.make 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/10_confirm.cpp.s
-.PHONY : 0_CTP_gateway_implement/10_confirm.cpp.s
-
-0_CTP_gateway_implement/11_req_connect.o: 0_CTP_gateway_implement/11_req_connect.cpp.o
-
-.PHONY : 0_CTP_gateway_implement/11_req_connect.o
+.PHONY : 0_CTP_gateway_implement/10_req_connect.o
 
 # target to build an object file
-0_CTP_gateway_implement/11_req_connect.cpp.o:
-	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build && $(MAKE) -f 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/build.make 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/11_req_connect.cpp.o
-.PHONY : 0_CTP_gateway_implement/11_req_connect.cpp.o
+0_CTP_gateway_implement/10_req_connect.cpp.o:
+	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build && $(MAKE) -f 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/build.make 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/10_req_connect.cpp.o
+.PHONY : 0_CTP_gateway_implement/10_req_connect.cpp.o
 
-0_CTP_gateway_implement/11_req_connect.i: 0_CTP_gateway_implement/11_req_connect.cpp.i
+0_CTP_gateway_implement/10_req_connect.i: 0_CTP_gateway_implement/10_req_connect.cpp.i
 
-.PHONY : 0_CTP_gateway_implement/11_req_connect.i
+.PHONY : 0_CTP_gateway_implement/10_req_connect.i
 
 # target to preprocess a source file
-0_CTP_gateway_implement/11_req_connect.cpp.i:
-	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build && $(MAKE) -f 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/build.make 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/11_req_connect.cpp.i
-.PHONY : 0_CTP_gateway_implement/11_req_connect.cpp.i
+0_CTP_gateway_implement/10_req_connect.cpp.i:
+	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build && $(MAKE) -f 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/build.make 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/10_req_connect.cpp.i
+.PHONY : 0_CTP_gateway_implement/10_req_connect.cpp.i
 
-0_CTP_gateway_implement/11_req_connect.s: 0_CTP_gateway_implement/11_req_connect.cpp.s
+0_CTP_gateway_implement/10_req_connect.s: 0_CTP_gateway_implement/10_req_connect.cpp.s
 
-.PHONY : 0_CTP_gateway_implement/11_req_connect.s
+.PHONY : 0_CTP_gateway_implement/10_req_connect.s
 
 # target to generate assembly for a file
-0_CTP_gateway_implement/11_req_connect.cpp.s:
-	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build && $(MAKE) -f 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/build.make 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/11_req_connect.cpp.s
-.PHONY : 0_CTP_gateway_implement/11_req_connect.cpp.s
+0_CTP_gateway_implement/10_req_connect.cpp.s:
+	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build && $(MAKE) -f 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/build.make 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/10_req_connect.cpp.s
+.PHONY : 0_CTP_gateway_implement/10_req_connect.cpp.s
 
-0_CTP_gateway_implement/12_req_authenticate.o: 0_CTP_gateway_implement/12_req_authenticate.cpp.o
+0_CTP_gateway_implement/11_req_authenticate.o: 0_CTP_gateway_implement/11_req_authenticate.cpp.o
 
-.PHONY : 0_CTP_gateway_implement/12_req_authenticate.o
+.PHONY : 0_CTP_gateway_implement/11_req_authenticate.o
 
 # target to build an object file
-0_CTP_gateway_implement/12_req_authenticate.cpp.o:
-	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build && $(MAKE) -f 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/build.make 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/12_req_authenticate.cpp.o
-.PHONY : 0_CTP_gateway_implement/12_req_authenticate.cpp.o
+0_CTP_gateway_implement/11_req_authenticate.cpp.o:
+	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build && $(MAKE) -f 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/build.make 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/11_req_authenticate.cpp.o
+.PHONY : 0_CTP_gateway_implement/11_req_authenticate.cpp.o
 
-0_CTP_gateway_implement/12_req_authenticate.i: 0_CTP_gateway_implement/12_req_authenticate.cpp.i
+0_CTP_gateway_implement/11_req_authenticate.i: 0_CTP_gateway_implement/11_req_authenticate.cpp.i
 
-.PHONY : 0_CTP_gateway_implement/12_req_authenticate.i
+.PHONY : 0_CTP_gateway_implement/11_req_authenticate.i
 
 # target to preprocess a source file
-0_CTP_gateway_implement/12_req_authenticate.cpp.i:
-	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build && $(MAKE) -f 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/build.make 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/12_req_authenticate.cpp.i
-.PHONY : 0_CTP_gateway_implement/12_req_authenticate.cpp.i
+0_CTP_gateway_implement/11_req_authenticate.cpp.i:
+	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build && $(MAKE) -f 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/build.make 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/11_req_authenticate.cpp.i
+.PHONY : 0_CTP_gateway_implement/11_req_authenticate.cpp.i
 
-0_CTP_gateway_implement/12_req_authenticate.s: 0_CTP_gateway_implement/12_req_authenticate.cpp.s
+0_CTP_gateway_implement/11_req_authenticate.s: 0_CTP_gateway_implement/11_req_authenticate.cpp.s
 
-.PHONY : 0_CTP_gateway_implement/12_req_authenticate.s
+.PHONY : 0_CTP_gateway_implement/11_req_authenticate.s
 
 # target to generate assembly for a file
-0_CTP_gateway_implement/12_req_authenticate.cpp.s:
-	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build && $(MAKE) -f 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/build.make 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/12_req_authenticate.cpp.s
-.PHONY : 0_CTP_gateway_implement/12_req_authenticate.cpp.s
+0_CTP_gateway_implement/11_req_authenticate.cpp.s:
+	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build && $(MAKE) -f 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/build.make 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/11_req_authenticate.cpp.s
+.PHONY : 0_CTP_gateway_implement/11_req_authenticate.cpp.s
 
-0_CTP_gateway_implement/13_req_login.o: 0_CTP_gateway_implement/13_req_login.cpp.o
+0_CTP_gateway_implement/12_req_login.o: 0_CTP_gateway_implement/12_req_login.cpp.o
 
-.PHONY : 0_CTP_gateway_implement/13_req_login.o
+.PHONY : 0_CTP_gateway_implement/12_req_login.o
 
 # target to build an object file
-0_CTP_gateway_implement/13_req_login.cpp.o:
-	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build && $(MAKE) -f 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/build.make 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/13_req_login.cpp.o
-.PHONY : 0_CTP_gateway_implement/13_req_login.cpp.o
+0_CTP_gateway_implement/12_req_login.cpp.o:
+	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build && $(MAKE) -f 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/build.make 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/12_req_login.cpp.o
+.PHONY : 0_CTP_gateway_implement/12_req_login.cpp.o
 
-0_CTP_gateway_implement/13_req_login.i: 0_CTP_gateway_implement/13_req_login.cpp.i
+0_CTP_gateway_implement/12_req_login.i: 0_CTP_gateway_implement/12_req_login.cpp.i
 
-.PHONY : 0_CTP_gateway_implement/13_req_login.i
+.PHONY : 0_CTP_gateway_implement/12_req_login.i
 
 # target to preprocess a source file
-0_CTP_gateway_implement/13_req_login.cpp.i:
-	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build && $(MAKE) -f 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/build.make 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/13_req_login.cpp.i
-.PHONY : 0_CTP_gateway_implement/13_req_login.cpp.i
+0_CTP_gateway_implement/12_req_login.cpp.i:
+	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build && $(MAKE) -f 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/build.make 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/12_req_login.cpp.i
+.PHONY : 0_CTP_gateway_implement/12_req_login.cpp.i
 
-0_CTP_gateway_implement/13_req_login.s: 0_CTP_gateway_implement/13_req_login.cpp.s
+0_CTP_gateway_implement/12_req_login.s: 0_CTP_gateway_implement/12_req_login.cpp.s
 
-.PHONY : 0_CTP_gateway_implement/13_req_login.s
+.PHONY : 0_CTP_gateway_implement/12_req_login.s
 
 # target to generate assembly for a file
-0_CTP_gateway_implement/13_req_login.cpp.s:
-	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build && $(MAKE) -f 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/build.make 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/13_req_login.cpp.s
-.PHONY : 0_CTP_gateway_implement/13_req_login.cpp.s
+0_CTP_gateway_implement/12_req_login.cpp.s:
+	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build && $(MAKE) -f 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/build.make 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/12_req_login.cpp.s
+.PHONY : 0_CTP_gateway_implement/12_req_login.cpp.s
 
-0_CTP_gateway_implement/14_req_query_settlement_confirm.o: 0_CTP_gateway_implement/14_req_query_settlement_confirm.cpp.o
+0_CTP_gateway_implement/13_req_query_settlement_confirm.o: 0_CTP_gateway_implement/13_req_query_settlement_confirm.cpp.o
 
-.PHONY : 0_CTP_gateway_implement/14_req_query_settlement_confirm.o
+.PHONY : 0_CTP_gateway_implement/13_req_query_settlement_confirm.o
 
 # target to build an object file
-0_CTP_gateway_implement/14_req_query_settlement_confirm.cpp.o:
-	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build && $(MAKE) -f 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/build.make 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/14_req_query_settlement_confirm.cpp.o
-.PHONY : 0_CTP_gateway_implement/14_req_query_settlement_confirm.cpp.o
+0_CTP_gateway_implement/13_req_query_settlement_confirm.cpp.o:
+	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build && $(MAKE) -f 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/build.make 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/13_req_query_settlement_confirm.cpp.o
+.PHONY : 0_CTP_gateway_implement/13_req_query_settlement_confirm.cpp.o
 
-0_CTP_gateway_implement/14_req_query_settlement_confirm.i: 0_CTP_gateway_implement/14_req_query_settlement_confirm.cpp.i
+0_CTP_gateway_implement/13_req_query_settlement_confirm.i: 0_CTP_gateway_implement/13_req_query_settlement_confirm.cpp.i
 
-.PHONY : 0_CTP_gateway_implement/14_req_query_settlement_confirm.i
+.PHONY : 0_CTP_gateway_implement/13_req_query_settlement_confirm.i
 
 # target to preprocess a source file
-0_CTP_gateway_implement/14_req_query_settlement_confirm.cpp.i:
-	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build && $(MAKE) -f 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/build.make 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/14_req_query_settlement_confirm.cpp.i
-.PHONY : 0_CTP_gateway_implement/14_req_query_settlement_confirm.cpp.i
+0_CTP_gateway_implement/13_req_query_settlement_confirm.cpp.i:
+	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build && $(MAKE) -f 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/build.make 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/13_req_query_settlement_confirm.cpp.i
+.PHONY : 0_CTP_gateway_implement/13_req_query_settlement_confirm.cpp.i
 
-0_CTP_gateway_implement/14_req_query_settlement_confirm.s: 0_CTP_gateway_implement/14_req_query_settlement_confirm.cpp.s
+0_CTP_gateway_implement/13_req_query_settlement_confirm.s: 0_CTP_gateway_implement/13_req_query_settlement_confirm.cpp.s
 
-.PHONY : 0_CTP_gateway_implement/14_req_query_settlement_confirm.s
+.PHONY : 0_CTP_gateway_implement/13_req_query_settlement_confirm.s
 
 # target to generate assembly for a file
-0_CTP_gateway_implement/14_req_query_settlement_confirm.cpp.s:
-	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build && $(MAKE) -f 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/build.make 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/14_req_query_settlement_confirm.cpp.s
-.PHONY : 0_CTP_gateway_implement/14_req_query_settlement_confirm.cpp.s
+0_CTP_gateway_implement/13_req_query_settlement_confirm.cpp.s:
+	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build && $(MAKE) -f 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/build.make 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/13_req_query_settlement_confirm.cpp.s
+.PHONY : 0_CTP_gateway_implement/13_req_query_settlement_confirm.cpp.s
 
-0_CTP_gateway_implement/15_req_settlement_confirm.o: 0_CTP_gateway_implement/15_req_settlement_confirm.cpp.o
+0_CTP_gateway_implement/14_req_settlement_confirm.o: 0_CTP_gateway_implement/14_req_settlement_confirm.cpp.o
 
-.PHONY : 0_CTP_gateway_implement/15_req_settlement_confirm.o
+.PHONY : 0_CTP_gateway_implement/14_req_settlement_confirm.o
 
 # target to build an object file
-0_CTP_gateway_implement/15_req_settlement_confirm.cpp.o:
-	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build && $(MAKE) -f 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/build.make 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/15_req_settlement_confirm.cpp.o
-.PHONY : 0_CTP_gateway_implement/15_req_settlement_confirm.cpp.o
+0_CTP_gateway_implement/14_req_settlement_confirm.cpp.o:
+	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build && $(MAKE) -f 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/build.make 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/14_req_settlement_confirm.cpp.o
+.PHONY : 0_CTP_gateway_implement/14_req_settlement_confirm.cpp.o
 
-0_CTP_gateway_implement/15_req_settlement_confirm.i: 0_CTP_gateway_implement/15_req_settlement_confirm.cpp.i
+0_CTP_gateway_implement/14_req_settlement_confirm.i: 0_CTP_gateway_implement/14_req_settlement_confirm.cpp.i
 
-.PHONY : 0_CTP_gateway_implement/15_req_settlement_confirm.i
+.PHONY : 0_CTP_gateway_implement/14_req_settlement_confirm.i
 
 # target to preprocess a source file
-0_CTP_gateway_implement/15_req_settlement_confirm.cpp.i:
-	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build && $(MAKE) -f 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/build.make 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/15_req_settlement_confirm.cpp.i
-.PHONY : 0_CTP_gateway_implement/15_req_settlement_confirm.cpp.i
+0_CTP_gateway_implement/14_req_settlement_confirm.cpp.i:
+	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build && $(MAKE) -f 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/build.make 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/14_req_settlement_confirm.cpp.i
+.PHONY : 0_CTP_gateway_implement/14_req_settlement_confirm.cpp.i
 
-0_CTP_gateway_implement/15_req_settlement_confirm.s: 0_CTP_gateway_implement/15_req_settlement_confirm.cpp.s
+0_CTP_gateway_implement/14_req_settlement_confirm.s: 0_CTP_gateway_implement/14_req_settlement_confirm.cpp.s
 
-.PHONY : 0_CTP_gateway_implement/15_req_settlement_confirm.s
+.PHONY : 0_CTP_gateway_implement/14_req_settlement_confirm.s
 
 # target to generate assembly for a file
-0_CTP_gateway_implement/15_req_settlement_confirm.cpp.s:
-	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build && $(MAKE) -f 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/build.make 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/15_req_settlement_confirm.cpp.s
-.PHONY : 0_CTP_gateway_implement/15_req_settlement_confirm.cpp.s
+0_CTP_gateway_implement/14_req_settlement_confirm.cpp.s:
+	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build && $(MAKE) -f 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/build.make 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/14_req_settlement_confirm.cpp.s
+.PHONY : 0_CTP_gateway_implement/14_req_settlement_confirm.cpp.s
 
-0_CTP_gateway_implement/16_req_entrust_insert.o: 0_CTP_gateway_implement/16_req_entrust_insert.cpp.o
+0_CTP_gateway_implement/15_req_entrust_insert.o: 0_CTP_gateway_implement/15_req_entrust_insert.cpp.o
 
-.PHONY : 0_CTP_gateway_implement/16_req_entrust_insert.o
+.PHONY : 0_CTP_gateway_implement/15_req_entrust_insert.o
 
 # target to build an object file
-0_CTP_gateway_implement/16_req_entrust_insert.cpp.o:
-	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build && $(MAKE) -f 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/build.make 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/16_req_entrust_insert.cpp.o
-.PHONY : 0_CTP_gateway_implement/16_req_entrust_insert.cpp.o
+0_CTP_gateway_implement/15_req_entrust_insert.cpp.o:
+	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build && $(MAKE) -f 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/build.make 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/15_req_entrust_insert.cpp.o
+.PHONY : 0_CTP_gateway_implement/15_req_entrust_insert.cpp.o
 
-0_CTP_gateway_implement/16_req_entrust_insert.i: 0_CTP_gateway_implement/16_req_entrust_insert.cpp.i
+0_CTP_gateway_implement/15_req_entrust_insert.i: 0_CTP_gateway_implement/15_req_entrust_insert.cpp.i
 
-.PHONY : 0_CTP_gateway_implement/16_req_entrust_insert.i
+.PHONY : 0_CTP_gateway_implement/15_req_entrust_insert.i
 
 # target to preprocess a source file
-0_CTP_gateway_implement/16_req_entrust_insert.cpp.i:
-	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build && $(MAKE) -f 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/build.make 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/16_req_entrust_insert.cpp.i
-.PHONY : 0_CTP_gateway_implement/16_req_entrust_insert.cpp.i
+0_CTP_gateway_implement/15_req_entrust_insert.cpp.i:
+	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build && $(MAKE) -f 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/build.make 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/15_req_entrust_insert.cpp.i
+.PHONY : 0_CTP_gateway_implement/15_req_entrust_insert.cpp.i
 
-0_CTP_gateway_implement/16_req_entrust_insert.s: 0_CTP_gateway_implement/16_req_entrust_insert.cpp.s
+0_CTP_gateway_implement/15_req_entrust_insert.s: 0_CTP_gateway_implement/15_req_entrust_insert.cpp.s
 
-.PHONY : 0_CTP_gateway_implement/16_req_entrust_insert.s
+.PHONY : 0_CTP_gateway_implement/15_req_entrust_insert.s
 
 # target to generate assembly for a file
-0_CTP_gateway_implement/16_req_entrust_insert.cpp.s:
-	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build && $(MAKE) -f 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/build.make 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/16_req_entrust_insert.cpp.s
-.PHONY : 0_CTP_gateway_implement/16_req_entrust_insert.cpp.s
+0_CTP_gateway_implement/15_req_entrust_insert.cpp.s:
+	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build && $(MAKE) -f 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/build.make 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/15_req_entrust_insert.cpp.s
+.PHONY : 0_CTP_gateway_implement/15_req_entrust_insert.cpp.s
 
-0_CTP_gateway_implement/17_req_entrust_action.o: 0_CTP_gateway_implement/17_req_entrust_action.cpp.o
+0_CTP_gateway_implement/16_req_entrust_action.o: 0_CTP_gateway_implement/16_req_entrust_action.cpp.o
 
-.PHONY : 0_CTP_gateway_implement/17_req_entrust_action.o
+.PHONY : 0_CTP_gateway_implement/16_req_entrust_action.o
 
 # target to build an object file
-0_CTP_gateway_implement/17_req_entrust_action.cpp.o:
-	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build && $(MAKE) -f 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/build.make 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/17_req_entrust_action.cpp.o
-.PHONY : 0_CTP_gateway_implement/17_req_entrust_action.cpp.o
+0_CTP_gateway_implement/16_req_entrust_action.cpp.o:
+	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build && $(MAKE) -f 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/build.make 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/16_req_entrust_action.cpp.o
+.PHONY : 0_CTP_gateway_implement/16_req_entrust_action.cpp.o
 
-0_CTP_gateway_implement/17_req_entrust_action.i: 0_CTP_gateway_implement/17_req_entrust_action.cpp.i
+0_CTP_gateway_implement/16_req_entrust_action.i: 0_CTP_gateway_implement/16_req_entrust_action.cpp.i
 
-.PHONY : 0_CTP_gateway_implement/17_req_entrust_action.i
+.PHONY : 0_CTP_gateway_implement/16_req_entrust_action.i
 
 # target to preprocess a source file
-0_CTP_gateway_implement/17_req_entrust_action.cpp.i:
-	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build && $(MAKE) -f 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/build.make 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/17_req_entrust_action.cpp.i
-.PHONY : 0_CTP_gateway_implement/17_req_entrust_action.cpp.i
+0_CTP_gateway_implement/16_req_entrust_action.cpp.i:
+	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build && $(MAKE) -f 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/build.make 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/16_req_entrust_action.cpp.i
+.PHONY : 0_CTP_gateway_implement/16_req_entrust_action.cpp.i
 
-0_CTP_gateway_implement/17_req_entrust_action.s: 0_CTP_gateway_implement/17_req_entrust_action.cpp.s
+0_CTP_gateway_implement/16_req_entrust_action.s: 0_CTP_gateway_implement/16_req_entrust_action.cpp.s
 
-.PHONY : 0_CTP_gateway_implement/17_req_entrust_action.s
+.PHONY : 0_CTP_gateway_implement/16_req_entrust_action.s
 
 # target to generate assembly for a file
-0_CTP_gateway_implement/17_req_entrust_action.cpp.s:
-	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build && $(MAKE) -f 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/build.make 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/17_req_entrust_action.cpp.s
-.PHONY : 0_CTP_gateway_implement/17_req_entrust_action.cpp.s
+0_CTP_gateway_implement/16_req_entrust_action.cpp.s:
+	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build && $(MAKE) -f 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/build.make 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/16_req_entrust_action.cpp.s
+.PHONY : 0_CTP_gateway_implement/16_req_entrust_action.cpp.s
 
-0_CTP_gateway_implement/18_OnFrontConnected.o: 0_CTP_gateway_implement/18_OnFrontConnected.cpp.o
+0_CTP_gateway_implement/17_OnFrontConnected.o: 0_CTP_gateway_implement/17_OnFrontConnected.cpp.o
 
-.PHONY : 0_CTP_gateway_implement/18_OnFrontConnected.o
+.PHONY : 0_CTP_gateway_implement/17_OnFrontConnected.o
 
 # target to build an object file
-0_CTP_gateway_implement/18_OnFrontConnected.cpp.o:
-	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build && $(MAKE) -f 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/build.make 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/18_OnFrontConnected.cpp.o
-.PHONY : 0_CTP_gateway_implement/18_OnFrontConnected.cpp.o
+0_CTP_gateway_implement/17_OnFrontConnected.cpp.o:
+	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build && $(MAKE) -f 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/build.make 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/17_OnFrontConnected.cpp.o
+.PHONY : 0_CTP_gateway_implement/17_OnFrontConnected.cpp.o
 
-0_CTP_gateway_implement/18_OnFrontConnected.i: 0_CTP_gateway_implement/18_OnFrontConnected.cpp.i
+0_CTP_gateway_implement/17_OnFrontConnected.i: 0_CTP_gateway_implement/17_OnFrontConnected.cpp.i
 
-.PHONY : 0_CTP_gateway_implement/18_OnFrontConnected.i
+.PHONY : 0_CTP_gateway_implement/17_OnFrontConnected.i
 
 # target to preprocess a source file
-0_CTP_gateway_implement/18_OnFrontConnected.cpp.i:
-	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build && $(MAKE) -f 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/build.make 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/18_OnFrontConnected.cpp.i
-.PHONY : 0_CTP_gateway_implement/18_OnFrontConnected.cpp.i
+0_CTP_gateway_implement/17_OnFrontConnected.cpp.i:
+	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build && $(MAKE) -f 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/build.make 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/17_OnFrontConnected.cpp.i
+.PHONY : 0_CTP_gateway_implement/17_OnFrontConnected.cpp.i
 
-0_CTP_gateway_implement/18_OnFrontConnected.s: 0_CTP_gateway_implement/18_OnFrontConnected.cpp.s
+0_CTP_gateway_implement/17_OnFrontConnected.s: 0_CTP_gateway_implement/17_OnFrontConnected.cpp.s
 
-.PHONY : 0_CTP_gateway_implement/18_OnFrontConnected.s
+.PHONY : 0_CTP_gateway_implement/17_OnFrontConnected.s
 
 # target to generate assembly for a file
-0_CTP_gateway_implement/18_OnFrontConnected.cpp.s:
-	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build && $(MAKE) -f 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/build.make 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/18_OnFrontConnected.cpp.s
-.PHONY : 0_CTP_gateway_implement/18_OnFrontConnected.cpp.s
+0_CTP_gateway_implement/17_OnFrontConnected.cpp.s:
+	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build && $(MAKE) -f 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/build.make 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/17_OnFrontConnected.cpp.s
+.PHONY : 0_CTP_gateway_implement/17_OnFrontConnected.cpp.s
 
-0_CTP_gateway_implement/19_OnFrontDisconnected.o: 0_CTP_gateway_implement/19_OnFrontDisconnected.cpp.o
+0_CTP_gateway_implement/18_OnFrontDisconnected.o: 0_CTP_gateway_implement/18_OnFrontDisconnected.cpp.o
 
-.PHONY : 0_CTP_gateway_implement/19_OnFrontDisconnected.o
+.PHONY : 0_CTP_gateway_implement/18_OnFrontDisconnected.o
 
 # target to build an object file
-0_CTP_gateway_implement/19_OnFrontDisconnected.cpp.o:
-	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build && $(MAKE) -f 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/build.make 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/19_OnFrontDisconnected.cpp.o
-.PHONY : 0_CTP_gateway_implement/19_OnFrontDisconnected.cpp.o
+0_CTP_gateway_implement/18_OnFrontDisconnected.cpp.o:
+	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build && $(MAKE) -f 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/build.make 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/18_OnFrontDisconnected.cpp.o
+.PHONY : 0_CTP_gateway_implement/18_OnFrontDisconnected.cpp.o
 
-0_CTP_gateway_implement/19_OnFrontDisconnected.i: 0_CTP_gateway_implement/19_OnFrontDisconnected.cpp.i
+0_CTP_gateway_implement/18_OnFrontDisconnected.i: 0_CTP_gateway_implement/18_OnFrontDisconnected.cpp.i
 
-.PHONY : 0_CTP_gateway_implement/19_OnFrontDisconnected.i
+.PHONY : 0_CTP_gateway_implement/18_OnFrontDisconnected.i
 
 # target to preprocess a source file
-0_CTP_gateway_implement/19_OnFrontDisconnected.cpp.i:
-	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build && $(MAKE) -f 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/build.make 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/19_OnFrontDisconnected.cpp.i
-.PHONY : 0_CTP_gateway_implement/19_OnFrontDisconnected.cpp.i
+0_CTP_gateway_implement/18_OnFrontDisconnected.cpp.i:
+	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build && $(MAKE) -f 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/build.make 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/18_OnFrontDisconnected.cpp.i
+.PHONY : 0_CTP_gateway_implement/18_OnFrontDisconnected.cpp.i
 
-0_CTP_gateway_implement/19_OnFrontDisconnected.s: 0_CTP_gateway_implement/19_OnFrontDisconnected.cpp.s
+0_CTP_gateway_implement/18_OnFrontDisconnected.s: 0_CTP_gateway_implement/18_OnFrontDisconnected.cpp.s
 
-.PHONY : 0_CTP_gateway_implement/19_OnFrontDisconnected.s
+.PHONY : 0_CTP_gateway_implement/18_OnFrontDisconnected.s
 
 # target to generate assembly for a file
-0_CTP_gateway_implement/19_OnFrontDisconnected.cpp.s:
-	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build && $(MAKE) -f 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/build.make 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/19_OnFrontDisconnected.cpp.s
-.PHONY : 0_CTP_gateway_implement/19_OnFrontDisconnected.cpp.s
+0_CTP_gateway_implement/18_OnFrontDisconnected.cpp.s:
+	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build && $(MAKE) -f 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/build.make 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/18_OnFrontDisconnected.cpp.s
+.PHONY : 0_CTP_gateway_implement/18_OnFrontDisconnected.cpp.s
+
+0_CTP_gateway_implement/19_OnRspAuthenticate.o: 0_CTP_gateway_implement/19_OnRspAuthenticate.cpp.o
+
+.PHONY : 0_CTP_gateway_implement/19_OnRspAuthenticate.o
+
+# target to build an object file
+0_CTP_gateway_implement/19_OnRspAuthenticate.cpp.o:
+	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build && $(MAKE) -f 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/build.make 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/19_OnRspAuthenticate.cpp.o
+.PHONY : 0_CTP_gateway_implement/19_OnRspAuthenticate.cpp.o
+
+0_CTP_gateway_implement/19_OnRspAuthenticate.i: 0_CTP_gateway_implement/19_OnRspAuthenticate.cpp.i
+
+.PHONY : 0_CTP_gateway_implement/19_OnRspAuthenticate.i
+
+# target to preprocess a source file
+0_CTP_gateway_implement/19_OnRspAuthenticate.cpp.i:
+	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build && $(MAKE) -f 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/build.make 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/19_OnRspAuthenticate.cpp.i
+.PHONY : 0_CTP_gateway_implement/19_OnRspAuthenticate.cpp.i
+
+0_CTP_gateway_implement/19_OnRspAuthenticate.s: 0_CTP_gateway_implement/19_OnRspAuthenticate.cpp.s
+
+.PHONY : 0_CTP_gateway_implement/19_OnRspAuthenticate.s
+
+# target to generate assembly for a file
+0_CTP_gateway_implement/19_OnRspAuthenticate.cpp.s:
+	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build && $(MAKE) -f 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/build.make 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/19_OnRspAuthenticate.cpp.s
+.PHONY : 0_CTP_gateway_implement/19_OnRspAuthenticate.cpp.s
 
 0_CTP_gateway_implement/1_prepare.o: 0_CTP_gateway_implement/1_prepare.cpp.o
 
@@ -449,275 +449,275 @@ CTP_gateway/fast:
 	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build && $(MAKE) -f 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/build.make 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/1_prepare.cpp.s
 .PHONY : 0_CTP_gateway_implement/1_prepare.cpp.s
 
-0_CTP_gateway_implement/20_OnRspAuthenticate.o: 0_CTP_gateway_implement/20_OnRspAuthenticate.cpp.o
+0_CTP_gateway_implement/20_OnRspUserLogin.o: 0_CTP_gateway_implement/20_OnRspUserLogin.cpp.o
 
-.PHONY : 0_CTP_gateway_implement/20_OnRspAuthenticate.o
-
-# target to build an object file
-0_CTP_gateway_implement/20_OnRspAuthenticate.cpp.o:
-	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build && $(MAKE) -f 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/build.make 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/20_OnRspAuthenticate.cpp.o
-.PHONY : 0_CTP_gateway_implement/20_OnRspAuthenticate.cpp.o
-
-0_CTP_gateway_implement/20_OnRspAuthenticate.i: 0_CTP_gateway_implement/20_OnRspAuthenticate.cpp.i
-
-.PHONY : 0_CTP_gateway_implement/20_OnRspAuthenticate.i
-
-# target to preprocess a source file
-0_CTP_gateway_implement/20_OnRspAuthenticate.cpp.i:
-	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build && $(MAKE) -f 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/build.make 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/20_OnRspAuthenticate.cpp.i
-.PHONY : 0_CTP_gateway_implement/20_OnRspAuthenticate.cpp.i
-
-0_CTP_gateway_implement/20_OnRspAuthenticate.s: 0_CTP_gateway_implement/20_OnRspAuthenticate.cpp.s
-
-.PHONY : 0_CTP_gateway_implement/20_OnRspAuthenticate.s
-
-# target to generate assembly for a file
-0_CTP_gateway_implement/20_OnRspAuthenticate.cpp.s:
-	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build && $(MAKE) -f 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/build.make 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/20_OnRspAuthenticate.cpp.s
-.PHONY : 0_CTP_gateway_implement/20_OnRspAuthenticate.cpp.s
-
-0_CTP_gateway_implement/21_OnRspUserLogin.o: 0_CTP_gateway_implement/21_OnRspUserLogin.cpp.o
-
-.PHONY : 0_CTP_gateway_implement/21_OnRspUserLogin.o
+.PHONY : 0_CTP_gateway_implement/20_OnRspUserLogin.o
 
 # target to build an object file
-0_CTP_gateway_implement/21_OnRspUserLogin.cpp.o:
-	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build && $(MAKE) -f 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/build.make 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/21_OnRspUserLogin.cpp.o
-.PHONY : 0_CTP_gateway_implement/21_OnRspUserLogin.cpp.o
+0_CTP_gateway_implement/20_OnRspUserLogin.cpp.o:
+	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build && $(MAKE) -f 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/build.make 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/20_OnRspUserLogin.cpp.o
+.PHONY : 0_CTP_gateway_implement/20_OnRspUserLogin.cpp.o
 
-0_CTP_gateway_implement/21_OnRspUserLogin.i: 0_CTP_gateway_implement/21_OnRspUserLogin.cpp.i
+0_CTP_gateway_implement/20_OnRspUserLogin.i: 0_CTP_gateway_implement/20_OnRspUserLogin.cpp.i
 
-.PHONY : 0_CTP_gateway_implement/21_OnRspUserLogin.i
+.PHONY : 0_CTP_gateway_implement/20_OnRspUserLogin.i
 
 # target to preprocess a source file
-0_CTP_gateway_implement/21_OnRspUserLogin.cpp.i:
-	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build && $(MAKE) -f 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/build.make 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/21_OnRspUserLogin.cpp.i
-.PHONY : 0_CTP_gateway_implement/21_OnRspUserLogin.cpp.i
+0_CTP_gateway_implement/20_OnRspUserLogin.cpp.i:
+	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build && $(MAKE) -f 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/build.make 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/20_OnRspUserLogin.cpp.i
+.PHONY : 0_CTP_gateway_implement/20_OnRspUserLogin.cpp.i
 
-0_CTP_gateway_implement/21_OnRspUserLogin.s: 0_CTP_gateway_implement/21_OnRspUserLogin.cpp.s
+0_CTP_gateway_implement/20_OnRspUserLogin.s: 0_CTP_gateway_implement/20_OnRspUserLogin.cpp.s
 
-.PHONY : 0_CTP_gateway_implement/21_OnRspUserLogin.s
+.PHONY : 0_CTP_gateway_implement/20_OnRspUserLogin.s
 
 # target to generate assembly for a file
-0_CTP_gateway_implement/21_OnRspUserLogin.cpp.s:
-	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build && $(MAKE) -f 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/build.make 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/21_OnRspUserLogin.cpp.s
-.PHONY : 0_CTP_gateway_implement/21_OnRspUserLogin.cpp.s
+0_CTP_gateway_implement/20_OnRspUserLogin.cpp.s:
+	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build && $(MAKE) -f 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/build.make 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/20_OnRspUserLogin.cpp.s
+.PHONY : 0_CTP_gateway_implement/20_OnRspUserLogin.cpp.s
 
-0_CTP_gateway_implement/22_OnRspQrySettlementInfoConfirm.o: 0_CTP_gateway_implement/22_OnRspQrySettlementInfoConfirm.cpp.o
+0_CTP_gateway_implement/21_OnRspQrySettlementInfoConfirm.o: 0_CTP_gateway_implement/21_OnRspQrySettlementInfoConfirm.cpp.o
 
-.PHONY : 0_CTP_gateway_implement/22_OnRspQrySettlementInfoConfirm.o
+.PHONY : 0_CTP_gateway_implement/21_OnRspQrySettlementInfoConfirm.o
 
 # target to build an object file
-0_CTP_gateway_implement/22_OnRspQrySettlementInfoConfirm.cpp.o:
-	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build && $(MAKE) -f 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/build.make 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/22_OnRspQrySettlementInfoConfirm.cpp.o
-.PHONY : 0_CTP_gateway_implement/22_OnRspQrySettlementInfoConfirm.cpp.o
+0_CTP_gateway_implement/21_OnRspQrySettlementInfoConfirm.cpp.o:
+	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build && $(MAKE) -f 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/build.make 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/21_OnRspQrySettlementInfoConfirm.cpp.o
+.PHONY : 0_CTP_gateway_implement/21_OnRspQrySettlementInfoConfirm.cpp.o
 
-0_CTP_gateway_implement/22_OnRspQrySettlementInfoConfirm.i: 0_CTP_gateway_implement/22_OnRspQrySettlementInfoConfirm.cpp.i
+0_CTP_gateway_implement/21_OnRspQrySettlementInfoConfirm.i: 0_CTP_gateway_implement/21_OnRspQrySettlementInfoConfirm.cpp.i
 
-.PHONY : 0_CTP_gateway_implement/22_OnRspQrySettlementInfoConfirm.i
+.PHONY : 0_CTP_gateway_implement/21_OnRspQrySettlementInfoConfirm.i
 
 # target to preprocess a source file
-0_CTP_gateway_implement/22_OnRspQrySettlementInfoConfirm.cpp.i:
-	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build && $(MAKE) -f 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/build.make 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/22_OnRspQrySettlementInfoConfirm.cpp.i
-.PHONY : 0_CTP_gateway_implement/22_OnRspQrySettlementInfoConfirm.cpp.i
+0_CTP_gateway_implement/21_OnRspQrySettlementInfoConfirm.cpp.i:
+	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build && $(MAKE) -f 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/build.make 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/21_OnRspQrySettlementInfoConfirm.cpp.i
+.PHONY : 0_CTP_gateway_implement/21_OnRspQrySettlementInfoConfirm.cpp.i
 
-0_CTP_gateway_implement/22_OnRspQrySettlementInfoConfirm.s: 0_CTP_gateway_implement/22_OnRspQrySettlementInfoConfirm.cpp.s
+0_CTP_gateway_implement/21_OnRspQrySettlementInfoConfirm.s: 0_CTP_gateway_implement/21_OnRspQrySettlementInfoConfirm.cpp.s
 
-.PHONY : 0_CTP_gateway_implement/22_OnRspQrySettlementInfoConfirm.s
+.PHONY : 0_CTP_gateway_implement/21_OnRspQrySettlementInfoConfirm.s
 
 # target to generate assembly for a file
-0_CTP_gateway_implement/22_OnRspQrySettlementInfoConfirm.cpp.s:
-	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build && $(MAKE) -f 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/build.make 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/22_OnRspQrySettlementInfoConfirm.cpp.s
-.PHONY : 0_CTP_gateway_implement/22_OnRspQrySettlementInfoConfirm.cpp.s
+0_CTP_gateway_implement/21_OnRspQrySettlementInfoConfirm.cpp.s:
+	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build && $(MAKE) -f 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/build.make 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/21_OnRspQrySettlementInfoConfirm.cpp.s
+.PHONY : 0_CTP_gateway_implement/21_OnRspQrySettlementInfoConfirm.cpp.s
 
-0_CTP_gateway_implement/23_OnRspSettlementInfoConfirm.o: 0_CTP_gateway_implement/23_OnRspSettlementInfoConfirm.cpp.o
+0_CTP_gateway_implement/22_OnRspSettlementInfoConfirm.o: 0_CTP_gateway_implement/22_OnRspSettlementInfoConfirm.cpp.o
 
-.PHONY : 0_CTP_gateway_implement/23_OnRspSettlementInfoConfirm.o
+.PHONY : 0_CTP_gateway_implement/22_OnRspSettlementInfoConfirm.o
 
 # target to build an object file
-0_CTP_gateway_implement/23_OnRspSettlementInfoConfirm.cpp.o:
-	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build && $(MAKE) -f 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/build.make 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/23_OnRspSettlementInfoConfirm.cpp.o
-.PHONY : 0_CTP_gateway_implement/23_OnRspSettlementInfoConfirm.cpp.o
+0_CTP_gateway_implement/22_OnRspSettlementInfoConfirm.cpp.o:
+	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build && $(MAKE) -f 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/build.make 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/22_OnRspSettlementInfoConfirm.cpp.o
+.PHONY : 0_CTP_gateway_implement/22_OnRspSettlementInfoConfirm.cpp.o
 
-0_CTP_gateway_implement/23_OnRspSettlementInfoConfirm.i: 0_CTP_gateway_implement/23_OnRspSettlementInfoConfirm.cpp.i
+0_CTP_gateway_implement/22_OnRspSettlementInfoConfirm.i: 0_CTP_gateway_implement/22_OnRspSettlementInfoConfirm.cpp.i
 
-.PHONY : 0_CTP_gateway_implement/23_OnRspSettlementInfoConfirm.i
+.PHONY : 0_CTP_gateway_implement/22_OnRspSettlementInfoConfirm.i
 
 # target to preprocess a source file
-0_CTP_gateway_implement/23_OnRspSettlementInfoConfirm.cpp.i:
-	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build && $(MAKE) -f 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/build.make 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/23_OnRspSettlementInfoConfirm.cpp.i
-.PHONY : 0_CTP_gateway_implement/23_OnRspSettlementInfoConfirm.cpp.i
+0_CTP_gateway_implement/22_OnRspSettlementInfoConfirm.cpp.i:
+	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build && $(MAKE) -f 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/build.make 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/22_OnRspSettlementInfoConfirm.cpp.i
+.PHONY : 0_CTP_gateway_implement/22_OnRspSettlementInfoConfirm.cpp.i
 
-0_CTP_gateway_implement/23_OnRspSettlementInfoConfirm.s: 0_CTP_gateway_implement/23_OnRspSettlementInfoConfirm.cpp.s
+0_CTP_gateway_implement/22_OnRspSettlementInfoConfirm.s: 0_CTP_gateway_implement/22_OnRspSettlementInfoConfirm.cpp.s
 
-.PHONY : 0_CTP_gateway_implement/23_OnRspSettlementInfoConfirm.s
+.PHONY : 0_CTP_gateway_implement/22_OnRspSettlementInfoConfirm.s
 
 # target to generate assembly for a file
-0_CTP_gateway_implement/23_OnRspSettlementInfoConfirm.cpp.s:
-	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build && $(MAKE) -f 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/build.make 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/23_OnRspSettlementInfoConfirm.cpp.s
-.PHONY : 0_CTP_gateway_implement/23_OnRspSettlementInfoConfirm.cpp.s
+0_CTP_gateway_implement/22_OnRspSettlementInfoConfirm.cpp.s:
+	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build && $(MAKE) -f 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/build.make 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/22_OnRspSettlementInfoConfirm.cpp.s
+.PHONY : 0_CTP_gateway_implement/22_OnRspSettlementInfoConfirm.cpp.s
 
-0_CTP_gateway_implement/24_OnRspUserLogout.o: 0_CTP_gateway_implement/24_OnRspUserLogout.cpp.o
+0_CTP_gateway_implement/23_OnRspUserLogout.o: 0_CTP_gateway_implement/23_OnRspUserLogout.cpp.o
 
-.PHONY : 0_CTP_gateway_implement/24_OnRspUserLogout.o
+.PHONY : 0_CTP_gateway_implement/23_OnRspUserLogout.o
 
 # target to build an object file
-0_CTP_gateway_implement/24_OnRspUserLogout.cpp.o:
-	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build && $(MAKE) -f 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/build.make 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/24_OnRspUserLogout.cpp.o
-.PHONY : 0_CTP_gateway_implement/24_OnRspUserLogout.cpp.o
+0_CTP_gateway_implement/23_OnRspUserLogout.cpp.o:
+	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build && $(MAKE) -f 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/build.make 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/23_OnRspUserLogout.cpp.o
+.PHONY : 0_CTP_gateway_implement/23_OnRspUserLogout.cpp.o
 
-0_CTP_gateway_implement/24_OnRspUserLogout.i: 0_CTP_gateway_implement/24_OnRspUserLogout.cpp.i
+0_CTP_gateway_implement/23_OnRspUserLogout.i: 0_CTP_gateway_implement/23_OnRspUserLogout.cpp.i
 
-.PHONY : 0_CTP_gateway_implement/24_OnRspUserLogout.i
+.PHONY : 0_CTP_gateway_implement/23_OnRspUserLogout.i
 
 # target to preprocess a source file
-0_CTP_gateway_implement/24_OnRspUserLogout.cpp.i:
-	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build && $(MAKE) -f 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/build.make 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/24_OnRspUserLogout.cpp.i
-.PHONY : 0_CTP_gateway_implement/24_OnRspUserLogout.cpp.i
+0_CTP_gateway_implement/23_OnRspUserLogout.cpp.i:
+	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build && $(MAKE) -f 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/build.make 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/23_OnRspUserLogout.cpp.i
+.PHONY : 0_CTP_gateway_implement/23_OnRspUserLogout.cpp.i
 
-0_CTP_gateway_implement/24_OnRspUserLogout.s: 0_CTP_gateway_implement/24_OnRspUserLogout.cpp.s
+0_CTP_gateway_implement/23_OnRspUserLogout.s: 0_CTP_gateway_implement/23_OnRspUserLogout.cpp.s
 
-.PHONY : 0_CTP_gateway_implement/24_OnRspUserLogout.s
+.PHONY : 0_CTP_gateway_implement/23_OnRspUserLogout.s
 
 # target to generate assembly for a file
-0_CTP_gateway_implement/24_OnRspUserLogout.cpp.s:
-	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build && $(MAKE) -f 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/build.make 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/24_OnRspUserLogout.cpp.s
-.PHONY : 0_CTP_gateway_implement/24_OnRspUserLogout.cpp.s
+0_CTP_gateway_implement/23_OnRspUserLogout.cpp.s:
+	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build && $(MAKE) -f 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/build.make 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/23_OnRspUserLogout.cpp.s
+.PHONY : 0_CTP_gateway_implement/23_OnRspUserLogout.cpp.s
 
-0_CTP_gateway_implement/25_OnRspOrderInsert.o: 0_CTP_gateway_implement/25_OnRspOrderInsert.cpp.o
+0_CTP_gateway_implement/24_OnRspOrderInsert.o: 0_CTP_gateway_implement/24_OnRspOrderInsert.cpp.o
 
-.PHONY : 0_CTP_gateway_implement/25_OnRspOrderInsert.o
+.PHONY : 0_CTP_gateway_implement/24_OnRspOrderInsert.o
 
 # target to build an object file
-0_CTP_gateway_implement/25_OnRspOrderInsert.cpp.o:
-	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build && $(MAKE) -f 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/build.make 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/25_OnRspOrderInsert.cpp.o
-.PHONY : 0_CTP_gateway_implement/25_OnRspOrderInsert.cpp.o
+0_CTP_gateway_implement/24_OnRspOrderInsert.cpp.o:
+	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build && $(MAKE) -f 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/build.make 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/24_OnRspOrderInsert.cpp.o
+.PHONY : 0_CTP_gateway_implement/24_OnRspOrderInsert.cpp.o
 
-0_CTP_gateway_implement/25_OnRspOrderInsert.i: 0_CTP_gateway_implement/25_OnRspOrderInsert.cpp.i
+0_CTP_gateway_implement/24_OnRspOrderInsert.i: 0_CTP_gateway_implement/24_OnRspOrderInsert.cpp.i
 
-.PHONY : 0_CTP_gateway_implement/25_OnRspOrderInsert.i
+.PHONY : 0_CTP_gateway_implement/24_OnRspOrderInsert.i
 
 # target to preprocess a source file
-0_CTP_gateway_implement/25_OnRspOrderInsert.cpp.i:
-	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build && $(MAKE) -f 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/build.make 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/25_OnRspOrderInsert.cpp.i
-.PHONY : 0_CTP_gateway_implement/25_OnRspOrderInsert.cpp.i
+0_CTP_gateway_implement/24_OnRspOrderInsert.cpp.i:
+	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build && $(MAKE) -f 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/build.make 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/24_OnRspOrderInsert.cpp.i
+.PHONY : 0_CTP_gateway_implement/24_OnRspOrderInsert.cpp.i
 
-0_CTP_gateway_implement/25_OnRspOrderInsert.s: 0_CTP_gateway_implement/25_OnRspOrderInsert.cpp.s
+0_CTP_gateway_implement/24_OnRspOrderInsert.s: 0_CTP_gateway_implement/24_OnRspOrderInsert.cpp.s
 
-.PHONY : 0_CTP_gateway_implement/25_OnRspOrderInsert.s
+.PHONY : 0_CTP_gateway_implement/24_OnRspOrderInsert.s
 
 # target to generate assembly for a file
-0_CTP_gateway_implement/25_OnRspOrderInsert.cpp.s:
-	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build && $(MAKE) -f 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/build.make 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/25_OnRspOrderInsert.cpp.s
-.PHONY : 0_CTP_gateway_implement/25_OnRspOrderInsert.cpp.s
+0_CTP_gateway_implement/24_OnRspOrderInsert.cpp.s:
+	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build && $(MAKE) -f 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/build.make 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/24_OnRspOrderInsert.cpp.s
+.PHONY : 0_CTP_gateway_implement/24_OnRspOrderInsert.cpp.s
 
-0_CTP_gateway_implement/26_OnErrRtnOrderInsert.o: 0_CTP_gateway_implement/26_OnErrRtnOrderInsert.cpp.o
+0_CTP_gateway_implement/25_OnErrRtnOrderInsert.o: 0_CTP_gateway_implement/25_OnErrRtnOrderInsert.cpp.o
 
-.PHONY : 0_CTP_gateway_implement/26_OnErrRtnOrderInsert.o
+.PHONY : 0_CTP_gateway_implement/25_OnErrRtnOrderInsert.o
 
 # target to build an object file
-0_CTP_gateway_implement/26_OnErrRtnOrderInsert.cpp.o:
-	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build && $(MAKE) -f 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/build.make 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/26_OnErrRtnOrderInsert.cpp.o
-.PHONY : 0_CTP_gateway_implement/26_OnErrRtnOrderInsert.cpp.o
+0_CTP_gateway_implement/25_OnErrRtnOrderInsert.cpp.o:
+	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build && $(MAKE) -f 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/build.make 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/25_OnErrRtnOrderInsert.cpp.o
+.PHONY : 0_CTP_gateway_implement/25_OnErrRtnOrderInsert.cpp.o
 
-0_CTP_gateway_implement/26_OnErrRtnOrderInsert.i: 0_CTP_gateway_implement/26_OnErrRtnOrderInsert.cpp.i
+0_CTP_gateway_implement/25_OnErrRtnOrderInsert.i: 0_CTP_gateway_implement/25_OnErrRtnOrderInsert.cpp.i
 
-.PHONY : 0_CTP_gateway_implement/26_OnErrRtnOrderInsert.i
+.PHONY : 0_CTP_gateway_implement/25_OnErrRtnOrderInsert.i
 
 # target to preprocess a source file
-0_CTP_gateway_implement/26_OnErrRtnOrderInsert.cpp.i:
-	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build && $(MAKE) -f 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/build.make 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/26_OnErrRtnOrderInsert.cpp.i
-.PHONY : 0_CTP_gateway_implement/26_OnErrRtnOrderInsert.cpp.i
+0_CTP_gateway_implement/25_OnErrRtnOrderInsert.cpp.i:
+	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build && $(MAKE) -f 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/build.make 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/25_OnErrRtnOrderInsert.cpp.i
+.PHONY : 0_CTP_gateway_implement/25_OnErrRtnOrderInsert.cpp.i
 
-0_CTP_gateway_implement/26_OnErrRtnOrderInsert.s: 0_CTP_gateway_implement/26_OnErrRtnOrderInsert.cpp.s
+0_CTP_gateway_implement/25_OnErrRtnOrderInsert.s: 0_CTP_gateway_implement/25_OnErrRtnOrderInsert.cpp.s
 
-.PHONY : 0_CTP_gateway_implement/26_OnErrRtnOrderInsert.s
+.PHONY : 0_CTP_gateway_implement/25_OnErrRtnOrderInsert.s
 
 # target to generate assembly for a file
-0_CTP_gateway_implement/26_OnErrRtnOrderInsert.cpp.s:
-	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build && $(MAKE) -f 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/build.make 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/26_OnErrRtnOrderInsert.cpp.s
-.PHONY : 0_CTP_gateway_implement/26_OnErrRtnOrderInsert.cpp.s
+0_CTP_gateway_implement/25_OnErrRtnOrderInsert.cpp.s:
+	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build && $(MAKE) -f 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/build.make 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/25_OnErrRtnOrderInsert.cpp.s
+.PHONY : 0_CTP_gateway_implement/25_OnErrRtnOrderInsert.cpp.s
 
-0_CTP_gateway_implement/27_OnRspOrderAction.o: 0_CTP_gateway_implement/27_OnRspOrderAction.cpp.o
+0_CTP_gateway_implement/26_OnRspOrderAction.o: 0_CTP_gateway_implement/26_OnRspOrderAction.cpp.o
 
-.PHONY : 0_CTP_gateway_implement/27_OnRspOrderAction.o
+.PHONY : 0_CTP_gateway_implement/26_OnRspOrderAction.o
 
 # target to build an object file
-0_CTP_gateway_implement/27_OnRspOrderAction.cpp.o:
-	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build && $(MAKE) -f 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/build.make 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/27_OnRspOrderAction.cpp.o
-.PHONY : 0_CTP_gateway_implement/27_OnRspOrderAction.cpp.o
+0_CTP_gateway_implement/26_OnRspOrderAction.cpp.o:
+	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build && $(MAKE) -f 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/build.make 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/26_OnRspOrderAction.cpp.o
+.PHONY : 0_CTP_gateway_implement/26_OnRspOrderAction.cpp.o
 
-0_CTP_gateway_implement/27_OnRspOrderAction.i: 0_CTP_gateway_implement/27_OnRspOrderAction.cpp.i
+0_CTP_gateway_implement/26_OnRspOrderAction.i: 0_CTP_gateway_implement/26_OnRspOrderAction.cpp.i
 
-.PHONY : 0_CTP_gateway_implement/27_OnRspOrderAction.i
+.PHONY : 0_CTP_gateway_implement/26_OnRspOrderAction.i
 
 # target to preprocess a source file
-0_CTP_gateway_implement/27_OnRspOrderAction.cpp.i:
-	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build && $(MAKE) -f 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/build.make 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/27_OnRspOrderAction.cpp.i
-.PHONY : 0_CTP_gateway_implement/27_OnRspOrderAction.cpp.i
+0_CTP_gateway_implement/26_OnRspOrderAction.cpp.i:
+	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build && $(MAKE) -f 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/build.make 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/26_OnRspOrderAction.cpp.i
+.PHONY : 0_CTP_gateway_implement/26_OnRspOrderAction.cpp.i
 
-0_CTP_gateway_implement/27_OnRspOrderAction.s: 0_CTP_gateway_implement/27_OnRspOrderAction.cpp.s
+0_CTP_gateway_implement/26_OnRspOrderAction.s: 0_CTP_gateway_implement/26_OnRspOrderAction.cpp.s
 
-.PHONY : 0_CTP_gateway_implement/27_OnRspOrderAction.s
+.PHONY : 0_CTP_gateway_implement/26_OnRspOrderAction.s
 
 # target to generate assembly for a file
-0_CTP_gateway_implement/27_OnRspOrderAction.cpp.s:
-	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build && $(MAKE) -f 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/build.make 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/27_OnRspOrderAction.cpp.s
-.PHONY : 0_CTP_gateway_implement/27_OnRspOrderAction.cpp.s
+0_CTP_gateway_implement/26_OnRspOrderAction.cpp.s:
+	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build && $(MAKE) -f 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/build.make 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/26_OnRspOrderAction.cpp.s
+.PHONY : 0_CTP_gateway_implement/26_OnRspOrderAction.cpp.s
 
-0_CTP_gateway_implement/28_OnRtnOrder.o: 0_CTP_gateway_implement/28_OnRtnOrder.cpp.o
+0_CTP_gateway_implement/27_OnRtnOrder.o: 0_CTP_gateway_implement/27_OnRtnOrder.cpp.o
 
-.PHONY : 0_CTP_gateway_implement/28_OnRtnOrder.o
+.PHONY : 0_CTP_gateway_implement/27_OnRtnOrder.o
 
 # target to build an object file
-0_CTP_gateway_implement/28_OnRtnOrder.cpp.o:
-	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build && $(MAKE) -f 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/build.make 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/28_OnRtnOrder.cpp.o
-.PHONY : 0_CTP_gateway_implement/28_OnRtnOrder.cpp.o
+0_CTP_gateway_implement/27_OnRtnOrder.cpp.o:
+	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build && $(MAKE) -f 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/build.make 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/27_OnRtnOrder.cpp.o
+.PHONY : 0_CTP_gateway_implement/27_OnRtnOrder.cpp.o
 
-0_CTP_gateway_implement/28_OnRtnOrder.i: 0_CTP_gateway_implement/28_OnRtnOrder.cpp.i
+0_CTP_gateway_implement/27_OnRtnOrder.i: 0_CTP_gateway_implement/27_OnRtnOrder.cpp.i
 
-.PHONY : 0_CTP_gateway_implement/28_OnRtnOrder.i
+.PHONY : 0_CTP_gateway_implement/27_OnRtnOrder.i
 
 # target to preprocess a source file
-0_CTP_gateway_implement/28_OnRtnOrder.cpp.i:
-	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build && $(MAKE) -f 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/build.make 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/28_OnRtnOrder.cpp.i
-.PHONY : 0_CTP_gateway_implement/28_OnRtnOrder.cpp.i
+0_CTP_gateway_implement/27_OnRtnOrder.cpp.i:
+	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build && $(MAKE) -f 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/build.make 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/27_OnRtnOrder.cpp.i
+.PHONY : 0_CTP_gateway_implement/27_OnRtnOrder.cpp.i
 
-0_CTP_gateway_implement/28_OnRtnOrder.s: 0_CTP_gateway_implement/28_OnRtnOrder.cpp.s
+0_CTP_gateway_implement/27_OnRtnOrder.s: 0_CTP_gateway_implement/27_OnRtnOrder.cpp.s
 
-.PHONY : 0_CTP_gateway_implement/28_OnRtnOrder.s
+.PHONY : 0_CTP_gateway_implement/27_OnRtnOrder.s
 
 # target to generate assembly for a file
-0_CTP_gateway_implement/28_OnRtnOrder.cpp.s:
-	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build && $(MAKE) -f 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/build.make 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/28_OnRtnOrder.cpp.s
-.PHONY : 0_CTP_gateway_implement/28_OnRtnOrder.cpp.s
+0_CTP_gateway_implement/27_OnRtnOrder.cpp.s:
+	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build && $(MAKE) -f 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/build.make 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/27_OnRtnOrder.cpp.s
+.PHONY : 0_CTP_gateway_implement/27_OnRtnOrder.cpp.s
 
-0_CTP_gateway_implement/29_OnRtnTrade.o: 0_CTP_gateway_implement/29_OnRtnTrade.cpp.o
+0_CTP_gateway_implement/28_OnRtnTrade.o: 0_CTP_gateway_implement/28_OnRtnTrade.cpp.o
 
-.PHONY : 0_CTP_gateway_implement/29_OnRtnTrade.o
+.PHONY : 0_CTP_gateway_implement/28_OnRtnTrade.o
 
 # target to build an object file
-0_CTP_gateway_implement/29_OnRtnTrade.cpp.o:
-	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build && $(MAKE) -f 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/build.make 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/29_OnRtnTrade.cpp.o
-.PHONY : 0_CTP_gateway_implement/29_OnRtnTrade.cpp.o
+0_CTP_gateway_implement/28_OnRtnTrade.cpp.o:
+	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build && $(MAKE) -f 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/build.make 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/28_OnRtnTrade.cpp.o
+.PHONY : 0_CTP_gateway_implement/28_OnRtnTrade.cpp.o
 
-0_CTP_gateway_implement/29_OnRtnTrade.i: 0_CTP_gateway_implement/29_OnRtnTrade.cpp.i
+0_CTP_gateway_implement/28_OnRtnTrade.i: 0_CTP_gateway_implement/28_OnRtnTrade.cpp.i
 
-.PHONY : 0_CTP_gateway_implement/29_OnRtnTrade.i
+.PHONY : 0_CTP_gateway_implement/28_OnRtnTrade.i
 
 # target to preprocess a source file
-0_CTP_gateway_implement/29_OnRtnTrade.cpp.i:
-	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build && $(MAKE) -f 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/build.make 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/29_OnRtnTrade.cpp.i
-.PHONY : 0_CTP_gateway_implement/29_OnRtnTrade.cpp.i
+0_CTP_gateway_implement/28_OnRtnTrade.cpp.i:
+	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build && $(MAKE) -f 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/build.make 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/28_OnRtnTrade.cpp.i
+.PHONY : 0_CTP_gateway_implement/28_OnRtnTrade.cpp.i
 
-0_CTP_gateway_implement/29_OnRtnTrade.s: 0_CTP_gateway_implement/29_OnRtnTrade.cpp.s
+0_CTP_gateway_implement/28_OnRtnTrade.s: 0_CTP_gateway_implement/28_OnRtnTrade.cpp.s
 
-.PHONY : 0_CTP_gateway_implement/29_OnRtnTrade.s
+.PHONY : 0_CTP_gateway_implement/28_OnRtnTrade.s
 
 # target to generate assembly for a file
-0_CTP_gateway_implement/29_OnRtnTrade.cpp.s:
-	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build && $(MAKE) -f 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/build.make 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/29_OnRtnTrade.cpp.s
-.PHONY : 0_CTP_gateway_implement/29_OnRtnTrade.cpp.s
+0_CTP_gateway_implement/28_OnRtnTrade.cpp.s:
+	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build && $(MAKE) -f 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/build.make 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/28_OnRtnTrade.cpp.s
+.PHONY : 0_CTP_gateway_implement/28_OnRtnTrade.cpp.s
+
+0_CTP_gateway_implement/29_generate_new_request_id.o: 0_CTP_gateway_implement/29_generate_new_request_id.cpp.o
+
+.PHONY : 0_CTP_gateway_implement/29_generate_new_request_id.o
+
+# target to build an object file
+0_CTP_gateway_implement/29_generate_new_request_id.cpp.o:
+	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build && $(MAKE) -f 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/build.make 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/29_generate_new_request_id.cpp.o
+.PHONY : 0_CTP_gateway_implement/29_generate_new_request_id.cpp.o
+
+0_CTP_gateway_implement/29_generate_new_request_id.i: 0_CTP_gateway_implement/29_generate_new_request_id.cpp.i
+
+.PHONY : 0_CTP_gateway_implement/29_generate_new_request_id.i
+
+# target to preprocess a source file
+0_CTP_gateway_implement/29_generate_new_request_id.cpp.i:
+	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build && $(MAKE) -f 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/build.make 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/29_generate_new_request_id.cpp.i
+.PHONY : 0_CTP_gateway_implement/29_generate_new_request_id.cpp.i
+
+0_CTP_gateway_implement/29_generate_new_request_id.s: 0_CTP_gateway_implement/29_generate_new_request_id.cpp.s
+
+.PHONY : 0_CTP_gateway_implement/29_generate_new_request_id.s
+
+# target to generate assembly for a file
+0_CTP_gateway_implement/29_generate_new_request_id.cpp.s:
+	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build && $(MAKE) -f 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/build.make 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/29_generate_new_request_id.cpp.s
+.PHONY : 0_CTP_gateway_implement/29_generate_new_request_id.cpp.s
 
 0_CTP_gateway_implement/2_limit_entrust_insert.o: 0_CTP_gateway_implement/2_limit_entrust_insert.cpp.o
 
@@ -745,6 +745,33 @@ CTP_gateway/fast:
 0_CTP_gateway_implement/2_limit_entrust_insert.cpp.s:
 	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build && $(MAKE) -f 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/build.make 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/2_limit_entrust_insert.cpp.s
 .PHONY : 0_CTP_gateway_implement/2_limit_entrust_insert.cpp.s
+
+0_CTP_gateway_implement/30_is_error_response.o: 0_CTP_gateway_implement/30_is_error_response.cpp.o
+
+.PHONY : 0_CTP_gateway_implement/30_is_error_response.o
+
+# target to build an object file
+0_CTP_gateway_implement/30_is_error_response.cpp.o:
+	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build && $(MAKE) -f 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/build.make 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/30_is_error_response.cpp.o
+.PHONY : 0_CTP_gateway_implement/30_is_error_response.cpp.o
+
+0_CTP_gateway_implement/30_is_error_response.i: 0_CTP_gateway_implement/30_is_error_response.cpp.i
+
+.PHONY : 0_CTP_gateway_implement/30_is_error_response.i
+
+# target to preprocess a source file
+0_CTP_gateway_implement/30_is_error_response.cpp.i:
+	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build && $(MAKE) -f 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/build.make 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/30_is_error_response.cpp.i
+.PHONY : 0_CTP_gateway_implement/30_is_error_response.cpp.i
+
+0_CTP_gateway_implement/30_is_error_response.s: 0_CTP_gateway_implement/30_is_error_response.cpp.s
+
+.PHONY : 0_CTP_gateway_implement/30_is_error_response.s
+
+# target to generate assembly for a file
+0_CTP_gateway_implement/30_is_error_response.cpp.s:
+	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build && $(MAKE) -f 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/build.make 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/30_is_error_response.cpp.s
+.PHONY : 0_CTP_gateway_implement/30_is_error_response.cpp.s
 
 0_CTP_gateway_implement/3_limit_order_action.o: 0_CTP_gateway_implement/3_limit_order_action.cpp.o
 
@@ -947,72 +974,75 @@ help:
 	@echo "... 0_CTP_gateway_implement/0_con_destructor.o"
 	@echo "... 0_CTP_gateway_implement/0_con_destructor.i"
 	@echo "... 0_CTP_gateway_implement/0_con_destructor.s"
-	@echo "... 0_CTP_gateway_implement/10_confirm.o"
-	@echo "... 0_CTP_gateway_implement/10_confirm.i"
-	@echo "... 0_CTP_gateway_implement/10_confirm.s"
-	@echo "... 0_CTP_gateway_implement/11_req_connect.o"
-	@echo "... 0_CTP_gateway_implement/11_req_connect.i"
-	@echo "... 0_CTP_gateway_implement/11_req_connect.s"
-	@echo "... 0_CTP_gateway_implement/12_req_authenticate.o"
-	@echo "... 0_CTP_gateway_implement/12_req_authenticate.i"
-	@echo "... 0_CTP_gateway_implement/12_req_authenticate.s"
-	@echo "... 0_CTP_gateway_implement/13_req_login.o"
-	@echo "... 0_CTP_gateway_implement/13_req_login.i"
-	@echo "... 0_CTP_gateway_implement/13_req_login.s"
-	@echo "... 0_CTP_gateway_implement/14_req_query_settlement_confirm.o"
-	@echo "... 0_CTP_gateway_implement/14_req_query_settlement_confirm.i"
-	@echo "... 0_CTP_gateway_implement/14_req_query_settlement_confirm.s"
-	@echo "... 0_CTP_gateway_implement/15_req_settlement_confirm.o"
-	@echo "... 0_CTP_gateway_implement/15_req_settlement_confirm.i"
-	@echo "... 0_CTP_gateway_implement/15_req_settlement_confirm.s"
-	@echo "... 0_CTP_gateway_implement/16_req_entrust_insert.o"
-	@echo "... 0_CTP_gateway_implement/16_req_entrust_insert.i"
-	@echo "... 0_CTP_gateway_implement/16_req_entrust_insert.s"
-	@echo "... 0_CTP_gateway_implement/17_req_entrust_action.o"
-	@echo "... 0_CTP_gateway_implement/17_req_entrust_action.i"
-	@echo "... 0_CTP_gateway_implement/17_req_entrust_action.s"
-	@echo "... 0_CTP_gateway_implement/18_OnFrontConnected.o"
-	@echo "... 0_CTP_gateway_implement/18_OnFrontConnected.i"
-	@echo "... 0_CTP_gateway_implement/18_OnFrontConnected.s"
-	@echo "... 0_CTP_gateway_implement/19_OnFrontDisconnected.o"
-	@echo "... 0_CTP_gateway_implement/19_OnFrontDisconnected.i"
-	@echo "... 0_CTP_gateway_implement/19_OnFrontDisconnected.s"
+	@echo "... 0_CTP_gateway_implement/10_req_connect.o"
+	@echo "... 0_CTP_gateway_implement/10_req_connect.i"
+	@echo "... 0_CTP_gateway_implement/10_req_connect.s"
+	@echo "... 0_CTP_gateway_implement/11_req_authenticate.o"
+	@echo "... 0_CTP_gateway_implement/11_req_authenticate.i"
+	@echo "... 0_CTP_gateway_implement/11_req_authenticate.s"
+	@echo "... 0_CTP_gateway_implement/12_req_login.o"
+	@echo "... 0_CTP_gateway_implement/12_req_login.i"
+	@echo "... 0_CTP_gateway_implement/12_req_login.s"
+	@echo "... 0_CTP_gateway_implement/13_req_query_settlement_confirm.o"
+	@echo "... 0_CTP_gateway_implement/13_req_query_settlement_confirm.i"
+	@echo "... 0_CTP_gateway_implement/13_req_query_settlement_confirm.s"
+	@echo "... 0_CTP_gateway_implement/14_req_settlement_confirm.o"
+	@echo "... 0_CTP_gateway_implement/14_req_settlement_confirm.i"
+	@echo "... 0_CTP_gateway_implement/14_req_settlement_confirm.s"
+	@echo "... 0_CTP_gateway_implement/15_req_entrust_insert.o"
+	@echo "... 0_CTP_gateway_implement/15_req_entrust_insert.i"
+	@echo "... 0_CTP_gateway_implement/15_req_entrust_insert.s"
+	@echo "... 0_CTP_gateway_implement/16_req_entrust_action.o"
+	@echo "... 0_CTP_gateway_implement/16_req_entrust_action.i"
+	@echo "... 0_CTP_gateway_implement/16_req_entrust_action.s"
+	@echo "... 0_CTP_gateway_implement/17_OnFrontConnected.o"
+	@echo "... 0_CTP_gateway_implement/17_OnFrontConnected.i"
+	@echo "... 0_CTP_gateway_implement/17_OnFrontConnected.s"
+	@echo "... 0_CTP_gateway_implement/18_OnFrontDisconnected.o"
+	@echo "... 0_CTP_gateway_implement/18_OnFrontDisconnected.i"
+	@echo "... 0_CTP_gateway_implement/18_OnFrontDisconnected.s"
+	@echo "... 0_CTP_gateway_implement/19_OnRspAuthenticate.o"
+	@echo "... 0_CTP_gateway_implement/19_OnRspAuthenticate.i"
+	@echo "... 0_CTP_gateway_implement/19_OnRspAuthenticate.s"
 	@echo "... 0_CTP_gateway_implement/1_prepare.o"
 	@echo "... 0_CTP_gateway_implement/1_prepare.i"
 	@echo "... 0_CTP_gateway_implement/1_prepare.s"
-	@echo "... 0_CTP_gateway_implement/20_OnRspAuthenticate.o"
-	@echo "... 0_CTP_gateway_implement/20_OnRspAuthenticate.i"
-	@echo "... 0_CTP_gateway_implement/20_OnRspAuthenticate.s"
-	@echo "... 0_CTP_gateway_implement/21_OnRspUserLogin.o"
-	@echo "... 0_CTP_gateway_implement/21_OnRspUserLogin.i"
-	@echo "... 0_CTP_gateway_implement/21_OnRspUserLogin.s"
-	@echo "... 0_CTP_gateway_implement/22_OnRspQrySettlementInfoConfirm.o"
-	@echo "... 0_CTP_gateway_implement/22_OnRspQrySettlementInfoConfirm.i"
-	@echo "... 0_CTP_gateway_implement/22_OnRspQrySettlementInfoConfirm.s"
-	@echo "... 0_CTP_gateway_implement/23_OnRspSettlementInfoConfirm.o"
-	@echo "... 0_CTP_gateway_implement/23_OnRspSettlementInfoConfirm.i"
-	@echo "... 0_CTP_gateway_implement/23_OnRspSettlementInfoConfirm.s"
-	@echo "... 0_CTP_gateway_implement/24_OnRspUserLogout.o"
-	@echo "... 0_CTP_gateway_implement/24_OnRspUserLogout.i"
-	@echo "... 0_CTP_gateway_implement/24_OnRspUserLogout.s"
-	@echo "... 0_CTP_gateway_implement/25_OnRspOrderInsert.o"
-	@echo "... 0_CTP_gateway_implement/25_OnRspOrderInsert.i"
-	@echo "... 0_CTP_gateway_implement/25_OnRspOrderInsert.s"
-	@echo "... 0_CTP_gateway_implement/26_OnErrRtnOrderInsert.o"
-	@echo "... 0_CTP_gateway_implement/26_OnErrRtnOrderInsert.i"
-	@echo "... 0_CTP_gateway_implement/26_OnErrRtnOrderInsert.s"
-	@echo "... 0_CTP_gateway_implement/27_OnRspOrderAction.o"
-	@echo "... 0_CTP_gateway_implement/27_OnRspOrderAction.i"
-	@echo "... 0_CTP_gateway_implement/27_OnRspOrderAction.s"
-	@echo "... 0_CTP_gateway_implement/28_OnRtnOrder.o"
-	@echo "... 0_CTP_gateway_implement/28_OnRtnOrder.i"
-	@echo "... 0_CTP_gateway_implement/28_OnRtnOrder.s"
-	@echo "... 0_CTP_gateway_implement/29_OnRtnTrade.o"
-	@echo "... 0_CTP_gateway_implement/29_OnRtnTrade.i"
-	@echo "... 0_CTP_gateway_implement/29_OnRtnTrade.s"
+	@echo "... 0_CTP_gateway_implement/20_OnRspUserLogin.o"
+	@echo "... 0_CTP_gateway_implement/20_OnRspUserLogin.i"
+	@echo "... 0_CTP_gateway_implement/20_OnRspUserLogin.s"
+	@echo "... 0_CTP_gateway_implement/21_OnRspQrySettlementInfoConfirm.o"
+	@echo "... 0_CTP_gateway_implement/21_OnRspQrySettlementInfoConfirm.i"
+	@echo "... 0_CTP_gateway_implement/21_OnRspQrySettlementInfoConfirm.s"
+	@echo "... 0_CTP_gateway_implement/22_OnRspSettlementInfoConfirm.o"
+	@echo "... 0_CTP_gateway_implement/22_OnRspSettlementInfoConfirm.i"
+	@echo "... 0_CTP_gateway_implement/22_OnRspSettlementInfoConfirm.s"
+	@echo "... 0_CTP_gateway_implement/23_OnRspUserLogout.o"
+	@echo "... 0_CTP_gateway_implement/23_OnRspUserLogout.i"
+	@echo "... 0_CTP_gateway_implement/23_OnRspUserLogout.s"
+	@echo "... 0_CTP_gateway_implement/24_OnRspOrderInsert.o"
+	@echo "... 0_CTP_gateway_implement/24_OnRspOrderInsert.i"
+	@echo "... 0_CTP_gateway_implement/24_OnRspOrderInsert.s"
+	@echo "... 0_CTP_gateway_implement/25_OnErrRtnOrderInsert.o"
+	@echo "... 0_CTP_gateway_implement/25_OnErrRtnOrderInsert.i"
+	@echo "... 0_CTP_gateway_implement/25_OnErrRtnOrderInsert.s"
+	@echo "... 0_CTP_gateway_implement/26_OnRspOrderAction.o"
+	@echo "... 0_CTP_gateway_implement/26_OnRspOrderAction.i"
+	@echo "... 0_CTP_gateway_implement/26_OnRspOrderAction.s"
+	@echo "... 0_CTP_gateway_implement/27_OnRtnOrder.o"
+	@echo "... 0_CTP_gateway_implement/27_OnRtnOrder.i"
+	@echo "... 0_CTP_gateway_implement/27_OnRtnOrder.s"
+	@echo "... 0_CTP_gateway_implement/28_OnRtnTrade.o"
+	@echo "... 0_CTP_gateway_implement/28_OnRtnTrade.i"
+	@echo "... 0_CTP_gateway_implement/28_OnRtnTrade.s"
+	@echo "... 0_CTP_gateway_implement/29_generate_new_request_id.o"
+	@echo "... 0_CTP_gateway_implement/29_generate_new_request_id.i"
+	@echo "... 0_CTP_gateway_implement/29_generate_new_request_id.s"
 	@echo "... 0_CTP_gateway_implement/2_limit_entrust_insert.o"
 	@echo "... 0_CTP_gateway_implement/2_limit_entrust_insert.i"
 	@echo "... 0_CTP_gateway_implement/2_limit_entrust_insert.s"
+	@echo "... 0_CTP_gateway_implement/30_is_error_response.o"
+	@echo "... 0_CTP_gateway_implement/30_is_error_response.i"
+	@echo "... 0_CTP_gateway_implement/30_is_error_response.s"
 	@echo "... 0_CTP_gateway_implement/3_limit_order_action.o"
 	@echo "... 0_CTP_gateway_implement/3_limit_order_action.i"
 	@echo "... 0_CTP_gateway_implement/3_limit_order_action.s"

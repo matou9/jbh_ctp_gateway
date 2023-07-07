@@ -9,5 +9,5 @@ void CTP_gateway::req_authenticate()
     string_utils::strncpy(req.UserID, user.c_str(), sizeof(req.UserID));
     string_utils::strncpy(req.AppID, app.c_str(), sizeof(req.AppID));
     string_utils::strncpy(req.AuthCode, auth_code.c_str(), sizeof(req.AuthCode));
-    int ret = CTP_trader_api->ReqAuthenticate(&req, generate_new_request_id());
+    CTP_trader_api->ReqAuthenticate(&req, generate_new_request_id());
 }

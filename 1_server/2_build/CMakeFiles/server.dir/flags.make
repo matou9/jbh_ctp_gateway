@@ -6,5 +6,5 @@ CXX_FLAGS =  -Wall -g   -std=gnu++11
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/tushetou/jbh_code/0_trade_gateway/1_server -I/home/tushetou/jbh_code/0_trade_gateway/1_server/0_include 
+CXX_INCLUDES = -I/home/tushetou/jbh_code/0_trade_gateway/1_server -I/home/tushetou/jbh_code/0_trade_gateway/1_server/0_include -I/home/tushetou/jbh_code/0_trade_gateway/1_server/1_source 
 

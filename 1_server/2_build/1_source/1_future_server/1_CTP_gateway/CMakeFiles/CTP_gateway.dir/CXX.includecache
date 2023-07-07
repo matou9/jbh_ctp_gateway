@@ -16,8 +16,26 @@
 string
 -
 
+../0_include/1_future_data_class/1_future_limit_order.h
+0_future_limit_entrust.h
+../0_include/1_future_data_class/0_future_limit_entrust.h
+stdint.h
+-
+
 ../0_include/1_future_data_class/2_future_limit_order_action.h
 string
+-
+
+../0_include/1_future_data_class/3_future_limit_trade.h
+1_future_limit_order.h
+../0_include/1_future_data_class/1_future_limit_order.h
+
+../1_source/2_utils/0_string_utils.hpp
+spdlog/fmt/fmt.h
+-
+string
+-
+vector
 -
 
 /home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/0_trading_platform_api/CTP6.3.15/ThostFtdcTraderApi.h
@@ -35,100 +53,136 @@ ThostFtdcUserApiDataType.h
 /home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/1_CTP_gateway/0_future_gateway.h
 1_future_data_class/0_future_limit_entrust.h
 /home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/1_CTP_gateway/1_future_data_class/0_future_limit_entrust.h
+1_future_data_class/1_future_limit_order.h
+/home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/1_CTP_gateway/1_future_data_class/1_future_limit_order.h
 1_future_data_class/2_future_limit_order_action.h
 /home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/1_CTP_gateway/1_future_data_class/2_future_limit_order_action.h
+1_future_data_class/3_future_limit_trade.h
+/home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/1_CTP_gateway/1_future_data_class/3_future_limit_trade.h
 ../0_trading_platform_api/CTP6.3.15/ThostFtdcTraderApi.h
 /home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/0_trading_platform_api/CTP6.3.15/ThostFtdcTraderApi.h
+string
+-
+stdint.h
+-
+unordered_map
+-
+atomic
+-
 
 /home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/0_con_destructor.cpp
 ../0_CTP_gateway.h
 /home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/1_CTP_gateway/0_CTP_gateway.h
 
-/home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/10_confirm.cpp
+/home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/10_req_connect.cpp
 ../0_CTP_gateway.h
 /home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/1_CTP_gateway/0_CTP_gateway.h
 
-/home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/11_req_connect.cpp
+/home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/11_req_authenticate.cpp
+../0_CTP_gateway.h
+/home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/1_CTP_gateway/0_CTP_gateway.h
+2_utils/0_string_utils.hpp
+/home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/2_utils/0_string_utils.hpp
+
+/home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/12_req_login.cpp
+../0_CTP_gateway.h
+/home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/1_CTP_gateway/0_CTP_gateway.h
+string.h
+-
+2_utils/0_string_utils.hpp
+/home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/2_utils/0_string_utils.hpp
+
+/home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/13_req_query_settlement_confirm.cpp
+../0_CTP_gateway.h
+/home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/1_CTP_gateway/0_CTP_gateway.h
+2_utils/0_string_utils.hpp
+/home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/2_utils/0_string_utils.hpp
+string.h
+-
+
+/home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/14_req_settlement_confirm.cpp
 ../0_CTP_gateway.h
 /home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/1_CTP_gateway/0_CTP_gateway.h
 
-/home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/12_req_authenticate.cpp
+/home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/15_req_entrust_insert.cpp
 ../0_CTP_gateway.h
 /home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/1_CTP_gateway/0_CTP_gateway.h
 
-/home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/13_req_login.cpp
+/home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/16_req_entrust_action.cpp
 ../0_CTP_gateway.h
 /home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/1_CTP_gateway/0_CTP_gateway.h
 
-/home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/14_req_query_settlement_confirm.cpp
+/home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/17_OnFrontConnected.cpp
 ../0_CTP_gateway.h
 /home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/1_CTP_gateway/0_CTP_gateway.h
+iostream
+-
 
-/home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/15_req_settlement_confirm.cpp
+/home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/18_OnFrontDisconnected.cpp
 ../0_CTP_gateway.h
 /home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/1_CTP_gateway/0_CTP_gateway.h
+iostream
+-
 
-/home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/16_req_entrust_insert.cpp
+/home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/19_OnRspAuthenticate.cpp
 ../0_CTP_gateway.h
 /home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/1_CTP_gateway/0_CTP_gateway.h
-
-/home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/17_req_entrust_action.cpp
-../0_CTP_gateway.h
-/home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/1_CTP_gateway/0_CTP_gateway.h
-
-/home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/18_OnFrontConnected.cpp
-../0_CTP_gateway.h
-/home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/1_CTP_gateway/0_CTP_gateway.h
-
-/home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/19_OnFrontDisconnected.cpp
-../0_CTP_gateway.h
-/home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/1_CTP_gateway/0_CTP_gateway.h
+iostream
+-
 
 /home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/1_prepare.cpp
 ../0_CTP_gateway.h
 /home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/1_CTP_gateway/0_CTP_gateway.h
 
-/home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/20_OnRspAuthenticate.cpp
+/home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/20_OnRspUserLogin.cpp
+../0_CTP_gateway.h
+/home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/1_CTP_gateway/0_CTP_gateway.h
+iostream
+-
+
+/home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/21_OnRspQrySettlementInfoConfirm.cpp
+../0_CTP_gateway.h
+/home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/1_CTP_gateway/0_CTP_gateway.h
+iostream
+-
+
+/home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/22_OnRspSettlementInfoConfirm.cpp
 ../0_CTP_gateway.h
 /home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/1_CTP_gateway/0_CTP_gateway.h
 
-/home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/21_OnRspUserLogin.cpp
+/home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/23_OnRspUserLogout.cpp
 ../0_CTP_gateway.h
 /home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/1_CTP_gateway/0_CTP_gateway.h
 
-/home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/22_OnRspQrySettlementInfoConfirm.cpp
+/home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/24_OnRspOrderInsert.cpp
 ../0_CTP_gateway.h
 /home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/1_CTP_gateway/0_CTP_gateway.h
 
-/home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/23_OnRspSettlementInfoConfirm.cpp
+/home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/25_OnErrRtnOrderInsert.cpp
 ../0_CTP_gateway.h
 /home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/1_CTP_gateway/0_CTP_gateway.h
 
-/home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/24_OnRspUserLogout.cpp
+/home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/26_OnRspOrderAction.cpp
 ../0_CTP_gateway.h
 /home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/1_CTP_gateway/0_CTP_gateway.h
 
-/home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/25_OnRspOrderInsert.cpp
+/home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/27_OnRtnOrder.cpp
 ../0_CTP_gateway.h
 /home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/1_CTP_gateway/0_CTP_gateway.h
 
-/home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/26_OnErrRtnOrderInsert.cpp
+/home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/28_OnRtnTrade.cpp
 ../0_CTP_gateway.h
 /home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/1_CTP_gateway/0_CTP_gateway.h
 
-/home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/27_OnRspOrderAction.cpp
-../0_CTP_gateway.h
-/home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/1_CTP_gateway/0_CTP_gateway.h
-
-/home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/28_OnRtnOrder.cpp
-../0_CTP_gateway.h
-/home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/1_CTP_gateway/0_CTP_gateway.h
-
-/home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/29_OnRtnTrade.cpp
+/home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/29_generate_new_request_id.cpp
 ../0_CTP_gateway.h
 /home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/1_CTP_gateway/0_CTP_gateway.h
 
 /home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/2_limit_entrust_insert.cpp
+../0_CTP_gateway.h
+/home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/1_CTP_gateway/0_CTP_gateway.h
+
+/home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/30_is_error_response.cpp
 ../0_CTP_gateway.h
 /home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/1_CTP_gateway/0_CTP_gateway.h
 
@@ -139,6 +193,12 @@ ThostFtdcUserApiDataType.h
 /home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/4_init.cpp
 ../0_CTP_gateway.h
 /home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/1_CTP_gateway/0_CTP_gateway.h
+fstream
+-
+iostream
+-
+nlohmann/json.hpp
+-
 
 /home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/5_release.cpp
 ../0_CTP_gateway.h
@@ -147,6 +207,10 @@ ThostFtdcUserApiDataType.h
 /home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/6_connect.cpp
 ../0_CTP_gateway.h
 /home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/1_CTP_gateway/0_CTP_gateway.h
+sstream
+-
+boost/filesystem.hpp
+-
 
 /home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/7_disconnect.cpp
 ../0_CTP_gateway.h

@@ -6,5 +6,5 @@ CXX_FLAGS =  -Wall -g -fPIC   -std=gnu++11
 
 CXX_DEFINES = -DCTP_gateway_EXPORTS
 
-CXX_INCLUDES = -I/home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/1_CTP_gateway -I/home/tushetou/jbh_code/0_trade_gateway/1_server/0_include 
+CXX_INCLUDES = -I/home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/1_CTP_gateway -I/home/tushetou/jbh_code/0_trade_gateway/1_server/0_include -I/home/tushetou/jbh_code/0_trade_gateway/1_server/1_source 
 

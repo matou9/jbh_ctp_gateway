@@ -11,10 +11,22 @@
 ../1_source/1_future_server/1_CTP_gateway/0_future_gateway.h
 1_future_data_class/0_future_limit_entrust.h
 ../1_source/1_future_server/1_CTP_gateway/1_future_data_class/0_future_limit_entrust.h
+1_future_data_class/1_future_limit_order.h
+../1_source/1_future_server/1_CTP_gateway/1_future_data_class/1_future_limit_order.h
 1_future_data_class/2_future_limit_order_action.h
 ../1_source/1_future_server/1_CTP_gateway/1_future_data_class/2_future_limit_order_action.h
+1_future_data_class/3_future_limit_trade.h
+../1_source/1_future_server/1_CTP_gateway/1_future_data_class/3_future_limit_trade.h
 ../0_trading_platform_api/CTP6.3.15/ThostFtdcTraderApi.h
 ../1_source/1_future_server/0_trading_platform_api/CTP6.3.15/ThostFtdcTraderApi.h
+string
+-
+stdint.h
+-
+unordered_map
+-
+atomic
+-
 
 ../0_include/0_future_gateway.h
 1_future_data_class/0_future_limit_entrust.h
@@ -26,9 +38,19 @@
 string
 -
 
+../0_include/1_future_data_class/1_future_limit_order.h
+0_future_limit_entrust.h
+../0_include/1_future_data_class/0_future_limit_entrust.h
+stdint.h
+-
+
 ../0_include/1_future_data_class/2_future_limit_order_action.h
 string
 -
+
+../0_include/1_future_data_class/3_future_limit_trade.h
+1_future_limit_order.h
+../0_include/1_future_data_class/1_future_limit_order.h
 
 ../1_source/1_future_server/0_trading_platform_api/CTP6.3.15/ThostFtdcTraderApi.h
 ThostFtdcUserApiStruct.h

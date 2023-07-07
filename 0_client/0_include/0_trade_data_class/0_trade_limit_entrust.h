@@ -23,8 +23,8 @@ typedef enum
 {
     E_OPEN,
     E_CLOSE,
-    //E_CLOSE_TODAY,
-    //E_CLOSE_YESTERDAY,
+    E_CLOSE_TODAY,
+    E_CLOSE_YESTERDAY,
 
 }trade_offset_type;                          // 交易开平类型
 

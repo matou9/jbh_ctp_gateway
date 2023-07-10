@@ -27,6 +27,8 @@ unordered_map
 -
 atomic
 -
+thread
+-
 
 ../0_include/0_future_gateway.h
 1_future_data_class/0_future_limit_entrust.h
@@ -52,6 +54,30 @@ string
 1_future_limit_order.h
 ../0_include/1_future_data_class/1_future_limit_order.h
 
+../1_source/0_server_connector/0_server_connector.h
+1_source/1_future_server/1_CTP_gateway/0_CTP_gateway.h
+../1_source/0_server_connector/1_source/1_future_server/1_CTP_gateway/0_CTP_gateway.h
+arpa/inet.h
+-
+string
+-
+thread
+-
+unordered_map
+-
+atomic
+-
+queue
+-
+mutex
+-
+utility
+-
+condition_variable
+-
+stdint.h
+-
+
 ../1_source/1_future_server/0_trading_platform_api/CTP6.3.15/ThostFtdcTraderApi.h
 ThostFtdcUserApiStruct.h
 ../1_source/1_future_server/0_trading_platform_api/CTP6.3.15/ThostFtdcUserApiStruct.h
@@ -61,6 +87,30 @@ ThostFtdcUserApiStruct.h
 ../1_source/1_future_server/0_trading_platform_api/CTP6.3.15/ThostFtdcUserApiStruct.h
 ThostFtdcUserApiDataType.h
 ../1_source/1_future_server/0_trading_platform_api/CTP6.3.15/ThostFtdcUserApiDataType.h
+
+../1_source/1_future_server/1_CTP_gateway/0_CTP_gateway.h
+0_future_gateway.h
+../1_source/1_future_server/1_CTP_gateway/0_future_gateway.h
+1_future_data_class/0_future_limit_entrust.h
+../1_source/1_future_server/1_CTP_gateway/1_future_data_class/0_future_limit_entrust.h
+1_future_data_class/1_future_limit_order.h
+../1_source/1_future_server/1_CTP_gateway/1_future_data_class/1_future_limit_order.h
+1_future_data_class/2_future_limit_order_action.h
+../1_source/1_future_server/1_CTP_gateway/1_future_data_class/2_future_limit_order_action.h
+1_future_data_class/3_future_limit_trade.h
+../1_source/1_future_server/1_CTP_gateway/1_future_data_class/3_future_limit_trade.h
+../0_trading_platform_api/CTP6.3.15/ThostFtdcTraderApi.h
+../1_source/1_future_server/0_trading_platform_api/CTP6.3.15/ThostFtdcTraderApi.h
+string
+-
+stdint.h
+-
+unordered_map
+-
+atomic
+-
+thread
+-
 
 /home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/0_server_connector/0_server_connector.h
 1_source/1_future_server/1_CTP_gateway/0_CTP_gateway.h
@@ -135,6 +185,8 @@ iostream
 /home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/0_server_connector/0_server_connector_implement/6_process_client_request.cpp
 ../0_server_connector.h
 /home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/0_server_connector/0_server_connector.h
+iostream
+-
 
 /home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/0_server_connector/0_server_connector_implement/7_send_to_client.cpp
 ../0_server_connector.h
@@ -155,8 +207,12 @@ unistd.h
 -
 
 /home/tushetou/jbh_code/0_trade_gateway/1_server/server_main.cpp
-1_source/0_server_connector/0_server_connector.h
-/home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/0_server_connector/0_server_connector.h
+1_future_server/1_CTP_gateway/0_CTP_gateway.h
+/home/tushetou/jbh_code/0_trade_gateway/1_server/1_future_server/1_CTP_gateway/0_CTP_gateway.h
+0_server_connector/0_server_connector.h
+/home/tushetou/jbh_code/0_trade_gateway/1_server/0_server_connector/0_server_connector.h
 string.h
+-
+unistd.h
 -
 

@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_FLAGS =  -Wall -g   -std=gnu++11
 
-CXX_DEFINES = 
+CXX_DEFINES = -DBOOST_ALL_NO_LIB -DBOOST_FILESYSTEM_DYN_LINK
 
-CXX_INCLUDES = -I/home/tushetou/jbh_code/0_trade_gateway/1_server -I/home/tushetou/jbh_code/0_trade_gateway/1_server/0_include -I/home/tushetou/jbh_code/0_trade_gateway/1_server/1_source 
+CXX_INCLUDES = -I/home/tushetou/jbh_code/0_trade_gateway/1_server -I/home/tushetou/jbh_code/0_trade_gateway/1_server/0_include -I/home/tushetou/jbh_code/0_trade_gateway/1_server/1_source -isystem /usr/local/include 
 

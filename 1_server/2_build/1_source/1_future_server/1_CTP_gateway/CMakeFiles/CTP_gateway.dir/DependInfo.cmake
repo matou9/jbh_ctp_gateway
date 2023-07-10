@@ -38,11 +38,19 @@ set(CMAKE_DEPENDS_CHECK_CXX
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
+# Preprocessor definitions for this target.
+set(CMAKE_TARGET_DEFINITIONS_CXX
+  "BOOST_ALL_NO_LIB"
+  "BOOST_FILESYSTEM_DYN_LINK"
+  )
+
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "../1_source/1_future_server/1_CTP_gateway"
+  "../"
   "../0_include"
   "../1_source"
+  "../1_source/1_future_server/1_CTP_gateway"
+  "/usr/local/include"
   )
 
 # Targets to which this target links.

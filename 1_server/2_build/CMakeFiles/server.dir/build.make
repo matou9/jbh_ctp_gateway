@@ -403,6 +403,8 @@ server: CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_imp
 server: CMakeFiles/server.dir/server_main.cpp.o
 server: CMakeFiles/server.dir/build.make
 server: ../3_lib/libCTP_gateway.so
+server: /usr/local/lib/libboost_filesystem.so.1.72.0
+server: ../1_source/1_future_server/0_trading_platform_api/CTP6.3.15/linux/libthosttraderapi_se.so
 server: CMakeFiles/server.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/tushetou/jbh_code/0_trade_gateway/1_server/2_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Linking CXX executable server"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/server.dir/link.txt --verbose=$(VERBOSE)

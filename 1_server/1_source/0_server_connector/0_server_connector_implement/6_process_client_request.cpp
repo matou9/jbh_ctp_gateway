@@ -1,5 +1,6 @@
 #include "../0_server_connector.h"
 
+#include <iostream>
 /*
  * 定义交易接口api名称枚举变量, 添加至数据报的首地址, 用于区分不同的交易接口api
  */
@@ -24,6 +25,7 @@ void server_connector::process_client_request(char* p_message, int message_lengt
     {
         case E_LIMIT_ENTRUST_INSERT:
             p_trade_gateway->limit_entrust_insert((future_limit_entrust*)move_pointer);
+            std::cout << "处理客户端下单请求" << std::endl;
             break;
         case E_LIMIT_ORDER_CANCEL:
             p_trade_gateway->limit_order_action((future_limit_order_action*)move_pointer);

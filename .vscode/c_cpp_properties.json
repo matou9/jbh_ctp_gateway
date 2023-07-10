@@ -6,7 +6,8 @@
                 "${workspaceFolder}/0_client",
                 "${workspaceFolder}/1_server",
                 "${workspaceFolder}/1_server/0_include",
-                "${workspaceFolder}/1_server/1_source"
+                "${workspaceFolder}/1_server/1_source",
+                "${workspaceFolder}/1_server/1_source/0_server_connector"
             ],
             "defines": [],
             "compilerPath": "/usr/bin/gcc",

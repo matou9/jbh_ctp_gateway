@@ -30,6 +30,7 @@ private:
 
     std::thread* accept_thread;
     std::unordered_map<int, std::thread*> interact_threads;
+    
     std::unordered_map<int, std::atomic<bool>> stop_interact_threads;
 
     CTP_gateway* p_trade_gateway; 

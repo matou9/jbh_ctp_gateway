@@ -870,6 +870,8 @@ CTP_gateway_EXTERNAL_OBJECTS =
 ../3_lib/libCTP_gateway.so: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/8_login.cpp.o
 ../3_lib/libCTP_gateway.so: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/9_logout.cpp.o
 ../3_lib/libCTP_gateway.so: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/build.make
+../3_lib/libCTP_gateway.so: /usr/local/lib/libboost_filesystem.so.1.72.0
+../3_lib/libCTP_gateway.so: ../1_source/1_future_server/0_trading_platform_api/CTP6.3.15/linux/libthosttraderapi_se.so
 ../3_lib/libCTP_gateway.so: 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/tushetou/jbh_code/0_trade_gateway/1_server/2_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Linking CXX shared library ../../../../3_lib/libCTP_gateway.so"
 	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build/1_source/1_future_server/1_CTP_gateway && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/CTP_gateway.dir/link.txt --verbose=$(VERBOSE)

@@ -151,9 +151,10 @@ CMakeFiles/server.dir/server_main.cpp.o: ../0_include/1_future_data_class/0_futu
 CMakeFiles/server.dir/server_main.cpp.o: ../0_include/1_future_data_class/1_future_limit_order.h
 CMakeFiles/server.dir/server_main.cpp.o: ../0_include/1_future_data_class/2_future_limit_order_action.h
 CMakeFiles/server.dir/server_main.cpp.o: ../0_include/1_future_data_class/3_future_limit_trade.h
+CMakeFiles/server.dir/server_main.cpp.o: ../1_source/0_server_connector/0_server_connector.h
 CMakeFiles/server.dir/server_main.cpp.o: ../1_source/1_future_server/0_trading_platform_api/CTP6.3.15/ThostFtdcTraderApi.h
 CMakeFiles/server.dir/server_main.cpp.o: ../1_source/1_future_server/0_trading_platform_api/CTP6.3.15/ThostFtdcUserApiDataType.h
 CMakeFiles/server.dir/server_main.cpp.o: ../1_source/1_future_server/0_trading_platform_api/CTP6.3.15/ThostFtdcUserApiStruct.h
-CMakeFiles/server.dir/server_main.cpp.o: ../1_source/0_server_connector/0_server_connector.h
+CMakeFiles/server.dir/server_main.cpp.o: ../1_source/1_future_server/1_CTP_gateway/0_CTP_gateway.h
 CMakeFiles/server.dir/server_main.cpp.o: ../server_main.cpp
 

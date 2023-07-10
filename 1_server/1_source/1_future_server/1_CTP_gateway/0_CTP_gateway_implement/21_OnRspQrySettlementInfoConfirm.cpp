@@ -26,7 +26,8 @@ void CTP_gateway::OnRspQrySettlementInfoConfirm
             uint32_t confirm_date = strtoul(pSettlementInfoConfirm->ConfirmDate, nullptr, 10);
             if (confirm_date == trading_day)
             {
-                std::cout << "CTP_gateway::OnRspQrySettlementInfoConfirm() : 已确认过当日结算单, 无需再次确认" << std::endl;
+                is_ready = true;
+                std::cout << "CTP_gateway::OnRspQrySettlementInfoConfirm() : 已确认过当日结算单, 无需再次确认. CTP用户"<< user << "准备交易" << std::endl;        
                 return;
             }
             else if (confirm_date < trading_day)

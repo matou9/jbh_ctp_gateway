@@ -25,10 +25,10 @@ typedef enum
 class future_gateway
 {
 public:
-    virtual ~future_gateway() = 0;
+    virtual ~future_gateway(){};
 
 public:
-    virtual void prepare() = 0;
+    virtual void prepare(const char* config_file_name) = 0;
     virtual void limit_entrust_insert(future_limit_entrust* entrust) = 0;
     virtual void limit_order_action(future_limit_order_action* order_action) = 0;
 protected:

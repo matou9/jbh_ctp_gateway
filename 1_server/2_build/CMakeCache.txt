@@ -14,6 +14,9 @@
 # EXTERNAL cache entries
 ########################
 
+//The directory containing a CMake configuration file for Boost.
+Boost_DIR:PATH=/usr/local/lib/cmake/Boost-1.72.0
+
 //Path to a program.
 CMAKE_AR:FILEPATH=/usr/bin/ar
 
@@ -185,10 +188,19 @@ CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 CTP_gateway_BINARY_DIR:STATIC=/home/tushetou/jbh_code/0_trade_gateway/1_server/2_build/1_source/1_future_server/1_CTP_gateway
 
 //Dependencies for the target
-CTP_gateway_LIB_DEPENDS:STATIC=general;pthread;
+CTP_gateway_LIB_DEPENDS:STATIC=general;pthread;general;Boost::filesystem;general;/home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/0_trading_platform_api/CTP6.3.15/linux/libthosttraderapi_se.so;
 
 //Value Computed by CMake
 CTP_gateway_SOURCE_DIR:STATIC=/home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/1_CTP_gateway
+
+//Path to a library.
+CTP_trader:FILEPATH=/home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/0_trading_platform_api/CTP6.3.15/linux/libthosttraderapi_se.so
+
+//The directory containing a CMake configuration file for boost_filesystem.
+boost_filesystem_DIR:PATH=/usr/local/lib/cmake/boost_filesystem-1.72.0
+
+//The directory containing a CMake configuration file for boost_headers.
+boost_headers_DIR:PATH=/usr/local/lib/cmake/boost_headers-1.72.0
 
 //Value Computed by CMake
 server_BINARY_DIR:STATIC=/home/tushetou/jbh_code/0_trade_gateway/1_server/2_build
@@ -201,6 +213,8 @@ server_SOURCE_DIR:STATIC=/home/tushetou/jbh_code/0_trade_gateway/1_server
 # INTERNAL cache entries
 ########################
 
+//ADVANCED property for variable: Boost_DIR
+Boost_DIR-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_AR
 CMAKE_AR-ADVANCED:INTERNAL=1
 //This is the directory where this CMakeCache.txt was created
@@ -336,4 +350,8 @@ CMAKE_STRIP-ADVANCED:INTERNAL=1
 CMAKE_UNAME:INTERNAL=/bin/uname
 //ADVANCED property for variable: CMAKE_VERBOSE_MAKEFILE
 CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: boost_filesystem_DIR
+boost_filesystem_DIR-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: boost_headers_DIR
+boost_headers_DIR-ADVANCED:INTERNAL=1
 

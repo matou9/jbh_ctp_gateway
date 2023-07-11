@@ -5,5 +5,5 @@ void CTP_gateway::OnRtnTrade(CThostFtdcTradeField * pTrade)
 {
     // TODO
     std::cout << "CTP_gateway::OnRtnTrade(): 成交回报, OrderSysID: " << pTrade->OrderSysID << std::endl;
-
+    std::cout << "invest unit id: " << pTrade->InvestUnitID << std::endl;
 }

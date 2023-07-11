@@ -5,6 +5,7 @@
 
 #include <string.h>
 #include <iostream>
+#include <string>
 void CTP_gateway::req_entrust_insert(future_limit_entrust* entrust)
 {
     CThostFtdcInputOrderField req;
@@ -13,7 +14,7 @@ void CTP_gateway::req_entrust_insert(future_limit_entrust* entrust)
     string_utils::strncpy(req.BrokerID, broker.c_str(), sizeof(req.BrokerID));
     string_utils::strncpy(req.InvestorID, user.c_str(), sizeof(req.InvestorID));
     string_utils::strncpy(req.InstrumentID, entrust->instrument_code, sizeof(req.InstrumentID));
-    string_utils::strncpy(req.OrderRef, std::to_string(order_ref++).c_str(), sizeof(req.OrderRef));
+    string_utils::strncpy(req.OrderRef, std::to_string(order_ref).c_str(), sizeof(req.OrderRef));
     string_utils::strncpy(req.UserID, user.c_str(), sizeof(req.UserID));
     req.OrderPriceType = THOST_FTDC_OPT_LimitPrice;
     
@@ -55,7 +56,10 @@ void CTP_gateway::req_entrust_insert(future_limit_entrust* entrust)
     req.UserForceClose = 0;
     req.IsSwapOrder = 0;
 
-    int ret = CTP_trader_api->ReqOrderInsert(&req, generate_new_request_id());
+
+
+
+    int ret = CTP_trader_api->ReqOrderInsert(&req, 0);
     if (ret != 0)
     {
         std::cout << "CTP_gateway::req_entrust_insert(): 下单失败!, errorID: " << ret << std::endl;

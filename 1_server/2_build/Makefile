@@ -217,6 +217,60 @@ CTP_gateway/fast:
 	$(MAKE) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/11_add_gateway.cpp.s
 .PHONY : 1_source/0_server_connector/0_server_connector_implement/11_add_gateway.cpp.s
 
+1_source/0_server_connector/0_server_connector_implement/12_write_server_response_to_queue.o: 1_source/0_server_connector/0_server_connector_implement/12_write_server_response_to_queue.cpp.o
+
+.PHONY : 1_source/0_server_connector/0_server_connector_implement/12_write_server_response_to_queue.o
+
+# target to build an object file
+1_source/0_server_connector/0_server_connector_implement/12_write_server_response_to_queue.cpp.o:
+	$(MAKE) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/12_write_server_response_to_queue.cpp.o
+.PHONY : 1_source/0_server_connector/0_server_connector_implement/12_write_server_response_to_queue.cpp.o
+
+1_source/0_server_connector/0_server_connector_implement/12_write_server_response_to_queue.i: 1_source/0_server_connector/0_server_connector_implement/12_write_server_response_to_queue.cpp.i
+
+.PHONY : 1_source/0_server_connector/0_server_connector_implement/12_write_server_response_to_queue.i
+
+# target to preprocess a source file
+1_source/0_server_connector/0_server_connector_implement/12_write_server_response_to_queue.cpp.i:
+	$(MAKE) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/12_write_server_response_to_queue.cpp.i
+.PHONY : 1_source/0_server_connector/0_server_connector_implement/12_write_server_response_to_queue.cpp.i
+
+1_source/0_server_connector/0_server_connector_implement/12_write_server_response_to_queue.s: 1_source/0_server_connector/0_server_connector_implement/12_write_server_response_to_queue.cpp.s
+
+.PHONY : 1_source/0_server_connector/0_server_connector_implement/12_write_server_response_to_queue.s
+
+# target to generate assembly for a file
+1_source/0_server_connector/0_server_connector_implement/12_write_server_response_to_queue.cpp.s:
+	$(MAKE) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/12_write_server_response_to_queue.cpp.s
+.PHONY : 1_source/0_server_connector/0_server_connector_implement/12_write_server_response_to_queue.cpp.s
+
+1_source/0_server_connector/0_server_connector_implement/13_read_server_response_from_queue.o: 1_source/0_server_connector/0_server_connector_implement/13_read_server_response_from_queue.cpp.o
+
+.PHONY : 1_source/0_server_connector/0_server_connector_implement/13_read_server_response_from_queue.o
+
+# target to build an object file
+1_source/0_server_connector/0_server_connector_implement/13_read_server_response_from_queue.cpp.o:
+	$(MAKE) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/13_read_server_response_from_queue.cpp.o
+.PHONY : 1_source/0_server_connector/0_server_connector_implement/13_read_server_response_from_queue.cpp.o
+
+1_source/0_server_connector/0_server_connector_implement/13_read_server_response_from_queue.i: 1_source/0_server_connector/0_server_connector_implement/13_read_server_response_from_queue.cpp.i
+
+.PHONY : 1_source/0_server_connector/0_server_connector_implement/13_read_server_response_from_queue.i
+
+# target to preprocess a source file
+1_source/0_server_connector/0_server_connector_implement/13_read_server_response_from_queue.cpp.i:
+	$(MAKE) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/13_read_server_response_from_queue.cpp.i
+.PHONY : 1_source/0_server_connector/0_server_connector_implement/13_read_server_response_from_queue.cpp.i
+
+1_source/0_server_connector/0_server_connector_implement/13_read_server_response_from_queue.s: 1_source/0_server_connector/0_server_connector_implement/13_read_server_response_from_queue.cpp.s
+
+.PHONY : 1_source/0_server_connector/0_server_connector_implement/13_read_server_response_from_queue.s
+
+# target to generate assembly for a file
+1_source/0_server_connector/0_server_connector_implement/13_read_server_response_from_queue.cpp.s:
+	$(MAKE) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/13_read_server_response_from_queue.cpp.s
+.PHONY : 1_source/0_server_connector/0_server_connector_implement/13_read_server_response_from_queue.cpp.s
+
 1_source/0_server_connector/0_server_connector_implement/1_init.o: 1_source/0_server_connector/0_server_connector_implement/1_init.cpp.o
 
 .PHONY : 1_source/0_server_connector/0_server_connector_implement/1_init.o
@@ -271,86 +325,86 @@ CTP_gateway/fast:
 	$(MAKE) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/2_accept_clients.cpp.s
 .PHONY : 1_source/0_server_connector/0_server_connector_implement/2_accept_clients.cpp.s
 
-1_source/0_server_connector/0_server_connector_implement/3_receive_client_message.o: 1_source/0_server_connector/0_server_connector_implement/3_receive_client_message.cpp.o
+1_source/0_server_connector/0_server_connector_implement/3_receive_client_request.o: 1_source/0_server_connector/0_server_connector_implement/3_receive_client_request.cpp.o
 
-.PHONY : 1_source/0_server_connector/0_server_connector_implement/3_receive_client_message.o
-
-# target to build an object file
-1_source/0_server_connector/0_server_connector_implement/3_receive_client_message.cpp.o:
-	$(MAKE) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/3_receive_client_message.cpp.o
-.PHONY : 1_source/0_server_connector/0_server_connector_implement/3_receive_client_message.cpp.o
-
-1_source/0_server_connector/0_server_connector_implement/3_receive_client_message.i: 1_source/0_server_connector/0_server_connector_implement/3_receive_client_message.cpp.i
-
-.PHONY : 1_source/0_server_connector/0_server_connector_implement/3_receive_client_message.i
-
-# target to preprocess a source file
-1_source/0_server_connector/0_server_connector_implement/3_receive_client_message.cpp.i:
-	$(MAKE) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/3_receive_client_message.cpp.i
-.PHONY : 1_source/0_server_connector/0_server_connector_implement/3_receive_client_message.cpp.i
-
-1_source/0_server_connector/0_server_connector_implement/3_receive_client_message.s: 1_source/0_server_connector/0_server_connector_implement/3_receive_client_message.cpp.s
-
-.PHONY : 1_source/0_server_connector/0_server_connector_implement/3_receive_client_message.s
-
-# target to generate assembly for a file
-1_source/0_server_connector/0_server_connector_implement/3_receive_client_message.cpp.s:
-	$(MAKE) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/3_receive_client_message.cpp.s
-.PHONY : 1_source/0_server_connector/0_server_connector_implement/3_receive_client_message.cpp.s
-
-1_source/0_server_connector/0_server_connector_implement/4_write_message_to_queue.o: 1_source/0_server_connector/0_server_connector_implement/4_write_message_to_queue.cpp.o
-
-.PHONY : 1_source/0_server_connector/0_server_connector_implement/4_write_message_to_queue.o
+.PHONY : 1_source/0_server_connector/0_server_connector_implement/3_receive_client_request.o
 
 # target to build an object file
-1_source/0_server_connector/0_server_connector_implement/4_write_message_to_queue.cpp.o:
-	$(MAKE) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/4_write_message_to_queue.cpp.o
-.PHONY : 1_source/0_server_connector/0_server_connector_implement/4_write_message_to_queue.cpp.o
+1_source/0_server_connector/0_server_connector_implement/3_receive_client_request.cpp.o:
+	$(MAKE) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/3_receive_client_request.cpp.o
+.PHONY : 1_source/0_server_connector/0_server_connector_implement/3_receive_client_request.cpp.o
 
-1_source/0_server_connector/0_server_connector_implement/4_write_message_to_queue.i: 1_source/0_server_connector/0_server_connector_implement/4_write_message_to_queue.cpp.i
+1_source/0_server_connector/0_server_connector_implement/3_receive_client_request.i: 1_source/0_server_connector/0_server_connector_implement/3_receive_client_request.cpp.i
 
-.PHONY : 1_source/0_server_connector/0_server_connector_implement/4_write_message_to_queue.i
+.PHONY : 1_source/0_server_connector/0_server_connector_implement/3_receive_client_request.i
 
 # target to preprocess a source file
-1_source/0_server_connector/0_server_connector_implement/4_write_message_to_queue.cpp.i:
-	$(MAKE) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/4_write_message_to_queue.cpp.i
-.PHONY : 1_source/0_server_connector/0_server_connector_implement/4_write_message_to_queue.cpp.i
+1_source/0_server_connector/0_server_connector_implement/3_receive_client_request.cpp.i:
+	$(MAKE) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/3_receive_client_request.cpp.i
+.PHONY : 1_source/0_server_connector/0_server_connector_implement/3_receive_client_request.cpp.i
 
-1_source/0_server_connector/0_server_connector_implement/4_write_message_to_queue.s: 1_source/0_server_connector/0_server_connector_implement/4_write_message_to_queue.cpp.s
+1_source/0_server_connector/0_server_connector_implement/3_receive_client_request.s: 1_source/0_server_connector/0_server_connector_implement/3_receive_client_request.cpp.s
 
-.PHONY : 1_source/0_server_connector/0_server_connector_implement/4_write_message_to_queue.s
+.PHONY : 1_source/0_server_connector/0_server_connector_implement/3_receive_client_request.s
 
 # target to generate assembly for a file
-1_source/0_server_connector/0_server_connector_implement/4_write_message_to_queue.cpp.s:
-	$(MAKE) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/4_write_message_to_queue.cpp.s
-.PHONY : 1_source/0_server_connector/0_server_connector_implement/4_write_message_to_queue.cpp.s
+1_source/0_server_connector/0_server_connector_implement/3_receive_client_request.cpp.s:
+	$(MAKE) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/3_receive_client_request.cpp.s
+.PHONY : 1_source/0_server_connector/0_server_connector_implement/3_receive_client_request.cpp.s
 
-1_source/0_server_connector/0_server_connector_implement/5_read_message_from_queue.o: 1_source/0_server_connector/0_server_connector_implement/5_read_message_from_queue.cpp.o
+1_source/0_server_connector/0_server_connector_implement/4_write_client_request_to_queue.o: 1_source/0_server_connector/0_server_connector_implement/4_write_client_request_to_queue.cpp.o
 
-.PHONY : 1_source/0_server_connector/0_server_connector_implement/5_read_message_from_queue.o
+.PHONY : 1_source/0_server_connector/0_server_connector_implement/4_write_client_request_to_queue.o
 
 # target to build an object file
-1_source/0_server_connector/0_server_connector_implement/5_read_message_from_queue.cpp.o:
-	$(MAKE) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/5_read_message_from_queue.cpp.o
-.PHONY : 1_source/0_server_connector/0_server_connector_implement/5_read_message_from_queue.cpp.o
+1_source/0_server_connector/0_server_connector_implement/4_write_client_request_to_queue.cpp.o:
+	$(MAKE) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/4_write_client_request_to_queue.cpp.o
+.PHONY : 1_source/0_server_connector/0_server_connector_implement/4_write_client_request_to_queue.cpp.o
 
-1_source/0_server_connector/0_server_connector_implement/5_read_message_from_queue.i: 1_source/0_server_connector/0_server_connector_implement/5_read_message_from_queue.cpp.i
+1_source/0_server_connector/0_server_connector_implement/4_write_client_request_to_queue.i: 1_source/0_server_connector/0_server_connector_implement/4_write_client_request_to_queue.cpp.i
 
-.PHONY : 1_source/0_server_connector/0_server_connector_implement/5_read_message_from_queue.i
+.PHONY : 1_source/0_server_connector/0_server_connector_implement/4_write_client_request_to_queue.i
 
 # target to preprocess a source file
-1_source/0_server_connector/0_server_connector_implement/5_read_message_from_queue.cpp.i:
-	$(MAKE) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/5_read_message_from_queue.cpp.i
-.PHONY : 1_source/0_server_connector/0_server_connector_implement/5_read_message_from_queue.cpp.i
+1_source/0_server_connector/0_server_connector_implement/4_write_client_request_to_queue.cpp.i:
+	$(MAKE) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/4_write_client_request_to_queue.cpp.i
+.PHONY : 1_source/0_server_connector/0_server_connector_implement/4_write_client_request_to_queue.cpp.i
 
-1_source/0_server_connector/0_server_connector_implement/5_read_message_from_queue.s: 1_source/0_server_connector/0_server_connector_implement/5_read_message_from_queue.cpp.s
+1_source/0_server_connector/0_server_connector_implement/4_write_client_request_to_queue.s: 1_source/0_server_connector/0_server_connector_implement/4_write_client_request_to_queue.cpp.s
 
-.PHONY : 1_source/0_server_connector/0_server_connector_implement/5_read_message_from_queue.s
+.PHONY : 1_source/0_server_connector/0_server_connector_implement/4_write_client_request_to_queue.s
 
 # target to generate assembly for a file
-1_source/0_server_connector/0_server_connector_implement/5_read_message_from_queue.cpp.s:
-	$(MAKE) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/5_read_message_from_queue.cpp.s
-.PHONY : 1_source/0_server_connector/0_server_connector_implement/5_read_message_from_queue.cpp.s
+1_source/0_server_connector/0_server_connector_implement/4_write_client_request_to_queue.cpp.s:
+	$(MAKE) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/4_write_client_request_to_queue.cpp.s
+.PHONY : 1_source/0_server_connector/0_server_connector_implement/4_write_client_request_to_queue.cpp.s
+
+1_source/0_server_connector/0_server_connector_implement/5_read_client_request_from_queue.o: 1_source/0_server_connector/0_server_connector_implement/5_read_client_request_from_queue.cpp.o
+
+.PHONY : 1_source/0_server_connector/0_server_connector_implement/5_read_client_request_from_queue.o
+
+# target to build an object file
+1_source/0_server_connector/0_server_connector_implement/5_read_client_request_from_queue.cpp.o:
+	$(MAKE) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/5_read_client_request_from_queue.cpp.o
+.PHONY : 1_source/0_server_connector/0_server_connector_implement/5_read_client_request_from_queue.cpp.o
+
+1_source/0_server_connector/0_server_connector_implement/5_read_client_request_from_queue.i: 1_source/0_server_connector/0_server_connector_implement/5_read_client_request_from_queue.cpp.i
+
+.PHONY : 1_source/0_server_connector/0_server_connector_implement/5_read_client_request_from_queue.i
+
+# target to preprocess a source file
+1_source/0_server_connector/0_server_connector_implement/5_read_client_request_from_queue.cpp.i:
+	$(MAKE) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/5_read_client_request_from_queue.cpp.i
+.PHONY : 1_source/0_server_connector/0_server_connector_implement/5_read_client_request_from_queue.cpp.i
+
+1_source/0_server_connector/0_server_connector_implement/5_read_client_request_from_queue.s: 1_source/0_server_connector/0_server_connector_implement/5_read_client_request_from_queue.cpp.s
+
+.PHONY : 1_source/0_server_connector/0_server_connector_implement/5_read_client_request_from_queue.s
+
+# target to generate assembly for a file
+1_source/0_server_connector/0_server_connector_implement/5_read_client_request_from_queue.cpp.s:
+	$(MAKE) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/5_read_client_request_from_queue.cpp.s
+.PHONY : 1_source/0_server_connector/0_server_connector_implement/5_read_client_request_from_queue.cpp.s
 
 1_source/0_server_connector/0_server_connector_implement/6_process_client_request.o: 1_source/0_server_connector/0_server_connector_implement/6_process_client_request.cpp.o
 
@@ -506,21 +560,27 @@ help:
 	@echo "... 1_source/0_server_connector/0_server_connector_implement/11_add_gateway.o"
 	@echo "... 1_source/0_server_connector/0_server_connector_implement/11_add_gateway.i"
 	@echo "... 1_source/0_server_connector/0_server_connector_implement/11_add_gateway.s"
+	@echo "... 1_source/0_server_connector/0_server_connector_implement/12_write_server_response_to_queue.o"
+	@echo "... 1_source/0_server_connector/0_server_connector_implement/12_write_server_response_to_queue.i"
+	@echo "... 1_source/0_server_connector/0_server_connector_implement/12_write_server_response_to_queue.s"
+	@echo "... 1_source/0_server_connector/0_server_connector_implement/13_read_server_response_from_queue.o"
+	@echo "... 1_source/0_server_connector/0_server_connector_implement/13_read_server_response_from_queue.i"
+	@echo "... 1_source/0_server_connector/0_server_connector_implement/13_read_server_response_from_queue.s"
 	@echo "... 1_source/0_server_connector/0_server_connector_implement/1_init.o"
 	@echo "... 1_source/0_server_connector/0_server_connector_implement/1_init.i"
 	@echo "... 1_source/0_server_connector/0_server_connector_implement/1_init.s"
 	@echo "... 1_source/0_server_connector/0_server_connector_implement/2_accept_clients.o"
 	@echo "... 1_source/0_server_connector/0_server_connector_implement/2_accept_clients.i"
 	@echo "... 1_source/0_server_connector/0_server_connector_implement/2_accept_clients.s"
-	@echo "... 1_source/0_server_connector/0_server_connector_implement/3_receive_client_message.o"
-	@echo "... 1_source/0_server_connector/0_server_connector_implement/3_receive_client_message.i"
-	@echo "... 1_source/0_server_connector/0_server_connector_implement/3_receive_client_message.s"
-	@echo "... 1_source/0_server_connector/0_server_connector_implement/4_write_message_to_queue.o"
-	@echo "... 1_source/0_server_connector/0_server_connector_implement/4_write_message_to_queue.i"
-	@echo "... 1_source/0_server_connector/0_server_connector_implement/4_write_message_to_queue.s"
-	@echo "... 1_source/0_server_connector/0_server_connector_implement/5_read_message_from_queue.o"
-	@echo "... 1_source/0_server_connector/0_server_connector_implement/5_read_message_from_queue.i"
-	@echo "... 1_source/0_server_connector/0_server_connector_implement/5_read_message_from_queue.s"
+	@echo "... 1_source/0_server_connector/0_server_connector_implement/3_receive_client_request.o"
+	@echo "... 1_source/0_server_connector/0_server_connector_implement/3_receive_client_request.i"
+	@echo "... 1_source/0_server_connector/0_server_connector_implement/3_receive_client_request.s"
+	@echo "... 1_source/0_server_connector/0_server_connector_implement/4_write_client_request_to_queue.o"
+	@echo "... 1_source/0_server_connector/0_server_connector_implement/4_write_client_request_to_queue.i"
+	@echo "... 1_source/0_server_connector/0_server_connector_implement/4_write_client_request_to_queue.s"
+	@echo "... 1_source/0_server_connector/0_server_connector_implement/5_read_client_request_from_queue.o"
+	@echo "... 1_source/0_server_connector/0_server_connector_implement/5_read_client_request_from_queue.i"
+	@echo "... 1_source/0_server_connector/0_server_connector_implement/5_read_client_request_from_queue.s"
 	@echo "... 1_source/0_server_connector/0_server_connector_implement/6_process_client_request.o"
 	@echo "... 1_source/0_server_connector/0_server_connector_implement/6_process_client_request.i"
 	@echo "... 1_source/0_server_connector/0_server_connector_implement/6_process_client_request.s"

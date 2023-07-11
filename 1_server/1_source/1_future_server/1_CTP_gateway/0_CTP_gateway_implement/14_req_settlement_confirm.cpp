@@ -19,6 +19,6 @@ void CTP_gateway::req_settlement_confirm()
     std::time_t time_t = std::chrono::system_clock::to_time_t(now);
     char* ctime_str = std::ctime(&time_t);
     memcpy(req.ConfirmTime, ctime_str + 11, 8);
-    CTP_trader_api->ReqSettlementInfoConfirm(&req, generate_new_request_id());    
+    CTP_trader_api->ReqSettlementInfoConfirm(&req, 0);    
     
 }

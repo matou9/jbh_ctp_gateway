@@ -1,8 +1,8 @@
 #include "../0_server_connector.h"
 #include <string.h>
 #include <unistd.h>
-
-void server_connector::receive_client_message(int client_socket)
+#include <string>
+void server_connector::receive_client_request(int client_socket)
 {
     while (stop_interact_threads[client_socket].load() == false)
     {
@@ -25,7 +25,6 @@ void server_connector::receive_client_message(int client_socket)
             printf("current client num: %d\n", current_client_number.load());
             break;
         }
-        p_message[message_length] = '\0';
         
         if (p_message[0] == -1)
         {
@@ -36,7 +35,9 @@ void server_connector::receive_client_message(int client_socket)
         else
         {
             printf("receive client request\n");
-            write_message_to_queue(p_message, message_length);
+            
+
+            write_client_request_to_queue(client_socket, p_message, message_length);
         }
     }
 

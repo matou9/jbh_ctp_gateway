@@ -129,9 +129,57 @@ CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/1
 CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/11_add_gateway.cpp.o.provides.build: CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/11_add_gateway.cpp.o
 
 
+CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/12_write_server_response_to_queue.cpp.o: CMakeFiles/server.dir/flags.make
+CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/12_write_server_response_to_queue.cpp.o: ../1_source/0_server_connector/0_server_connector_implement/12_write_server_response_to_queue.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tushetou/jbh_code/0_trade_gateway/1_server/2_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/12_write_server_response_to_queue.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/12_write_server_response_to_queue.cpp.o -c /home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/0_server_connector/0_server_connector_implement/12_write_server_response_to_queue.cpp
+
+CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/12_write_server_response_to_queue.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/12_write_server_response_to_queue.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/0_server_connector/0_server_connector_implement/12_write_server_response_to_queue.cpp > CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/12_write_server_response_to_queue.cpp.i
+
+CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/12_write_server_response_to_queue.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/12_write_server_response_to_queue.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/0_server_connector/0_server_connector_implement/12_write_server_response_to_queue.cpp -o CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/12_write_server_response_to_queue.cpp.s
+
+CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/12_write_server_response_to_queue.cpp.o.requires:
+
+.PHONY : CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/12_write_server_response_to_queue.cpp.o.requires
+
+CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/12_write_server_response_to_queue.cpp.o.provides: CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/12_write_server_response_to_queue.cpp.o.requires
+	$(MAKE) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/12_write_server_response_to_queue.cpp.o.provides.build
+.PHONY : CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/12_write_server_response_to_queue.cpp.o.provides
+
+CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/12_write_server_response_to_queue.cpp.o.provides.build: CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/12_write_server_response_to_queue.cpp.o
+
+
+CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/13_read_server_response_from_queue.cpp.o: CMakeFiles/server.dir/flags.make
+CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/13_read_server_response_from_queue.cpp.o: ../1_source/0_server_connector/0_server_connector_implement/13_read_server_response_from_queue.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tushetou/jbh_code/0_trade_gateway/1_server/2_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/13_read_server_response_from_queue.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/13_read_server_response_from_queue.cpp.o -c /home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/0_server_connector/0_server_connector_implement/13_read_server_response_from_queue.cpp
+
+CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/13_read_server_response_from_queue.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/13_read_server_response_from_queue.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/0_server_connector/0_server_connector_implement/13_read_server_response_from_queue.cpp > CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/13_read_server_response_from_queue.cpp.i
+
+CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/13_read_server_response_from_queue.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/13_read_server_response_from_queue.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/0_server_connector/0_server_connector_implement/13_read_server_response_from_queue.cpp -o CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/13_read_server_response_from_queue.cpp.s
+
+CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/13_read_server_response_from_queue.cpp.o.requires:
+
+.PHONY : CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/13_read_server_response_from_queue.cpp.o.requires
+
+CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/13_read_server_response_from_queue.cpp.o.provides: CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/13_read_server_response_from_queue.cpp.o.requires
+	$(MAKE) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/13_read_server_response_from_queue.cpp.o.provides.build
+.PHONY : CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/13_read_server_response_from_queue.cpp.o.provides
+
+CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/13_read_server_response_from_queue.cpp.o.provides.build: CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/13_read_server_response_from_queue.cpp.o
+
+
 CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/1_init.cpp.o: CMakeFiles/server.dir/flags.make
 CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/1_init.cpp.o: ../1_source/0_server_connector/0_server_connector_implement/1_init.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tushetou/jbh_code/0_trade_gateway/1_server/2_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/1_init.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tushetou/jbh_code/0_trade_gateway/1_server/2_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/1_init.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/1_init.cpp.o -c /home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/0_server_connector/0_server_connector_implement/1_init.cpp
 
 CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/1_init.cpp.i: cmake_force
@@ -155,7 +203,7 @@ CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/1
 
 CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/2_accept_clients.cpp.o: CMakeFiles/server.dir/flags.make
 CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/2_accept_clients.cpp.o: ../1_source/0_server_connector/0_server_connector_implement/2_accept_clients.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tushetou/jbh_code/0_trade_gateway/1_server/2_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/2_accept_clients.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tushetou/jbh_code/0_trade_gateway/1_server/2_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/2_accept_clients.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/2_accept_clients.cpp.o -c /home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/0_server_connector/0_server_connector_implement/2_accept_clients.cpp
 
 CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/2_accept_clients.cpp.i: cmake_force
@@ -177,81 +225,81 @@ CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/2
 CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/2_accept_clients.cpp.o.provides.build: CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/2_accept_clients.cpp.o
 
 
-CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/3_receive_client_message.cpp.o: CMakeFiles/server.dir/flags.make
-CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/3_receive_client_message.cpp.o: ../1_source/0_server_connector/0_server_connector_implement/3_receive_client_message.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tushetou/jbh_code/0_trade_gateway/1_server/2_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/3_receive_client_message.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/3_receive_client_message.cpp.o -c /home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/0_server_connector/0_server_connector_implement/3_receive_client_message.cpp
+CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/3_receive_client_request.cpp.o: CMakeFiles/server.dir/flags.make
+CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/3_receive_client_request.cpp.o: ../1_source/0_server_connector/0_server_connector_implement/3_receive_client_request.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tushetou/jbh_code/0_trade_gateway/1_server/2_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/3_receive_client_request.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/3_receive_client_request.cpp.o -c /home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/0_server_connector/0_server_connector_implement/3_receive_client_request.cpp
 
-CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/3_receive_client_message.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/3_receive_client_message.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/0_server_connector/0_server_connector_implement/3_receive_client_message.cpp > CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/3_receive_client_message.cpp.i
+CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/3_receive_client_request.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/3_receive_client_request.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/0_server_connector/0_server_connector_implement/3_receive_client_request.cpp > CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/3_receive_client_request.cpp.i
 
-CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/3_receive_client_message.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/3_receive_client_message.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/0_server_connector/0_server_connector_implement/3_receive_client_message.cpp -o CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/3_receive_client_message.cpp.s
+CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/3_receive_client_request.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/3_receive_client_request.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/0_server_connector/0_server_connector_implement/3_receive_client_request.cpp -o CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/3_receive_client_request.cpp.s
 
-CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/3_receive_client_message.cpp.o.requires:
+CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/3_receive_client_request.cpp.o.requires:
 
-.PHONY : CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/3_receive_client_message.cpp.o.requires
+.PHONY : CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/3_receive_client_request.cpp.o.requires
 
-CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/3_receive_client_message.cpp.o.provides: CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/3_receive_client_message.cpp.o.requires
-	$(MAKE) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/3_receive_client_message.cpp.o.provides.build
-.PHONY : CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/3_receive_client_message.cpp.o.provides
+CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/3_receive_client_request.cpp.o.provides: CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/3_receive_client_request.cpp.o.requires
+	$(MAKE) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/3_receive_client_request.cpp.o.provides.build
+.PHONY : CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/3_receive_client_request.cpp.o.provides
 
-CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/3_receive_client_message.cpp.o.provides.build: CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/3_receive_client_message.cpp.o
-
-
-CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/4_write_message_to_queue.cpp.o: CMakeFiles/server.dir/flags.make
-CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/4_write_message_to_queue.cpp.o: ../1_source/0_server_connector/0_server_connector_implement/4_write_message_to_queue.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tushetou/jbh_code/0_trade_gateway/1_server/2_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/4_write_message_to_queue.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/4_write_message_to_queue.cpp.o -c /home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/0_server_connector/0_server_connector_implement/4_write_message_to_queue.cpp
-
-CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/4_write_message_to_queue.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/4_write_message_to_queue.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/0_server_connector/0_server_connector_implement/4_write_message_to_queue.cpp > CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/4_write_message_to_queue.cpp.i
-
-CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/4_write_message_to_queue.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/4_write_message_to_queue.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/0_server_connector/0_server_connector_implement/4_write_message_to_queue.cpp -o CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/4_write_message_to_queue.cpp.s
-
-CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/4_write_message_to_queue.cpp.o.requires:
-
-.PHONY : CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/4_write_message_to_queue.cpp.o.requires
-
-CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/4_write_message_to_queue.cpp.o.provides: CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/4_write_message_to_queue.cpp.o.requires
-	$(MAKE) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/4_write_message_to_queue.cpp.o.provides.build
-.PHONY : CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/4_write_message_to_queue.cpp.o.provides
-
-CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/4_write_message_to_queue.cpp.o.provides.build: CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/4_write_message_to_queue.cpp.o
+CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/3_receive_client_request.cpp.o.provides.build: CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/3_receive_client_request.cpp.o
 
 
-CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/5_read_message_from_queue.cpp.o: CMakeFiles/server.dir/flags.make
-CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/5_read_message_from_queue.cpp.o: ../1_source/0_server_connector/0_server_connector_implement/5_read_message_from_queue.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tushetou/jbh_code/0_trade_gateway/1_server/2_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/5_read_message_from_queue.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/5_read_message_from_queue.cpp.o -c /home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/0_server_connector/0_server_connector_implement/5_read_message_from_queue.cpp
+CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/4_write_client_request_to_queue.cpp.o: CMakeFiles/server.dir/flags.make
+CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/4_write_client_request_to_queue.cpp.o: ../1_source/0_server_connector/0_server_connector_implement/4_write_client_request_to_queue.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tushetou/jbh_code/0_trade_gateway/1_server/2_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/4_write_client_request_to_queue.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/4_write_client_request_to_queue.cpp.o -c /home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/0_server_connector/0_server_connector_implement/4_write_client_request_to_queue.cpp
 
-CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/5_read_message_from_queue.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/5_read_message_from_queue.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/0_server_connector/0_server_connector_implement/5_read_message_from_queue.cpp > CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/5_read_message_from_queue.cpp.i
+CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/4_write_client_request_to_queue.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/4_write_client_request_to_queue.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/0_server_connector/0_server_connector_implement/4_write_client_request_to_queue.cpp > CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/4_write_client_request_to_queue.cpp.i
 
-CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/5_read_message_from_queue.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/5_read_message_from_queue.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/0_server_connector/0_server_connector_implement/5_read_message_from_queue.cpp -o CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/5_read_message_from_queue.cpp.s
+CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/4_write_client_request_to_queue.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/4_write_client_request_to_queue.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/0_server_connector/0_server_connector_implement/4_write_client_request_to_queue.cpp -o CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/4_write_client_request_to_queue.cpp.s
 
-CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/5_read_message_from_queue.cpp.o.requires:
+CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/4_write_client_request_to_queue.cpp.o.requires:
 
-.PHONY : CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/5_read_message_from_queue.cpp.o.requires
+.PHONY : CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/4_write_client_request_to_queue.cpp.o.requires
 
-CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/5_read_message_from_queue.cpp.o.provides: CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/5_read_message_from_queue.cpp.o.requires
-	$(MAKE) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/5_read_message_from_queue.cpp.o.provides.build
-.PHONY : CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/5_read_message_from_queue.cpp.o.provides
+CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/4_write_client_request_to_queue.cpp.o.provides: CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/4_write_client_request_to_queue.cpp.o.requires
+	$(MAKE) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/4_write_client_request_to_queue.cpp.o.provides.build
+.PHONY : CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/4_write_client_request_to_queue.cpp.o.provides
 
-CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/5_read_message_from_queue.cpp.o.provides.build: CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/5_read_message_from_queue.cpp.o
+CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/4_write_client_request_to_queue.cpp.o.provides.build: CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/4_write_client_request_to_queue.cpp.o
+
+
+CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/5_read_client_request_from_queue.cpp.o: CMakeFiles/server.dir/flags.make
+CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/5_read_client_request_from_queue.cpp.o: ../1_source/0_server_connector/0_server_connector_implement/5_read_client_request_from_queue.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tushetou/jbh_code/0_trade_gateway/1_server/2_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/5_read_client_request_from_queue.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/5_read_client_request_from_queue.cpp.o -c /home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/0_server_connector/0_server_connector_implement/5_read_client_request_from_queue.cpp
+
+CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/5_read_client_request_from_queue.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/5_read_client_request_from_queue.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/0_server_connector/0_server_connector_implement/5_read_client_request_from_queue.cpp > CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/5_read_client_request_from_queue.cpp.i
+
+CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/5_read_client_request_from_queue.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/5_read_client_request_from_queue.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/0_server_connector/0_server_connector_implement/5_read_client_request_from_queue.cpp -o CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/5_read_client_request_from_queue.cpp.s
+
+CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/5_read_client_request_from_queue.cpp.o.requires:
+
+.PHONY : CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/5_read_client_request_from_queue.cpp.o.requires
+
+CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/5_read_client_request_from_queue.cpp.o.provides: CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/5_read_client_request_from_queue.cpp.o.requires
+	$(MAKE) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/5_read_client_request_from_queue.cpp.o.provides.build
+.PHONY : CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/5_read_client_request_from_queue.cpp.o.provides
+
+CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/5_read_client_request_from_queue.cpp.o.provides.build: CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/5_read_client_request_from_queue.cpp.o
 
 
 CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/6_process_client_request.cpp.o: CMakeFiles/server.dir/flags.make
 CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/6_process_client_request.cpp.o: ../1_source/0_server_connector/0_server_connector_implement/6_process_client_request.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tushetou/jbh_code/0_trade_gateway/1_server/2_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/6_process_client_request.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tushetou/jbh_code/0_trade_gateway/1_server/2_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/6_process_client_request.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/6_process_client_request.cpp.o -c /home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/0_server_connector/0_server_connector_implement/6_process_client_request.cpp
 
 CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/6_process_client_request.cpp.i: cmake_force
@@ -275,7 +323,7 @@ CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/6
 
 CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/7_send_to_client.cpp.o: CMakeFiles/server.dir/flags.make
 CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/7_send_to_client.cpp.o: ../1_source/0_server_connector/0_server_connector_implement/7_send_to_client.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tushetou/jbh_code/0_trade_gateway/1_server/2_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/7_send_to_client.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tushetou/jbh_code/0_trade_gateway/1_server/2_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/7_send_to_client.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/7_send_to_client.cpp.o -c /home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/0_server_connector/0_server_connector_implement/7_send_to_client.cpp
 
 CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/7_send_to_client.cpp.i: cmake_force
@@ -299,7 +347,7 @@ CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/7
 
 CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/8_stop_interact_with_client.cpp.o: CMakeFiles/server.dir/flags.make
 CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/8_stop_interact_with_client.cpp.o: ../1_source/0_server_connector/0_server_connector_implement/8_stop_interact_with_client.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tushetou/jbh_code/0_trade_gateway/1_server/2_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/8_stop_interact_with_client.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tushetou/jbh_code/0_trade_gateway/1_server/2_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/8_stop_interact_with_client.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/8_stop_interact_with_client.cpp.o -c /home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/0_server_connector/0_server_connector_implement/8_stop_interact_with_client.cpp
 
 CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/8_stop_interact_with_client.cpp.i: cmake_force
@@ -323,7 +371,7 @@ CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/8
 
 CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/9_con_destructor.cpp.o: CMakeFiles/server.dir/flags.make
 CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/9_con_destructor.cpp.o: ../1_source/0_server_connector/0_server_connector_implement/9_con_destructor.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tushetou/jbh_code/0_trade_gateway/1_server/2_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/9_con_destructor.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tushetou/jbh_code/0_trade_gateway/1_server/2_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/9_con_destructor.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/9_con_destructor.cpp.o -c /home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/0_server_connector/0_server_connector_implement/9_con_destructor.cpp
 
 CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/9_con_destructor.cpp.i: cmake_force
@@ -347,7 +395,7 @@ CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/9
 
 CMakeFiles/server.dir/server_main.cpp.o: CMakeFiles/server.dir/flags.make
 CMakeFiles/server.dir/server_main.cpp.o: ../server_main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tushetou/jbh_code/0_trade_gateway/1_server/2_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/server.dir/server_main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tushetou/jbh_code/0_trade_gateway/1_server/2_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/server.dir/server_main.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/server.dir/server_main.cpp.o -c /home/tushetou/jbh_code/0_trade_gateway/1_server/server_main.cpp
 
 CMakeFiles/server.dir/server_main.cpp.i: cmake_force
@@ -374,11 +422,13 @@ server_OBJECTS = \
 "CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/0_error_handling.cpp.o" \
 "CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/10_run_server.cpp.o" \
 "CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/11_add_gateway.cpp.o" \
+"CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/12_write_server_response_to_queue.cpp.o" \
+"CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/13_read_server_response_from_queue.cpp.o" \
 "CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/1_init.cpp.o" \
 "CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/2_accept_clients.cpp.o" \
-"CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/3_receive_client_message.cpp.o" \
-"CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/4_write_message_to_queue.cpp.o" \
-"CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/5_read_message_from_queue.cpp.o" \
+"CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/3_receive_client_request.cpp.o" \
+"CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/4_write_client_request_to_queue.cpp.o" \
+"CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/5_read_client_request_from_queue.cpp.o" \
 "CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/6_process_client_request.cpp.o" \
 "CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/7_send_to_client.cpp.o" \
 "CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/8_stop_interact_with_client.cpp.o" \
@@ -391,11 +441,13 @@ server_EXTERNAL_OBJECTS =
 server: CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/0_error_handling.cpp.o
 server: CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/10_run_server.cpp.o
 server: CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/11_add_gateway.cpp.o
+server: CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/12_write_server_response_to_queue.cpp.o
+server: CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/13_read_server_response_from_queue.cpp.o
 server: CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/1_init.cpp.o
 server: CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/2_accept_clients.cpp.o
-server: CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/3_receive_client_message.cpp.o
-server: CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/4_write_message_to_queue.cpp.o
-server: CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/5_read_message_from_queue.cpp.o
+server: CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/3_receive_client_request.cpp.o
+server: CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/4_write_client_request_to_queue.cpp.o
+server: CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/5_read_client_request_from_queue.cpp.o
 server: CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/6_process_client_request.cpp.o
 server: CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/7_send_to_client.cpp.o
 server: CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/8_stop_interact_with_client.cpp.o
@@ -406,7 +458,7 @@ server: ../3_lib/libCTP_gateway.so
 server: /usr/local/lib/libboost_filesystem.so.1.72.0
 server: ../1_source/1_future_server/0_trading_platform_api/CTP6.3.15/linux/libthosttraderapi_se.so
 server: CMakeFiles/server.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/tushetou/jbh_code/0_trade_gateway/1_server/2_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Linking CXX executable server"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/tushetou/jbh_code/0_trade_gateway/1_server/2_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Linking CXX executable server"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/server.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -417,11 +469,13 @@ CMakeFiles/server.dir/build: server
 CMakeFiles/server.dir/requires: CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/0_error_handling.cpp.o.requires
 CMakeFiles/server.dir/requires: CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/10_run_server.cpp.o.requires
 CMakeFiles/server.dir/requires: CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/11_add_gateway.cpp.o.requires
+CMakeFiles/server.dir/requires: CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/12_write_server_response_to_queue.cpp.o.requires
+CMakeFiles/server.dir/requires: CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/13_read_server_response_from_queue.cpp.o.requires
 CMakeFiles/server.dir/requires: CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/1_init.cpp.o.requires
 CMakeFiles/server.dir/requires: CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/2_accept_clients.cpp.o.requires
-CMakeFiles/server.dir/requires: CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/3_receive_client_message.cpp.o.requires
-CMakeFiles/server.dir/requires: CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/4_write_message_to_queue.cpp.o.requires
-CMakeFiles/server.dir/requires: CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/5_read_message_from_queue.cpp.o.requires
+CMakeFiles/server.dir/requires: CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/3_receive_client_request.cpp.o.requires
+CMakeFiles/server.dir/requires: CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/4_write_client_request_to_queue.cpp.o.requires
+CMakeFiles/server.dir/requires: CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/5_read_client_request_from_queue.cpp.o.requires
 CMakeFiles/server.dir/requires: CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/6_process_client_request.cpp.o.requires
 CMakeFiles/server.dir/requires: CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/7_send_to_client.cpp.o.requires
 CMakeFiles/server.dir/requires: CMakeFiles/server.dir/1_source/0_server_connector/0_server_connector_implement/8_stop_interact_with_client.cpp.o.requires

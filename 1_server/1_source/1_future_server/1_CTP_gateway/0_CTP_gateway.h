@@ -19,6 +19,11 @@
 #include <unordered_map>
 #include <atomic>
 #include <thread>
+
+typedef std::pair<int, future_limit_entrust*> client_entrust;
+typedef std::pair<int, future_limit_order*> client_order;
+typedef std::pair<int, future_limit_trade*> client_trade;
+
 class CTP_gateway : public CThostFtdcTraderSpi, public future_gateway
 {
 private:
@@ -32,7 +37,7 @@ private:
     std::string app;                        //应用标识
     std::string auth_code;                  //认证码
     std::string flow_dir;                   //流文件目录
-    std::atomic<uint32_t>    request_id;    //请求编号, 递增
+    // std::atomic<uint32_t>    request_id;    //请求编号, 递增
     //
     uint32_t    trading_day;    //当前交易日
 
@@ -43,6 +48,9 @@ private:
     uint32_t order_ref;      //报单引用, 递增
 
     //如何在本地维护委托、订单、成交信息? 如何分发这些信息?
+    std::unordered_map<std::string, client_entrust> entrust_map; //委托信息
+    std::unordered_map<std::string, client_order>   order_map;     //订单信息
+    std::unordered_map<std::string, client_trade>   trade_map;     //成交信息
 
 public:
     CTP_gateway();
@@ -50,8 +58,8 @@ public:
 public:
 
     virtual void prepare(const char* config_file_name) override;
-    virtual void limit_entrust_insert(future_limit_entrust* entrust) override;
-    virtual void limit_order_action(future_limit_order_action* order_action) override;
+    virtual void limit_entrust_insert(future_limit_entrust* entrust, int client_socket) override;
+    virtual void limit_order_action(future_limit_order_action* order_action, int client_socket) override;
     void join() { CTP_trader_api->Join(); }
 private:
     virtual void init(const char* config_file_name) override;
@@ -102,7 +110,6 @@ private:
     /*
      * 其他辅助函数
      */
-    uint32_t generate_new_request_id();
     bool is_error_response(CThostFtdcRspInfoField* pRspInfo);
 
 };

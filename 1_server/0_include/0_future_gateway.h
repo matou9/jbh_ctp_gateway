@@ -29,8 +29,8 @@ public:
 
 public:
     virtual void prepare(const char* config_file_name) = 0;
-    virtual void limit_entrust_insert(future_limit_entrust* entrust) = 0;
-    virtual void limit_order_action(future_limit_order_action* order_action) = 0;
+    virtual void limit_entrust_insert(future_limit_entrust* entrust, int client_socket) = 0;
+    virtual void limit_order_action(future_limit_order_action* order_action, int client_socket) = 0;
 protected:
     virtual void init(const char* config_file_name){};
     virtual void release(){};

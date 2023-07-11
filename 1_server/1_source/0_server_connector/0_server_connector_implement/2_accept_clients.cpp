@@ -22,6 +22,6 @@ void server_connector::accept_clients()
         {
             printf("Max client num reached, stop accepting new clients\n");
         }
-        interact_threads[client_socket] = new std::thread(&server_connector::receive_client_message, this, client_socket);
+        receive_client_message_threads[client_socket] = new std::thread(&server_connector::receive_client_request, this, client_socket);
     }
 }

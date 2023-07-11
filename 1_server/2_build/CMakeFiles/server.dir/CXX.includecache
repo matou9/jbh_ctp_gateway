@@ -150,6 +150,18 @@ iostream
 ../0_server_connector.h
 /home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/0_server_connector/0_server_connector.h
 
+/home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/0_server_connector/0_server_connector_implement/12_write_server_response_to_queue.cpp
+../0_server_connector.h
+/home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/0_server_connector/0_server_connector.h
+iostream
+-
+
+/home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/0_server_connector/0_server_connector_implement/13_read_server_response_from_queue.cpp
+../0_server_connector.h
+/home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/0_server_connector/0_server_connector.h
+iostream
+-
+
 /home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/0_server_connector/0_server_connector_implement/1_init.cpp
 ../0_server_connector.h
 /home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/0_server_connector/0_server_connector.h
@@ -160,15 +172,17 @@ string.h
 ../0_server_connector.h
 /home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/0_server_connector/0_server_connector.h
 
-/home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/0_server_connector/0_server_connector_implement/3_receive_client_message.cpp
+/home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/0_server_connector/0_server_connector_implement/3_receive_client_request.cpp
 ../0_server_connector.h
 /home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/0_server_connector/0_server_connector.h
 string.h
 -
 unistd.h
 -
+string
+-
 
-/home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/0_server_connector/0_server_connector_implement/4_write_message_to_queue.cpp
+/home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/0_server_connector/0_server_connector_implement/4_write_client_request_to_queue.cpp
 ../0_server_connector.h
 /home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/0_server_connector/0_server_connector.h
 string.h
@@ -176,7 +190,7 @@ string.h
 iostream
 -
 
-/home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/0_server_connector/0_server_connector_implement/5_read_message_from_queue.cpp
+/home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/0_server_connector/0_server_connector_implement/5_read_client_request_from_queue.cpp
 ../0_server_connector.h
 /home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/0_server_connector/0_server_connector.h
 iostream
@@ -185,6 +199,8 @@ iostream
 /home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/0_server_connector/0_server_connector_implement/6_process_client_request.cpp
 ../0_server_connector.h
 /home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/0_server_connector/0_server_connector.h
+string.h
+-
 iostream
 -
 

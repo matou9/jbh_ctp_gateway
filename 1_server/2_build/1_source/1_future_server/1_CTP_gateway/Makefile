@@ -692,32 +692,32 @@ CTP_gateway/fast:
 	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build && $(MAKE) -f 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/build.make 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/28_OnRtnTrade.cpp.s
 .PHONY : 0_CTP_gateway_implement/28_OnRtnTrade.cpp.s
 
-0_CTP_gateway_implement/29_generate_new_request_id.o: 0_CTP_gateway_implement/29_generate_new_request_id.cpp.o
+0_CTP_gateway_implement/29_is_error_response.o: 0_CTP_gateway_implement/29_is_error_response.cpp.o
 
-.PHONY : 0_CTP_gateway_implement/29_generate_new_request_id.o
+.PHONY : 0_CTP_gateway_implement/29_is_error_response.o
 
 # target to build an object file
-0_CTP_gateway_implement/29_generate_new_request_id.cpp.o:
-	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build && $(MAKE) -f 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/build.make 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/29_generate_new_request_id.cpp.o
-.PHONY : 0_CTP_gateway_implement/29_generate_new_request_id.cpp.o
+0_CTP_gateway_implement/29_is_error_response.cpp.o:
+	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build && $(MAKE) -f 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/build.make 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/29_is_error_response.cpp.o
+.PHONY : 0_CTP_gateway_implement/29_is_error_response.cpp.o
 
-0_CTP_gateway_implement/29_generate_new_request_id.i: 0_CTP_gateway_implement/29_generate_new_request_id.cpp.i
+0_CTP_gateway_implement/29_is_error_response.i: 0_CTP_gateway_implement/29_is_error_response.cpp.i
 
-.PHONY : 0_CTP_gateway_implement/29_generate_new_request_id.i
+.PHONY : 0_CTP_gateway_implement/29_is_error_response.i
 
 # target to preprocess a source file
-0_CTP_gateway_implement/29_generate_new_request_id.cpp.i:
-	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build && $(MAKE) -f 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/build.make 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/29_generate_new_request_id.cpp.i
-.PHONY : 0_CTP_gateway_implement/29_generate_new_request_id.cpp.i
+0_CTP_gateway_implement/29_is_error_response.cpp.i:
+	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build && $(MAKE) -f 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/build.make 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/29_is_error_response.cpp.i
+.PHONY : 0_CTP_gateway_implement/29_is_error_response.cpp.i
 
-0_CTP_gateway_implement/29_generate_new_request_id.s: 0_CTP_gateway_implement/29_generate_new_request_id.cpp.s
+0_CTP_gateway_implement/29_is_error_response.s: 0_CTP_gateway_implement/29_is_error_response.cpp.s
 
-.PHONY : 0_CTP_gateway_implement/29_generate_new_request_id.s
+.PHONY : 0_CTP_gateway_implement/29_is_error_response.s
 
 # target to generate assembly for a file
-0_CTP_gateway_implement/29_generate_new_request_id.cpp.s:
-	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build && $(MAKE) -f 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/build.make 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/29_generate_new_request_id.cpp.s
-.PHONY : 0_CTP_gateway_implement/29_generate_new_request_id.cpp.s
+0_CTP_gateway_implement/29_is_error_response.cpp.s:
+	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build && $(MAKE) -f 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/build.make 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/29_is_error_response.cpp.s
+.PHONY : 0_CTP_gateway_implement/29_is_error_response.cpp.s
 
 0_CTP_gateway_implement/2_limit_entrust_insert.o: 0_CTP_gateway_implement/2_limit_entrust_insert.cpp.o
 
@@ -745,33 +745,6 @@ CTP_gateway/fast:
 0_CTP_gateway_implement/2_limit_entrust_insert.cpp.s:
 	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build && $(MAKE) -f 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/build.make 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/2_limit_entrust_insert.cpp.s
 .PHONY : 0_CTP_gateway_implement/2_limit_entrust_insert.cpp.s
-
-0_CTP_gateway_implement/30_is_error_response.o: 0_CTP_gateway_implement/30_is_error_response.cpp.o
-
-.PHONY : 0_CTP_gateway_implement/30_is_error_response.o
-
-# target to build an object file
-0_CTP_gateway_implement/30_is_error_response.cpp.o:
-	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build && $(MAKE) -f 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/build.make 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/30_is_error_response.cpp.o
-.PHONY : 0_CTP_gateway_implement/30_is_error_response.cpp.o
-
-0_CTP_gateway_implement/30_is_error_response.i: 0_CTP_gateway_implement/30_is_error_response.cpp.i
-
-.PHONY : 0_CTP_gateway_implement/30_is_error_response.i
-
-# target to preprocess a source file
-0_CTP_gateway_implement/30_is_error_response.cpp.i:
-	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build && $(MAKE) -f 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/build.make 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/30_is_error_response.cpp.i
-.PHONY : 0_CTP_gateway_implement/30_is_error_response.cpp.i
-
-0_CTP_gateway_implement/30_is_error_response.s: 0_CTP_gateway_implement/30_is_error_response.cpp.s
-
-.PHONY : 0_CTP_gateway_implement/30_is_error_response.s
-
-# target to generate assembly for a file
-0_CTP_gateway_implement/30_is_error_response.cpp.s:
-	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build && $(MAKE) -f 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/build.make 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/30_is_error_response.cpp.s
-.PHONY : 0_CTP_gateway_implement/30_is_error_response.cpp.s
 
 0_CTP_gateway_implement/3_limit_order_action.o: 0_CTP_gateway_implement/3_limit_order_action.cpp.o
 
@@ -1034,15 +1007,12 @@ help:
 	@echo "... 0_CTP_gateway_implement/28_OnRtnTrade.o"
 	@echo "... 0_CTP_gateway_implement/28_OnRtnTrade.i"
 	@echo "... 0_CTP_gateway_implement/28_OnRtnTrade.s"
-	@echo "... 0_CTP_gateway_implement/29_generate_new_request_id.o"
-	@echo "... 0_CTP_gateway_implement/29_generate_new_request_id.i"
-	@echo "... 0_CTP_gateway_implement/29_generate_new_request_id.s"
+	@echo "... 0_CTP_gateway_implement/29_is_error_response.o"
+	@echo "... 0_CTP_gateway_implement/29_is_error_response.i"
+	@echo "... 0_CTP_gateway_implement/29_is_error_response.s"
 	@echo "... 0_CTP_gateway_implement/2_limit_entrust_insert.o"
 	@echo "... 0_CTP_gateway_implement/2_limit_entrust_insert.i"
 	@echo "... 0_CTP_gateway_implement/2_limit_entrust_insert.s"
-	@echo "... 0_CTP_gateway_implement/30_is_error_response.o"
-	@echo "... 0_CTP_gateway_implement/30_is_error_response.i"
-	@echo "... 0_CTP_gateway_implement/30_is_error_response.s"
 	@echo "... 0_CTP_gateway_implement/3_limit_order_action.o"
 	@echo "... 0_CTP_gateway_implement/3_limit_order_action.i"
 	@echo "... 0_CTP_gateway_implement/3_limit_order_action.s"

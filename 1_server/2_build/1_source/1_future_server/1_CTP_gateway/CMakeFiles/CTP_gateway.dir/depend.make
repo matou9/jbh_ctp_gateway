@@ -262,16 +262,16 @@
 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/28_OnRtnTrade.cpp.o: ../1_source/1_future_server/1_CTP_gateway/0_CTP_gateway.h
 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/28_OnRtnTrade.cpp.o: ../1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/28_OnRtnTrade.cpp
 
-1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/29_generate_new_request_id.cpp.o: ../0_include/0_future_gateway.h
-1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/29_generate_new_request_id.cpp.o: ../0_include/1_future_data_class/0_future_limit_entrust.h
-1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/29_generate_new_request_id.cpp.o: ../0_include/1_future_data_class/1_future_limit_order.h
-1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/29_generate_new_request_id.cpp.o: ../0_include/1_future_data_class/2_future_limit_order_action.h
-1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/29_generate_new_request_id.cpp.o: ../0_include/1_future_data_class/3_future_limit_trade.h
-1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/29_generate_new_request_id.cpp.o: ../1_source/1_future_server/0_trading_platform_api/CTP6.3.15/ThostFtdcTraderApi.h
-1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/29_generate_new_request_id.cpp.o: ../1_source/1_future_server/0_trading_platform_api/CTP6.3.15/ThostFtdcUserApiDataType.h
-1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/29_generate_new_request_id.cpp.o: ../1_source/1_future_server/0_trading_platform_api/CTP6.3.15/ThostFtdcUserApiStruct.h
-1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/29_generate_new_request_id.cpp.o: ../1_source/1_future_server/1_CTP_gateway/0_CTP_gateway.h
-1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/29_generate_new_request_id.cpp.o: ../1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/29_generate_new_request_id.cpp
+1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/29_is_error_response.cpp.o: ../0_include/0_future_gateway.h
+1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/29_is_error_response.cpp.o: ../0_include/1_future_data_class/0_future_limit_entrust.h
+1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/29_is_error_response.cpp.o: ../0_include/1_future_data_class/1_future_limit_order.h
+1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/29_is_error_response.cpp.o: ../0_include/1_future_data_class/2_future_limit_order_action.h
+1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/29_is_error_response.cpp.o: ../0_include/1_future_data_class/3_future_limit_trade.h
+1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/29_is_error_response.cpp.o: ../1_source/1_future_server/0_trading_platform_api/CTP6.3.15/ThostFtdcTraderApi.h
+1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/29_is_error_response.cpp.o: ../1_source/1_future_server/0_trading_platform_api/CTP6.3.15/ThostFtdcUserApiDataType.h
+1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/29_is_error_response.cpp.o: ../1_source/1_future_server/0_trading_platform_api/CTP6.3.15/ThostFtdcUserApiStruct.h
+1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/29_is_error_response.cpp.o: ../1_source/1_future_server/1_CTP_gateway/0_CTP_gateway.h
+1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/29_is_error_response.cpp.o: ../1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/29_is_error_response.cpp
 
 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/2_limit_entrust_insert.cpp.o: ../0_include/0_future_gateway.h
 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/2_limit_entrust_insert.cpp.o: ../0_include/1_future_data_class/0_future_limit_entrust.h
@@ -283,17 +283,6 @@
 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/2_limit_entrust_insert.cpp.o: ../1_source/1_future_server/0_trading_platform_api/CTP6.3.15/ThostFtdcUserApiStruct.h
 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/2_limit_entrust_insert.cpp.o: ../1_source/1_future_server/1_CTP_gateway/0_CTP_gateway.h
 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/2_limit_entrust_insert.cpp.o: ../1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/2_limit_entrust_insert.cpp
-
-1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/30_is_error_response.cpp.o: ../0_include/0_future_gateway.h
-1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/30_is_error_response.cpp.o: ../0_include/1_future_data_class/0_future_limit_entrust.h
-1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/30_is_error_response.cpp.o: ../0_include/1_future_data_class/1_future_limit_order.h
-1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/30_is_error_response.cpp.o: ../0_include/1_future_data_class/2_future_limit_order_action.h
-1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/30_is_error_response.cpp.o: ../0_include/1_future_data_class/3_future_limit_trade.h
-1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/30_is_error_response.cpp.o: ../1_source/1_future_server/0_trading_platform_api/CTP6.3.15/ThostFtdcTraderApi.h
-1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/30_is_error_response.cpp.o: ../1_source/1_future_server/0_trading_platform_api/CTP6.3.15/ThostFtdcUserApiDataType.h
-1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/30_is_error_response.cpp.o: ../1_source/1_future_server/0_trading_platform_api/CTP6.3.15/ThostFtdcUserApiStruct.h
-1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/30_is_error_response.cpp.o: ../1_source/1_future_server/1_CTP_gateway/0_CTP_gateway.h
-1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/30_is_error_response.cpp.o: ../1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/30_is_error_response.cpp
 
 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/3_limit_order_action.cpp.o: ../0_include/0_future_gateway.h
 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/3_limit_order_action.cpp.o: ../0_include/1_future_data_class/0_future_limit_entrust.h

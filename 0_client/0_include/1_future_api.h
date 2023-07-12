@@ -7,6 +7,8 @@
 #define _FUTURE_API_H_
 
 #include "1_future_data_class/0_future_limit_entrust.h"
+#include "1_future_data_class/1_future_limit_order.h"
+#include "1_future_data_class/3_future_limit_trade.h"
 #include "1_future_data_class/2_future_limit_order_action.h"
 #include "1_source/1_client_connector/0_client_connector.h"
 
@@ -39,11 +41,25 @@ typedef enum
  */
 typedef enum
 {
-    E_ON_TRADE_ERROR,
-    E_ON_ENTRUST_INSERTED,
+    // E_ON_TRADE_ERROR,
+    E_ON_ENTRUST_INSERTED = '0',
     E_ON_ORDER_STATUS_UPDATE,
     E_ON_TRADE_UPDATE,
 }callback_type;
+
+/*
+ * 客户端回调函数
+ */
+class future_spi
+{
+public:
+    // virtual void on_trade_error()
+    virtual void on_entrust_inserted(future_limit_entrust *entrust) = 0;
+    virtual void on_order_status_update(future_limit_order *order) = 0;
+    virtual void on_trade_update(future_limit_trade *trade) = 0;
+};
+
+
 
 /*
  * 交易接口api的基类
@@ -68,7 +84,7 @@ public:
      * 初始化交易接口api, 连接到交易服务器
      */
     void init(std::string ip, std::string port);
-    
+    void register_spi(future_spi* spi);
     /*
      * 下达限价单
      */

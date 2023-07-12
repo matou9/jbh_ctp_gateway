@@ -12,7 +12,9 @@ typedef enum
     E_LIMIT_ORDER_CANCEL,
 
 }api_type;
+
 #define MEM_PADDING_SIZE 8
+
 void server_connector::process_client_request(int client_socket, char* p_message, int message_length)
 {
     if (p_trade_gateway == nullptr)
@@ -20,7 +22,7 @@ void server_connector::process_client_request(int client_socket, char* p_message
         printf("trade gateway not initialized\n");
         return;
     }
-    char* move_pointer = p_message;
+    char *move_pointer = p_message;
     api_type api_name = (api_type)(move_pointer[0]);
     move_pointer += MEM_PADDING_SIZE;
     if (api_name == E_LIMIT_ENTRUST_INSERT)

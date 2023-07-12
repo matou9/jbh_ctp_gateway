@@ -16,7 +16,7 @@ CTP_gateway::CTP_gateway() :
     order_ref(0),
     entrust_map(),
     order_map(),
-    trade_map(),
+    // trade_map(),
     server_api(nullptr)
 {
 
@@ -30,33 +30,34 @@ CTP_gateway::~CTP_gateway()
     }
     for (auto& it : entrust_map)
     {
-        client_entrust entrust = it.second;
-        if (entrust.second != nullptr)
+        client_entrust* entrust = it.second;
+        if (entrust->second != nullptr)
         {
-            delete entrust.second;
-            entrust.second = nullptr;
+            delete entrust->second;
+            entrust->second = nullptr;
         }
+        delete entrust;
     }
     entrust_map.clear();
     for (auto& it : order_map)
     {
-        client_order order = it.second;
-        if (order.second != nullptr)
+        client_order* order = it.second;
+        if (order->second != nullptr)
         {
-            delete order.second;
-            order.second = nullptr;
+            delete order->second;
+            order->second = nullptr;
         }
     }
     order_map.clear();
-    for (auto& it : trade_map)
-    {
-        client_trade trade = it.second;
-        if (trade.second != nullptr)
-        {
-            delete trade.second;
-            trade.second = nullptr;
-        }
-    }
-    trade_map.clear();
+    // for (auto& it : trade_map)
+    // {
+    //     client_trade* trade = it.second;
+    //     if (trade->second != nullptr)
+    //     {
+    //         delete trade->second;
+    //         trade->second = nullptr;
+    //     }
+    // }
+    // trade_map.clear();
     
 }

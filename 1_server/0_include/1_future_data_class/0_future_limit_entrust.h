@@ -45,9 +45,9 @@ public:
     // 期货交易数量
     uint32_t volume;
     // 期货交易委托编号
-    char entrust_id[32];
+    char entrust_id[64];
     // 委托发起者标识(用户自定义)
-    char executor[32];
+    char executor[64];
     
 };
 

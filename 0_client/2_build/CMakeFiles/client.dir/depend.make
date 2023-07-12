@@ -4,26 +4,42 @@
 CMakeFiles/client.dir/1_source/0_trade_client_api/0_future_api_implement/0_con_destructor.cpp.o: ../0_include/1_future_api.h
 CMakeFiles/client.dir/1_source/0_trade_client_api/0_future_api_implement/0_con_destructor.cpp.o: ../1_source/1_client_connector/0_client_connector.h
 CMakeFiles/client.dir/1_source/0_trade_client_api/0_future_api_implement/0_con_destructor.cpp.o: ../0_include/1_future_data_class/0_future_limit_entrust.h
+CMakeFiles/client.dir/1_source/0_trade_client_api/0_future_api_implement/0_con_destructor.cpp.o: ../0_include/1_future_data_class/1_future_limit_order.h
 CMakeFiles/client.dir/1_source/0_trade_client_api/0_future_api_implement/0_con_destructor.cpp.o: ../0_include/1_future_data_class/2_future_limit_order_action.h
+CMakeFiles/client.dir/1_source/0_trade_client_api/0_future_api_implement/0_con_destructor.cpp.o: ../0_include/1_future_data_class/3_future_limit_trade.h
 CMakeFiles/client.dir/1_source/0_trade_client_api/0_future_api_implement/0_con_destructor.cpp.o: ../1_source/0_trade_client_api/0_future_api_implement/0_con_destructor.cpp
 
 CMakeFiles/client.dir/1_source/0_trade_client_api/0_future_api_implement/1_init.cpp.o: ../0_include/1_future_api.h
 CMakeFiles/client.dir/1_source/0_trade_client_api/0_future_api_implement/1_init.cpp.o: ../1_source/1_client_connector/0_client_connector.h
 CMakeFiles/client.dir/1_source/0_trade_client_api/0_future_api_implement/1_init.cpp.o: ../0_include/1_future_data_class/0_future_limit_entrust.h
+CMakeFiles/client.dir/1_source/0_trade_client_api/0_future_api_implement/1_init.cpp.o: ../0_include/1_future_data_class/1_future_limit_order.h
 CMakeFiles/client.dir/1_source/0_trade_client_api/0_future_api_implement/1_init.cpp.o: ../0_include/1_future_data_class/2_future_limit_order_action.h
+CMakeFiles/client.dir/1_source/0_trade_client_api/0_future_api_implement/1_init.cpp.o: ../0_include/1_future_data_class/3_future_limit_trade.h
 CMakeFiles/client.dir/1_source/0_trade_client_api/0_future_api_implement/1_init.cpp.o: ../1_source/0_trade_client_api/0_future_api_implement/1_init.cpp
 
 CMakeFiles/client.dir/1_source/0_trade_client_api/0_future_api_implement/2_limit_entrust_insert.cpp.o: ../0_include/1_future_api.h
 CMakeFiles/client.dir/1_source/0_trade_client_api/0_future_api_implement/2_limit_entrust_insert.cpp.o: ../1_source/1_client_connector/0_client_connector.h
 CMakeFiles/client.dir/1_source/0_trade_client_api/0_future_api_implement/2_limit_entrust_insert.cpp.o: ../0_include/1_future_data_class/0_future_limit_entrust.h
+CMakeFiles/client.dir/1_source/0_trade_client_api/0_future_api_implement/2_limit_entrust_insert.cpp.o: ../0_include/1_future_data_class/1_future_limit_order.h
 CMakeFiles/client.dir/1_source/0_trade_client_api/0_future_api_implement/2_limit_entrust_insert.cpp.o: ../0_include/1_future_data_class/2_future_limit_order_action.h
+CMakeFiles/client.dir/1_source/0_trade_client_api/0_future_api_implement/2_limit_entrust_insert.cpp.o: ../0_include/1_future_data_class/3_future_limit_trade.h
 CMakeFiles/client.dir/1_source/0_trade_client_api/0_future_api_implement/2_limit_entrust_insert.cpp.o: ../1_source/0_trade_client_api/0_future_api_implement/2_limit_entrust_insert.cpp
 
 CMakeFiles/client.dir/1_source/0_trade_client_api/0_future_api_implement/3_limit_order_cancel.cpp.o: ../0_include/1_future_api.h
 CMakeFiles/client.dir/1_source/0_trade_client_api/0_future_api_implement/3_limit_order_cancel.cpp.o: ../1_source/1_client_connector/0_client_connector.h
 CMakeFiles/client.dir/1_source/0_trade_client_api/0_future_api_implement/3_limit_order_cancel.cpp.o: ../0_include/1_future_data_class/0_future_limit_entrust.h
+CMakeFiles/client.dir/1_source/0_trade_client_api/0_future_api_implement/3_limit_order_cancel.cpp.o: ../0_include/1_future_data_class/1_future_limit_order.h
 CMakeFiles/client.dir/1_source/0_trade_client_api/0_future_api_implement/3_limit_order_cancel.cpp.o: ../0_include/1_future_data_class/2_future_limit_order_action.h
+CMakeFiles/client.dir/1_source/0_trade_client_api/0_future_api_implement/3_limit_order_cancel.cpp.o: ../0_include/1_future_data_class/3_future_limit_trade.h
 CMakeFiles/client.dir/1_source/0_trade_client_api/0_future_api_implement/3_limit_order_cancel.cpp.o: ../1_source/0_trade_client_api/0_future_api_implement/3_limit_order_cancel.cpp
+
+CMakeFiles/client.dir/1_source/0_trade_client_api/0_future_api_implement/4_register_spi.cpp.o: ../0_include/1_future_api.h
+CMakeFiles/client.dir/1_source/0_trade_client_api/0_future_api_implement/4_register_spi.cpp.o: ../1_source/1_client_connector/0_client_connector.h
+CMakeFiles/client.dir/1_source/0_trade_client_api/0_future_api_implement/4_register_spi.cpp.o: ../0_include/1_future_data_class/0_future_limit_entrust.h
+CMakeFiles/client.dir/1_source/0_trade_client_api/0_future_api_implement/4_register_spi.cpp.o: ../0_include/1_future_data_class/1_future_limit_order.h
+CMakeFiles/client.dir/1_source/0_trade_client_api/0_future_api_implement/4_register_spi.cpp.o: ../0_include/1_future_data_class/2_future_limit_order_action.h
+CMakeFiles/client.dir/1_source/0_trade_client_api/0_future_api_implement/4_register_spi.cpp.o: ../0_include/1_future_data_class/3_future_limit_trade.h
+CMakeFiles/client.dir/1_source/0_trade_client_api/0_future_api_implement/4_register_spi.cpp.o: ../1_source/0_trade_client_api/0_future_api_implement/4_register_spi.cpp
 
 CMakeFiles/client.dir/1_source/1_client_connector/0_client_connector_implement/0_con_destructor.cpp.o: ../1_source/1_client_connector/0_client_connector.h
 CMakeFiles/client.dir/1_source/1_client_connector/0_client_connector_implement/0_con_destructor.cpp.o: ../1_source/1_client_connector/0_client_connector_implement/0_con_destructor.cpp
@@ -40,7 +56,9 @@ CMakeFiles/client.dir/1_source/1_client_connector/0_client_connector_implement/3
 CMakeFiles/client.dir/1_source/1_client_connector/0_client_connector_implement/4_receive_from_server.cpp.o: ../0_include/1_future_api.h
 CMakeFiles/client.dir/1_source/1_client_connector/0_client_connector_implement/4_receive_from_server.cpp.o: ../1_source/1_client_connector/0_client_connector.h
 CMakeFiles/client.dir/1_source/1_client_connector/0_client_connector_implement/4_receive_from_server.cpp.o: ../0_include/1_future_data_class/0_future_limit_entrust.h
+CMakeFiles/client.dir/1_source/1_client_connector/0_client_connector_implement/4_receive_from_server.cpp.o: ../0_include/1_future_data_class/1_future_limit_order.h
 CMakeFiles/client.dir/1_source/1_client_connector/0_client_connector_implement/4_receive_from_server.cpp.o: ../0_include/1_future_data_class/2_future_limit_order_action.h
+CMakeFiles/client.dir/1_source/1_client_connector/0_client_connector_implement/4_receive_from_server.cpp.o: ../0_include/1_future_data_class/3_future_limit_trade.h
 CMakeFiles/client.dir/1_source/1_client_connector/0_client_connector_implement/4_receive_from_server.cpp.o: ../1_source/1_client_connector/0_client_connector.h
 CMakeFiles/client.dir/1_source/1_client_connector/0_client_connector_implement/4_receive_from_server.cpp.o: ../1_source/1_client_connector/0_client_connector_implement/4_receive_from_server.cpp
 
@@ -53,9 +71,14 @@ CMakeFiles/client.dir/1_source/1_client_connector/0_client_connector_implement/6
 CMakeFiles/client.dir/1_source/1_client_connector/0_client_connector_implement/7_close_connection.cpp.o: ../1_source/1_client_connector/0_client_connector.h
 CMakeFiles/client.dir/1_source/1_client_connector/0_client_connector_implement/7_close_connection.cpp.o: ../1_source/1_client_connector/0_client_connector_implement/7_close_connection.cpp
 
+CMakeFiles/client.dir/1_source/1_client_connector/0_client_connector_implement/8_register_spi.cpp.o: ../1_source/1_client_connector/0_client_connector.h
+CMakeFiles/client.dir/1_source/1_client_connector/0_client_connector_implement/8_register_spi.cpp.o: ../1_source/1_client_connector/0_client_connector_implement/8_register_spi.cpp
+
 CMakeFiles/client.dir/client_main.cpp.o: ../1_source/1_client_connector/0_client_connector.h
 CMakeFiles/client.dir/client_main.cpp.o: ../0_include/1_future_api.h
 CMakeFiles/client.dir/client_main.cpp.o: ../0_include/1_future_data_class/0_future_limit_entrust.h
+CMakeFiles/client.dir/client_main.cpp.o: ../0_include/1_future_data_class/1_future_limit_order.h
 CMakeFiles/client.dir/client_main.cpp.o: ../0_include/1_future_data_class/2_future_limit_order_action.h
+CMakeFiles/client.dir/client_main.cpp.o: ../0_include/1_future_data_class/3_future_limit_trade.h
 CMakeFiles/client.dir/client_main.cpp.o: ../client_main.cpp
 

@@ -20,9 +20,9 @@ class future_limit_order_action
     // 订单操作类型
     future_order_action_type action_type;
     // 委托编号(撤销委托时填写)
-    char entrust_id[32];
+    char entrust_id[64];
     // 订单编号(撤销订单时填写)
-    char order_id[32];
+    char order_id[64];
     // // 改单目标价格
 
     // // 改单目标数量

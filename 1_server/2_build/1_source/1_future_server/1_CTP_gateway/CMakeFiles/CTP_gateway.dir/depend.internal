@@ -260,6 +260,7 @@
  ../0_include/1_future_data_class/1_future_limit_order.h
  ../0_include/1_future_data_class/2_future_limit_order_action.h
  ../0_include/1_future_data_class/3_future_limit_trade.h
+ ../1_source/0_server_connector/0_server_connector.h
  /home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/0_trading_platform_api/CTP6.3.15/ThostFtdcTraderApi.h
  /home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/0_trading_platform_api/CTP6.3.15/ThostFtdcUserApiDataType.h
  /home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/0_trading_platform_api/CTP6.3.15/ThostFtdcUserApiStruct.h

@@ -3,6 +3,27 @@
 #include <string.h>
 #include <string>
 
+class test_spi : public future_spi
+{
+    virtual void on_entrust_inserted(future_limit_entrust *entrust) override
+    {
+        printf("test_spi::on_entrust_inserted\n");
+        printf("entrust_id: %s\n", entrust->entrust_id);
+    }
+    virtual void on_order_status_update(future_limit_order *order) override
+    {
+        printf("test_spi::on_order_status_update\n");
+        printf("order_id: %s\n", order->order_id);
+    }
+    virtual void on_trade_update(future_limit_trade *trade) override
+    {
+        printf("test_spi::on_trade_update\n");
+        printf("trade_id: %s\n", trade->trade_id);
+    }
+
+};
+
+
 int main(int argc, char** argv)
 {
     // if (argc != 3)
@@ -16,6 +37,7 @@ int main(int argc, char** argv)
     std::string port = "1234";
     future_api *api = new future_api();
     api->init(ip, port);
+    api->register_spi(new test_spi());
 
     //用户输入
     future_limit_entrust entrust;

@@ -17,14 +17,21 @@
 
 
 #define BUF_SIZE 1024
+
+class future_spi;
+
 class client_connector
 {
 private:
     int sock;
     struct sockaddr_in server_address;
     std::thread* receive_thread;
+private:
+    future_spi* spi;
+
 public:
     bool is_connected;
+
 private:
     void error_handling(std::string message);
     void init(std::string ip, std::string port);
@@ -35,6 +42,7 @@ public:
     void send_to_server(char* message, int len);
     void close_connection();
     void join() {receive_thread->join();}
+    void register_spi(future_spi* spi);
 
 
 public:

@@ -231,6 +231,33 @@ client/fast:
 	$(MAKE) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/1_source/0_trade_client_api/0_future_api_implement/3_limit_order_cancel.cpp.s
 .PHONY : 1_source/0_trade_client_api/0_future_api_implement/3_limit_order_cancel.cpp.s
 
+1_source/0_trade_client_api/0_future_api_implement/4_register_spi.o: 1_source/0_trade_client_api/0_future_api_implement/4_register_spi.cpp.o
+
+.PHONY : 1_source/0_trade_client_api/0_future_api_implement/4_register_spi.o
+
+# target to build an object file
+1_source/0_trade_client_api/0_future_api_implement/4_register_spi.cpp.o:
+	$(MAKE) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/1_source/0_trade_client_api/0_future_api_implement/4_register_spi.cpp.o
+.PHONY : 1_source/0_trade_client_api/0_future_api_implement/4_register_spi.cpp.o
+
+1_source/0_trade_client_api/0_future_api_implement/4_register_spi.i: 1_source/0_trade_client_api/0_future_api_implement/4_register_spi.cpp.i
+
+.PHONY : 1_source/0_trade_client_api/0_future_api_implement/4_register_spi.i
+
+# target to preprocess a source file
+1_source/0_trade_client_api/0_future_api_implement/4_register_spi.cpp.i:
+	$(MAKE) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/1_source/0_trade_client_api/0_future_api_implement/4_register_spi.cpp.i
+.PHONY : 1_source/0_trade_client_api/0_future_api_implement/4_register_spi.cpp.i
+
+1_source/0_trade_client_api/0_future_api_implement/4_register_spi.s: 1_source/0_trade_client_api/0_future_api_implement/4_register_spi.cpp.s
+
+.PHONY : 1_source/0_trade_client_api/0_future_api_implement/4_register_spi.s
+
+# target to generate assembly for a file
+1_source/0_trade_client_api/0_future_api_implement/4_register_spi.cpp.s:
+	$(MAKE) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/1_source/0_trade_client_api/0_future_api_implement/4_register_spi.cpp.s
+.PHONY : 1_source/0_trade_client_api/0_future_api_implement/4_register_spi.cpp.s
+
 1_source/1_client_connector/0_client_connector_implement/0_con_destructor.o: 1_source/1_client_connector/0_client_connector_implement/0_con_destructor.cpp.o
 
 .PHONY : 1_source/1_client_connector/0_client_connector_implement/0_con_destructor.o
@@ -447,6 +474,33 @@ client/fast:
 	$(MAKE) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/1_source/1_client_connector/0_client_connector_implement/7_close_connection.cpp.s
 .PHONY : 1_source/1_client_connector/0_client_connector_implement/7_close_connection.cpp.s
 
+1_source/1_client_connector/0_client_connector_implement/8_register_spi.o: 1_source/1_client_connector/0_client_connector_implement/8_register_spi.cpp.o
+
+.PHONY : 1_source/1_client_connector/0_client_connector_implement/8_register_spi.o
+
+# target to build an object file
+1_source/1_client_connector/0_client_connector_implement/8_register_spi.cpp.o:
+	$(MAKE) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/1_source/1_client_connector/0_client_connector_implement/8_register_spi.cpp.o
+.PHONY : 1_source/1_client_connector/0_client_connector_implement/8_register_spi.cpp.o
+
+1_source/1_client_connector/0_client_connector_implement/8_register_spi.i: 1_source/1_client_connector/0_client_connector_implement/8_register_spi.cpp.i
+
+.PHONY : 1_source/1_client_connector/0_client_connector_implement/8_register_spi.i
+
+# target to preprocess a source file
+1_source/1_client_connector/0_client_connector_implement/8_register_spi.cpp.i:
+	$(MAKE) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/1_source/1_client_connector/0_client_connector_implement/8_register_spi.cpp.i
+.PHONY : 1_source/1_client_connector/0_client_connector_implement/8_register_spi.cpp.i
+
+1_source/1_client_connector/0_client_connector_implement/8_register_spi.s: 1_source/1_client_connector/0_client_connector_implement/8_register_spi.cpp.s
+
+.PHONY : 1_source/1_client_connector/0_client_connector_implement/8_register_spi.s
+
+# target to generate assembly for a file
+1_source/1_client_connector/0_client_connector_implement/8_register_spi.cpp.s:
+	$(MAKE) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/1_source/1_client_connector/0_client_connector_implement/8_register_spi.cpp.s
+.PHONY : 1_source/1_client_connector/0_client_connector_implement/8_register_spi.cpp.s
+
 client_main.o: client_main.cpp.o
 
 .PHONY : client_main.o
@@ -495,6 +549,9 @@ help:
 	@echo "... 1_source/0_trade_client_api/0_future_api_implement/3_limit_order_cancel.o"
 	@echo "... 1_source/0_trade_client_api/0_future_api_implement/3_limit_order_cancel.i"
 	@echo "... 1_source/0_trade_client_api/0_future_api_implement/3_limit_order_cancel.s"
+	@echo "... 1_source/0_trade_client_api/0_future_api_implement/4_register_spi.o"
+	@echo "... 1_source/0_trade_client_api/0_future_api_implement/4_register_spi.i"
+	@echo "... 1_source/0_trade_client_api/0_future_api_implement/4_register_spi.s"
 	@echo "... 1_source/1_client_connector/0_client_connector_implement/0_con_destructor.o"
 	@echo "... 1_source/1_client_connector/0_client_connector_implement/0_con_destructor.i"
 	@echo "... 1_source/1_client_connector/0_client_connector_implement/0_con_destructor.s"
@@ -519,6 +576,9 @@ help:
 	@echo "... 1_source/1_client_connector/0_client_connector_implement/7_close_connection.o"
 	@echo "... 1_source/1_client_connector/0_client_connector_implement/7_close_connection.i"
 	@echo "... 1_source/1_client_connector/0_client_connector_implement/7_close_connection.s"
+	@echo "... 1_source/1_client_connector/0_client_connector_implement/8_register_spi.o"
+	@echo "... 1_source/1_client_connector/0_client_connector_implement/8_register_spi.i"
+	@echo "... 1_source/1_client_connector/0_client_connector_implement/8_register_spi.s"
 	@echo "... client_main.o"
 	@echo "... client_main.i"
 	@echo "... client_main.s"

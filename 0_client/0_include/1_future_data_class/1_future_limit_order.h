@@ -27,14 +27,15 @@ typedef enum
  */
 class future_limit_order
 {
+public:
     // 该订单源自的委托
     future_limit_entrust origin_entrust;
     // 挂单日期
     uint32_t insert_date;
     // 挂单时间
     uint64_t insert_time;
-    // 订单编号
-    char order_id[32];
+    // 订单编号: ExchangeID#OrderSysID
+    char order_id[64];
     // 剩余数量
     uint32_t volume_left;
     // 订单状态

@@ -51,9 +51,9 @@ private:
     uint32_t order_ref;      //报单引用, 递增
 
     //交易网关本地维护委托、订单、成交信息; 格式: {entrust_id : {client_socket, data}}
-    std::unordered_map<std::string, client_entrust> entrust_map; //委托信息
-    std::unordered_map<std::string, client_order>   order_map;     //订单信息
-    std::unordered_map<std::string, client_trade>   trade_map;     //成交信息
+    std::unordered_map<std::string, client_entrust*> entrust_map; //委托信息
+    std::unordered_map<std::string, client_order*>   order_map;     //订单信息
+    // std::unordered_map<std::string, client_trade*>   trade_map;     //成交信息
 
     server_connector* server_api;   //使用server_connector类的指针, 将回报信息写入队列
 

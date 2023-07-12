@@ -32,8 +32,8 @@ typedef enum
     // E_ON_NOT_READY_TO_TRADE,    //CTP交易网关无法交易
     // E_ON_READY_TO_TRADE,        //CTP交易网关准备好交易
     
-    E_ON_TRADE_ERROR,           //CTP交易网关传递错误回报
-    E_ON_ENTRUST_INSERTED,      //CTP交易网关传递委托回报
+    // E_ON_TRADE_ERROR,           //CTP交易网关传递错误回报
+    E_ON_ENTRUST_INSERTED = '0',      //CTP交易网关传递委托回报
     E_ON_ORDER_STATUS_UPDATE,   //CTP交易网关传递订单状态更新回报
     E_ON_TRADE_UPDATE,          //CTP交易网关传递成交回报
 }callback_type;

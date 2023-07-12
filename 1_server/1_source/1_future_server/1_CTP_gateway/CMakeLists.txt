@@ -12,6 +12,7 @@ set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Wall -g")
 
 #自定义动态库搜索目录
 find_library(CTP_trader thosttraderapi_se HINTS ${CMAKE_CURRENT_SOURCE_DIR}/../0_trading_platform_api/CTP6.3.15/linux)
+# find_library(CTP_trader thosttraderapi_se HINTS ${CMAKE_CURRENT_SOURCE_DIR}/../0_trading_platform_api/OpenCTP6.3.15)
 #寻找外部库(usr/)
 find_package(Boost REQUIRED COMPONENTS filesystem)
 

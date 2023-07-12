@@ -1,6 +1,8 @@
 
+
+
 {
-    "front" : "tcp://180.168.146.187:10201",
+    "front" : "tcp://180.168.146.187:10130",
     "broker" : "9999",
     "user" : "210468",
     "password" : "Tangshangtao0721!",
@@ -8,7 +10,5 @@
     "authcode" : "0000000000000000",
     "flowdir" : "CTPFlow"
 }
-
-
 
 

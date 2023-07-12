@@ -1,33 +1,59 @@
 #include "../0_client_connector.h"
 #include "0_include/1_future_api.h"
 
-// void write_to_file(char* message, int message_length);
+// typedef enum
+// {
+//     // E_ON_TRADE_ERROR,
+//     E_ON_ENTRUST_INSERTED,
+//     E_ON_ORDER_STATUS_UPDATE,
+//     E_ON_TRADE_UPDATE,
+// }callback_type;
+
+#define MEM_PADDING_SIZE 8
+
 void client_connector::receive_from_server()
 {
     while(true) 
     {
-        char message[BUF_SIZE];
+        char* p_message = new char[BUF_SIZE];
         int message_length;
-        message_length = read(sock, message, BUF_SIZE-1);              //接收来自服务器端的消息
+        message_length = read(sock, p_message, BUF_SIZE-1);              //接收来自服务器端的消息
         if (message_length == -1 || message_length == 0)
         {
             printf("server disconnected by error\n");
+            delete [] p_message;
             break;
         }
-        if (message_length == 1 && message[0] == -1)
+        if (message_length == 1 && p_message[0] == -1)
         {
             printf("server accepted disconnect request\n");
+            delete [] p_message;
             break;
         }
-        message[message_length]= '\0';                               //在字符数组尾部添加字符串结束符'\0'
-        printf("Message from server: %s\n", message);           //输出接收到的消息字符串
-
-        //TODO
-        //一个成员变量, 取走这个消息, 执行事件回调
-        //此处实现写入文件
-        // write_to_file(message, message_length);
-
-    
+        p_message[message_length]= '\0';                               
+        // printf("Message from server: %s\n", p_message);           //输出接收到的消息字符串
+        //一个成员变量, 取走这个消息, 根据开头的标识, 执行事件回调
+        if (spi == nullptr)
+        {
+            printf("spi not registered\n");
+            delete [] p_message;
+            break;
+        }
+        char *move_pointer = p_message;
+        callback_type type = (callback_type)(move_pointer[0]);
+        move_pointer += MEM_PADDING_SIZE;
+        if (type == E_ON_ENTRUST_INSERTED)
+        {
+            spi->on_entrust_inserted((future_limit_entrust*)move_pointer);
+        }
+        else if (type == E_ON_ORDER_STATUS_UPDATE)
+        {
+            spi->on_order_status_update((future_limit_order*)move_pointer);
+        }
+        else if (type == E_ON_TRADE_UPDATE)
+        {
+            spi->on_trade_update((future_limit_trade*)move_pointer);
+        }
     }
     printf("stop receive thread\n");                           //输出停止接收消息线程的消息
 }

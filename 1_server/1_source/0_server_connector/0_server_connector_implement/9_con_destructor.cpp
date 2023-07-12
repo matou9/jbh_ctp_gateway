@@ -54,10 +54,10 @@ server_connector::~server_connector()
         delete process_server_response_thread;
     }
 
-    if (p_trade_gateway != nullptr)
-    {
-        delete p_trade_gateway;
-    }
+    // if (p_trade_gateway != nullptr)
+    // {
+    //     delete p_trade_gateway;
+    // }
     
     while (!client_request_queue.empty())
     {

@@ -1,4 +1,5 @@
 #include "../0_CTP_gateway.h"
+
 #include <iostream>
 void CTP_gateway::OnFrontConnected()
 {

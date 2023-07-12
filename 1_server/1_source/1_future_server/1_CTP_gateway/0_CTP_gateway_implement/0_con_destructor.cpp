@@ -16,7 +16,8 @@ CTP_gateway::CTP_gateway() :
     order_ref(0),
     entrust_map(),
     order_map(),
-    trade_map()
+    trade_map(),
+    server_api(nullptr)
 {
 
 }

@@ -14,11 +14,14 @@
 #include "1_future_data_class/3_future_limit_trade.h"
 #include "../0_trading_platform_api/CTP6.3.15/ThostFtdcTraderApi.h"
 
+
 #include <string>
 #include <stdint.h>
 #include <unordered_map>
 #include <atomic>
 #include <thread>
+
+class server_connector;
 
 typedef std::pair<int, future_limit_entrust*> client_entrust;
 typedef std::pair<int, future_limit_order*> client_order;
@@ -47,10 +50,12 @@ private:
     uint32_t session_id;     //会话编号
     uint32_t order_ref;      //报单引用, 递增
 
-    //如何在本地维护委托、订单、成交信息? 如何分发这些信息?
+    //交易网关本地维护委托、订单、成交信息; 格式: {entrust_id : {client_socket, data}}
     std::unordered_map<std::string, client_entrust> entrust_map; //委托信息
     std::unordered_map<std::string, client_order>   order_map;     //订单信息
     std::unordered_map<std::string, client_trade>   trade_map;     //成交信息
+
+    server_connector* server_api;   //使用server_connector类的指针, 将回报信息写入队列
 
 public:
     CTP_gateway();
@@ -61,6 +66,7 @@ public:
     virtual void limit_entrust_insert(future_limit_entrust* entrust, int client_socket) override;
     virtual void limit_order_action(future_limit_order_action* order_action, int client_socket) override;
     void join() { CTP_trader_api->Join(); }
+    void add_server(server_connector* server);
 private:
     virtual void init(const char* config_file_name) override;
     virtual void release() override;

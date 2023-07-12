@@ -32,7 +32,8 @@ int main(int argc, char** argv)
     api->limit_entrust_insert(&entrust);
 
 
-
+    api->join();
+    
 
     return 0;
 

@@ -30,6 +30,28 @@ string
 1_future_limit_order.h
 ../0_include/1_future_data_class/1_future_limit_order.h
 
+../1_source/0_server_connector/0_server_connector.h
+arpa/inet.h
+-
+string
+-
+thread
+-
+unordered_map
+-
+atomic
+-
+queue
+-
+mutex
+-
+utility
+-
+condition_variable
+-
+stdint.h
+-
+
 ../1_source/2_utils/0_string_utils.hpp
 spdlog/fmt/fmt.h
 -
@@ -195,6 +217,8 @@ iostream
 /home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/27_OnRtnOrder.cpp
 ../0_CTP_gateway.h
 /home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/1_CTP_gateway/0_CTP_gateway.h
+0_server_connector/0_server_connector.h
+/home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/0_server_connector/0_server_connector.h
 string.h
 -
 iostream
@@ -215,6 +239,10 @@ iostream
 /home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/1_CTP_gateway/0_CTP_gateway.h
 string.h
 -
+
+/home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/30_add_server.cpp
+../0_CTP_gateway.h
+/home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/1_CTP_gateway/0_CTP_gateway.h
 
 /home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/3_limit_order_action.cpp
 ../0_CTP_gateway.h

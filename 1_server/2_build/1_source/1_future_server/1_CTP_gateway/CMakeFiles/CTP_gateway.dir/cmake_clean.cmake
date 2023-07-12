@@ -22,6 +22,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/28_OnRtnTrade.cpp.o"
   "CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/29_is_error_response.cpp.o"
   "CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/2_limit_entrust_insert.cpp.o"
+  "CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/30_add_server.cpp.o"
   "CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/3_limit_order_action.cpp.o"
   "CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/4_init.cpp.o"
   "CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/5_release.cpp.o"

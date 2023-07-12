@@ -79,8 +79,10 @@ public:
      */
     void limit_order_cancel(future_limit_order_action *order);
 
-
-
+    /*
+     * 阻塞, 等待接受服务端回报
+     */
+    void join() {connector->join();}
 
     // /*
     //  * 下达条件单

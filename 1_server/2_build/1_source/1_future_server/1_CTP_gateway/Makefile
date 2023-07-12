@@ -746,6 +746,33 @@ CTP_gateway/fast:
 	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build && $(MAKE) -f 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/build.make 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/2_limit_entrust_insert.cpp.s
 .PHONY : 0_CTP_gateway_implement/2_limit_entrust_insert.cpp.s
 
+0_CTP_gateway_implement/30_add_server.o: 0_CTP_gateway_implement/30_add_server.cpp.o
+
+.PHONY : 0_CTP_gateway_implement/30_add_server.o
+
+# target to build an object file
+0_CTP_gateway_implement/30_add_server.cpp.o:
+	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build && $(MAKE) -f 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/build.make 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/30_add_server.cpp.o
+.PHONY : 0_CTP_gateway_implement/30_add_server.cpp.o
+
+0_CTP_gateway_implement/30_add_server.i: 0_CTP_gateway_implement/30_add_server.cpp.i
+
+.PHONY : 0_CTP_gateway_implement/30_add_server.i
+
+# target to preprocess a source file
+0_CTP_gateway_implement/30_add_server.cpp.i:
+	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build && $(MAKE) -f 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/build.make 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/30_add_server.cpp.i
+.PHONY : 0_CTP_gateway_implement/30_add_server.cpp.i
+
+0_CTP_gateway_implement/30_add_server.s: 0_CTP_gateway_implement/30_add_server.cpp.s
+
+.PHONY : 0_CTP_gateway_implement/30_add_server.s
+
+# target to generate assembly for a file
+0_CTP_gateway_implement/30_add_server.cpp.s:
+	cd /home/tushetou/jbh_code/0_trade_gateway/1_server/2_build && $(MAKE) -f 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/build.make 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/30_add_server.cpp.s
+.PHONY : 0_CTP_gateway_implement/30_add_server.cpp.s
+
 0_CTP_gateway_implement/3_limit_order_action.o: 0_CTP_gateway_implement/3_limit_order_action.cpp.o
 
 .PHONY : 0_CTP_gateway_implement/3_limit_order_action.o
@@ -1013,6 +1040,9 @@ help:
 	@echo "... 0_CTP_gateway_implement/2_limit_entrust_insert.o"
 	@echo "... 0_CTP_gateway_implement/2_limit_entrust_insert.i"
 	@echo "... 0_CTP_gateway_implement/2_limit_entrust_insert.s"
+	@echo "... 0_CTP_gateway_implement/30_add_server.o"
+	@echo "... 0_CTP_gateway_implement/30_add_server.i"
+	@echo "... 0_CTP_gateway_implement/30_add_server.s"
 	@echo "... 0_CTP_gateway_implement/3_limit_order_action.o"
 	@echo "... 0_CTP_gateway_implement/3_limit_order_action.i"
 	@echo "... 0_CTP_gateway_implement/3_limit_order_action.s"

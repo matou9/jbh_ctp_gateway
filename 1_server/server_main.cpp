@@ -12,19 +12,25 @@ int main(int argc, char** argv)
     // std::string port = argv[1];
 
     CTP_gateway *gateway = new CTP_gateway();
-    gateway->prepare("../CTPConnect.json");
-
-    sleep(3);//TODO 通知机制
-
     std::string port = "1234";
     server_connector *server = new server_connector(port, 10);
+
+    gateway->add_server(server);
+    gateway->prepare("../CTPConnect.json");
+
+    // sleep(3);//TODO 通知机制
+
+
+
+
     server->add_gateway(gateway);
 
     server->run_server();
 
+
     
     
-    gateway->join();
+    // gateway->join();
     return 0;
 
 }

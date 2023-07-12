@@ -179,6 +179,7 @@
 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/21_OnRspQrySettlementInfoConfirm.cpp.o: ../0_include/1_future_data_class/1_future_limit_order.h
 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/21_OnRspQrySettlementInfoConfirm.cpp.o: ../0_include/1_future_data_class/2_future_limit_order_action.h
 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/21_OnRspQrySettlementInfoConfirm.cpp.o: ../0_include/1_future_data_class/3_future_limit_trade.h
+1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/21_OnRspQrySettlementInfoConfirm.cpp.o: ../1_source/0_server_connector/0_server_connector.h
 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/21_OnRspQrySettlementInfoConfirm.cpp.o: ../1_source/1_future_server/0_trading_platform_api/CTP6.3.15/ThostFtdcTraderApi.h
 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/21_OnRspQrySettlementInfoConfirm.cpp.o: ../1_source/1_future_server/0_trading_platform_api/CTP6.3.15/ThostFtdcUserApiDataType.h
 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/21_OnRspQrySettlementInfoConfirm.cpp.o: ../1_source/1_future_server/0_trading_platform_api/CTP6.3.15/ThostFtdcUserApiStruct.h
@@ -190,6 +191,7 @@
 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/22_OnRspSettlementInfoConfirm.cpp.o: ../0_include/1_future_data_class/1_future_limit_order.h
 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/22_OnRspSettlementInfoConfirm.cpp.o: ../0_include/1_future_data_class/2_future_limit_order_action.h
 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/22_OnRspSettlementInfoConfirm.cpp.o: ../0_include/1_future_data_class/3_future_limit_trade.h
+1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/22_OnRspSettlementInfoConfirm.cpp.o: ../1_source/0_server_connector/0_server_connector.h
 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/22_OnRspSettlementInfoConfirm.cpp.o: ../1_source/1_future_server/0_trading_platform_api/CTP6.3.15/ThostFtdcTraderApi.h
 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/22_OnRspSettlementInfoConfirm.cpp.o: ../1_source/1_future_server/0_trading_platform_api/CTP6.3.15/ThostFtdcUserApiDataType.h
 1_source/1_future_server/1_CTP_gateway/CMakeFiles/CTP_gateway.dir/0_CTP_gateway_implement/22_OnRspSettlementInfoConfirm.cpp.o: ../1_source/1_future_server/0_trading_platform_api/CTP6.3.15/ThostFtdcUserApiStruct.h

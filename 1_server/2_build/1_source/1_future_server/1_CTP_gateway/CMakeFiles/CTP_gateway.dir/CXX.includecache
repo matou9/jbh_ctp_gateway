@@ -185,12 +185,16 @@ iostream
 /home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/21_OnRspQrySettlementInfoConfirm.cpp
 ../0_CTP_gateway.h
 /home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/1_CTP_gateway/0_CTP_gateway.h
+0_server_connector/0_server_connector.h
+/home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/0_server_connector/0_server_connector.h
 iostream
 -
 
 /home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/22_OnRspSettlementInfoConfirm.cpp
 ../0_CTP_gateway.h
 /home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/1_CTP_gateway/0_CTP_gateway.h
+0_server_connector/0_server_connector.h
+/home/tushetou/jbh_code/0_trade_gateway/1_server/1_source/1_future_server/1_CTP_gateway/0_CTP_gateway_implement/0_server_connector/0_server_connector.h
 iostream
 -
 

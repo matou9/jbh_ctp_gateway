@@ -8,11 +8,12 @@ void future_api::limit_entrust_insert(future_limit_entrust *entrust)
     {
         return;
     }
-    
-    char buf[BUF_SIZE];
-    memset(buf, 0, BUF_SIZE);
+    api_type type = E_LIMIT_ENTRUST_INSERT;
+    int buf_size = sizeof(future_limit_entrust) + MEM_PADDING_SIZE;
+    char buf[buf_size];
+    memset(buf, 0, buf_size);
     char* ptr = buf;
-    ptr[0] = E_LIMIT_ENTRUST_INSERT;
+    ptr[0] = type;
     ptr += MEM_PADDING_SIZE;
     memcpy(ptr, entrust, sizeof(future_limit_entrust));
     

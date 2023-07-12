@@ -39,8 +39,8 @@ typedef enum
  */
 typedef enum
 {
-    E_ON_CONNECTED,
-    E_ON_DISCONNECTED,
+    E_ON_TRADE_ERROR,
+    E_ON_ENTRUST_INSERTED,
     E_ON_ORDER_STATUS_UPDATE,
     E_ON_TRADE_UPDATE,
 }callback_type;

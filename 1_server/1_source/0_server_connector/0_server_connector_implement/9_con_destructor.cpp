@@ -9,7 +9,6 @@ server_socket(0),
 server_address(),
 accept_thread(nullptr),
 stop_interact_threads(),
-p_trade_gateway(nullptr),
 receive_client_message_threads(),
 client_request_queue_mutex(),
 client_request_queue_condition_variable(),
@@ -20,7 +19,8 @@ server_response_queue_mutex(),
 server_response_queue_condition_variable(),
 server_response_queue_max_size(100),
 server_response_queue(),
-process_server_response_thread(nullptr)
+process_server_response_thread(nullptr),
+p_trade_gateway(nullptr)
 {
     init(port);
     for (int i = 0; i < max_client_number; i++)

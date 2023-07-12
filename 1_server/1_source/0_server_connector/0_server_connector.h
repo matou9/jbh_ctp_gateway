@@ -6,7 +6,7 @@
 #ifndef SERVER_CONNECTOR_H
 #define SERVER_CONNECTOR_H
 
-// #include "1_source/1_future_server/1_CTP_gateway/0_CTP_gateway.h"
+
 
 #include <arpa/inet.h>
 #include <string>
@@ -18,6 +18,15 @@
 #include <utility>
 #include <condition_variable>
 #include <stdint.h>
+
+// typedef enum
+// {
+//     E_ON_DISCONNECTED,
+//     E_ON_READY_TO_TRADE,
+//     E_ON_ENTRUST_INSERTED,
+//     E_ON_ORDER_STATUS_UPDATE,
+//     E_ON_TRADE_UPDATE,
+// }callback_type;
 
 typedef std::pair<char*, int> message_block;
 typedef std::pair<int, message_block*> client_message_block;
@@ -68,6 +77,7 @@ private:
     void process_client_request(int client_socket, char* p_message, int message_length);           //交给CTPGateway处理
     
     friend CTP_gateway;
+    void add_gateway(CTP_gateway* p_gateway);
     void write_server_response_to_queue(int client_socket, char* message, int message_length);     //将服务端响应写入队列(提供给CTP网关)
     void read_server_response_from_queue();                                     //从队列中取出服务端响应
     void send_to_client(int client_socket, char* message, int message_length);  //发送服务端响应给客户端
@@ -79,7 +89,7 @@ public:
     server_connector(std::string port, int max_client_number);
     ~server_connector();
     void run_server();
-    void add_gateway(CTP_gateway* p_gateway);
+    
 
 };
 

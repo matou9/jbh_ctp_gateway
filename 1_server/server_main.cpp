@@ -18,12 +18,6 @@ int main(int argc, char** argv)
     gateway->add_server(server);
     gateway->prepare("../CTPConnect.json");
 
-    // sleep(3);//TODO 通知机制
-
-
-
-
-    server->add_gateway(gateway);
 
     server->run_server();
 

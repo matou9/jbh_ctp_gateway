@@ -16,7 +16,7 @@ int main(int argc, char** argv)
     std::string port = "1234";
     future_api *api = new future_api();
     api->init(ip, port);
- 
+
     //用户输入
     future_limit_entrust entrust;
     strcpy(entrust.exchange_code, "SHFE");

@@ -8,7 +8,7 @@ void server_connector::read_server_response_from_queue()
     while (true)
     {
         std::unique_lock<std::mutex> lock(server_response_queue_mutex);
-        std::cout << "server response request thread" << std::this_thread::get_id() << " waiting..." << std::endl;
+        std::cout << "server response thread" << std::this_thread::get_id() << " waiting..." << std::endl;
         server_response_queue_condition_variable.wait(lock, [this](){return server_response_queue.size() > 0;});
         
         client_message_block server_response_message_block = server_response_queue.front();
